@@ -1,0 +1,5179 @@
+
+;; Function _ZnwmPv.isra.0 (_ZnwmPv.isra.0, funcdef_no=5438, decl_uid=110896, cgraph_uid=1284, symbol_order=2373)
+
+Released 0 names, 0.00%, removed 0 holes
+_ZnwmPv.isra.0 (void * __p)
+{
+  <bb 3> [local count: 1073741825]:
+  # DEBUG D.110901 s=> D.110898
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG BEGIN_STMT
+  return __p_1(D);
+
+}
+
+
+
+;; Function std::max<long unsigned int> (_ZSt3maxImERKT_S2_S2_, funcdef_no=2547, decl_uid=55227, cgraph_uid=679, symbol_order=1131)
+
+Released 2 names, 28.57%, removed 2 holes
+std::max<long unsigned int> (const long unsigned int & __a, const long unsigned int & __b)
+{
+  long unsigned int _1;
+  long unsigned int _2;
+  const long unsigned int & _3;
+
+  <bb 2> [local count: 1073741825]:
+  _1 = *__a_5(D);
+  _2 = *__b_6(D);
+  if (_1 < _2)
+    goto <bb 3>; [34.00%]
+  else
+    goto <bb 4>; [66.00%]
+
+  <bb 3> [local count: 365072220]:
+
+  <bb 4> [local count: 1073741825]:
+  # _3 = PHI <__b_6(D)(3), __a_5(D)(2)>
+  return _3;
+
+}
+
+
+
+;; Function std::_Head_base<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >, false>::_M_head (_ZNSt10_Head_baseILm0ESt6vectorI8vertex_tN3SOA16AlignedAllocatorIS1_Lm64EEEELb0EE7_M_headERS6_, funcdef_no=4681, decl_uid=92959, cgraph_uid=948, symbol_order=1408)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_Head_base<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >, false>::_M_head (struct _Head_base & __b)
+{
+  struct vector & _2;
+
+  <bb 2> [local count: 1073741825]:
+  _2 = &__b_1(D)->_M_head_impl;
+  return _2;
+
+}
+
+
+
+;; Function std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head (_ZNSt11_Tuple_implILm0EJSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS1_Lm64EEEEEE7_M_headERS6_, funcdef_no=4680, decl_uid=93064, cgraph_uid=949, symbol_order=1409)
+
+Released 3 names, 75.00%, removed 3 holes
+std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head (struct _Tuple_impl & __t)
+{
+  struct vector & _3;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#2 => &__t_1(D)->D.93464
+  # DEBUG __b => D#2
+  # DEBUG INLINE_ENTRY _M_head
+  _3 = &MEM[(struct _Head_base &)__t_1(D)]._M_head_impl;
+  # DEBUG __b => NULL
+  return _3;
+
+}
+
+
+
+;; Function std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > > (_ZSt12__get_helperILm0ESt6vectorI8vertex_tN3SOA16AlignedAllocatorIS1_Lm64EEEEJEERT0_RSt11_Tuple_implIXT_EJS6_DpT1_EE, funcdef_no=4679, decl_uid=97087, cgraph_uid=950, symbol_order=1410)
+
+Released 2 names, 50.00%, removed 2 holes
+std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > > (struct _Tuple_impl & __t)
+{
+  struct vector & _3;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG __t => __t_2(D)
+  # DEBUG INLINE_ENTRY _M_head
+  # DEBUG D#2 => &__t_2(D)->D.93464
+  # DEBUG __b => D#2
+  # DEBUG INLINE_ENTRY _M_head
+  _3 = &MEM[(struct _Head_base &)__t_2(D)]._M_head_impl;
+  # DEBUG __b => NULL
+  # DEBUG __t => NULL
+  return _3;
+
+}
+
+
+
+;; Function std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > > (_ZSt3getILm0EJSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS1_Lm64EEEEEERNSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeERSA_, funcdef_no=4678, decl_uid=94944, cgraph_uid=951, symbol_order=1411)
+
+Released 3 names, 75.00%, removed 3 holes
+std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > > (struct tuple & __t)
+{
+  struct vector & _3;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#3 => &__t_1(D)->D.94746
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY __get_helper
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY _M_head
+  # DEBUG D#2 => &D#3->D.93464
+  # DEBUG __b => D#2
+  # DEBUG INLINE_ENTRY _M_head
+  _3 = &MEM[(struct _Head_base &)__t_1(D)]._M_head_impl;
+  # DEBUG __b => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  return _3;
+
+}
+
+
+
+;; Function std::_Head_base<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >, false>::_M_head (_ZNSt10_Head_baseILm0ESt6vectorI8vertex_tN3SOA16AlignedAllocatorIS1_Lm64EEEELb0EE7_M_headERKS6_, funcdef_no=4692, decl_uid=92961, cgraph_uid=959, symbol_order=1419)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_Head_base<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >, false>::_M_head (const struct _Head_base & __b)
+{
+  const struct vector & _2;
+
+  <bb 2> [local count: 1073741825]:
+  _2 = &__b_1(D)->_M_head_impl;
+  return _2;
+
+}
+
+
+
+;; Function std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head (_ZNSt11_Tuple_implILm0EJSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS1_Lm64EEEEEE7_M_headERKS6_, funcdef_no=4691, decl_uid=93066, cgraph_uid=960, symbol_order=1420)
+
+Released 3 names, 75.00%, removed 3 holes
+std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head (const struct _Tuple_impl & __t)
+{
+  const struct vector & _3;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#4 => &__t_1(D)->D.93464
+  # DEBUG __b => D#4
+  # DEBUG INLINE_ENTRY _M_head
+  _3 = &MEM[(const struct _Head_base &)__t_1(D)]._M_head_impl;
+  # DEBUG __b => NULL
+  return _3;
+
+}
+
+
+
+;; Function std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > > (_ZSt12__get_helperILm0ESt6vectorI8vertex_tN3SOA16AlignedAllocatorIS1_Lm64EEEEJEERKT0_RKSt11_Tuple_implIXT_EJS6_DpT1_EE, funcdef_no=4690, decl_uid=97085, cgraph_uid=961, symbol_order=1421)
+
+Released 2 names, 50.00%, removed 2 holes
+std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > > (const struct _Tuple_impl & __t)
+{
+  const struct vector & _3;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG __t => __t_2(D)
+  # DEBUG INLINE_ENTRY _M_head
+  # DEBUG D#4 => &__t_2(D)->D.93464
+  # DEBUG __b => D#4
+  # DEBUG INLINE_ENTRY _M_head
+  _3 = &MEM[(const struct _Head_base &)__t_2(D)]._M_head_impl;
+  # DEBUG __b => NULL
+  # DEBUG __t => NULL
+  return _3;
+
+}
+
+
+
+;; Function std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > > (_ZSt3getILm0EJSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS1_Lm64EEEEEERKNSt13tuple_elementIXT_ESt5tupleIJDpT0_EEE4typeERKSA_, funcdef_no=4689, decl_uid=94942, cgraph_uid=962, symbol_order=1422)
+
+Released 3 names, 75.00%, removed 3 holes
+std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > > (const struct tuple & __t)
+{
+  const struct vector & _3;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#5 => &__t_1(D)->D.94746
+  # DEBUG __t => D#5
+  # DEBUG INLINE_ENTRY __get_helper
+  # DEBUG __t => D#5
+  # DEBUG INLINE_ENTRY _M_head
+  # DEBUG D#4 => &D#5->D.93464
+  # DEBUG __b => D#4
+  # DEBUG INLINE_ENTRY _M_head
+  _3 = &MEM[(const struct _Head_base &)__t_1(D)]._M_head_impl;
+  # DEBUG __b => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  return _3;
+
+}
+
+
+
+;; Function main (main, funcdef_no=4728, decl_uid=104327, cgraph_uid=998, symbol_order=1458) (executed once)
+
+Released 1 names, 50.00%, removed 1 holes
+main ()
+{
+  <bb 2> [local count: 1073741825]:
+  # DEBUG BEGIN_STMT
+  return 0;
+
+}
+
+
+
+;; Function std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::_ZNSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEEixEm.isra.1 (_ZNSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEEixEm.isra.1, funcdef_no=5439, decl_uid=110931, cgraph_uid=961, symbol_order=2374)
+
+Released 0 names, 0.00%, removed 0 holes
+std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::_ZNSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEEixEm.isra.1 (struct vertex_t * ISRA.11, size_type __n)
+{
+  struct vertex_t * _2;
+  long unsigned int _4;
+  struct value_type & _5;
+
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+
+  <bb 2> [local count: 1073741825]:
+  _2 = ISRA.11_7(D);
+  _4 = __n_3(D) * 4;
+  _5 = _2 + _4;
+  return _5;
+
+}
+
+
+
+;; Function std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_get_Tp_allocator (_ZNSt12_Vector_baseItSaItEE19_M_get_Tp_allocatorEv, funcdef_no=5115, decl_uid=89385, cgraph_uid=1384, symbol_order=1844)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_get_Tp_allocator (struct _Vector_base * const this)
+{
+  struct _Tp_alloc_type & _2;
+
+  <bb 2> [local count: 1073741825]:
+  _2 = &this_1(D)->_M_impl;
+  return _2;
+
+}
+
+
+
+;; Function SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position::position (_ZN3SOA5_ViewISt5tupleIJSt6vectorI8vertex_tNS_16AlignedAllocatorIS3_Lm64EEEEEE13s_decayvertexJ8f_vertexEE8positionC2EPS7_m, funcdef_no=5131, decl_uid=94840, cgraph_uid=1393, symbol_order=1853)
+
+Released 0 names, 0.00%, removed 0 holes
+SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position::position (struct position * const this, struct SOAStorage * stor, size_type idx)
+{
+  <bb 2> [local count: 1073741825]:
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  this_2(D)->m_stor = stor_4(D);
+  this_2(D)->m_idx = idx_6(D);
+  return;
+
+}
+
+
+
+;; Function SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::ObjectProxy (_ZN3SOA11ObjectProxyINS_5_ViewISt5tupleIJSt6vectorI8vertex_tNS_16AlignedAllocatorIS4_Lm64EEEEEE13s_decayvertexJ8f_vertexEE8positionEECI2SC_EPS8_m, funcdef_no=5133, decl_uid=101593, cgraph_uid=1396, symbol_order=1856)
+
+Released 5 names, 62.50%, removed 5 holes
+SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::ObjectProxy (struct ObjectProxy * const this, struct SOAStorage * D.101595, size_type D.101596)
+{
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#7 => &this_2(D)->D.101625
+  # DEBUG this => D#7
+  # DEBUG stor => _7(D)
+  # DEBUG idx => _6(D)
+  # DEBUG INLINE_ENTRY __ct 
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  MEM[(struct position *)this_2(D)].m_stor = _7(D);
+  MEM[(struct position *)this_2(D)].m_idx = _6(D);
+  # DEBUG this => NULL
+  # DEBUG stor => NULL
+  # DEBUG idx => NULL
+  return;
+
+}
+
+
+
+;; Function SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::PrintableNullSkin (_ZN3SOA17PrintableNullSkinINS_11ObjectProxyINS_5_ViewISt5tupleIJSt6vectorI8vertex_tNS_16AlignedAllocatorIS5_Lm64EEEEEE13s_decayvertexJ8f_vertexEE8positionEEEECI2SD_EPS9_m, funcdef_no=5135, decl_uid=101682, cgraph_uid=1399, symbol_order=1859)
+
+Released 5 names, 62.50%, removed 5 holes
+SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::PrintableNullSkin (struct PrintableNullSkin * const this, struct SOAStorage * D.101684, size_type D.101685)
+{
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#8 => &this_2(D)->D.101686
+  # DEBUG this => D#8
+  # DEBUG D.110945 => _7(D)
+  # DEBUG D.110946 => _6(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#7 => &D#8->D.101625
+  # DEBUG this => D#7
+  # DEBUG stor => _7(D)
+  # DEBUG idx => _6(D)
+  # DEBUG INLINE_ENTRY __ct 
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  MEM[(struct position *)this_2(D)].m_stor = _7(D);
+  MEM[(struct position *)this_2(D)].m_idx = _6(D);
+  # DEBUG this => NULL
+  # DEBUG stor => NULL
+  # DEBUG idx => NULL
+  # DEBUG this => NULL
+  # DEBUG D.110945 => NULL
+  # DEBUG D.110946 => NULL
+  return;
+
+}
+
+
+
+;; Function SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>::SkinBase (_ZN3SOA4impl8SkinBaseINS_17PrintableNullSkinINS_11ObjectProxyINS_5_ViewISt5tupleIJSt6vectorI8vertex_tNS_16AlignedAllocatorIS7_Lm64EEEEEE13s_decayvertexJ8f_vertexEE8positionEEEEEJSD_EECI2SF_EPSB_m, funcdef_no=5137, decl_uid=101925, cgraph_uid=1402, symbol_order=1862)
+
+Released 5 names, 62.50%, removed 5 holes
+SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>::SkinBase (struct SkinBase * const this, struct SOAStorage * D.101927, size_type D.101928)
+{
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#9 => &this_2(D)->D.101954
+  # DEBUG this => D#9
+  # DEBUG D.110952 => _7(D)
+  # DEBUG D.110953 => _6(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#8 => &D#9->D.101686
+  # DEBUG this => D#8
+  # DEBUG D.110955 => _7(D)
+  # DEBUG D.110954 => _6(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#7 => &D#8->D.101625
+  # DEBUG this => D#7
+  # DEBUG stor => _7(D)
+  # DEBUG idx => _6(D)
+  # DEBUG INLINE_ENTRY __ct 
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  MEM[(struct position *)this_2(D)].m_stor = _7(D);
+  MEM[(struct position *)this_2(D)].m_idx = _6(D);
+  # DEBUG this => NULL
+  # DEBUG stor => NULL
+  # DEBUG idx => NULL
+  # DEBUG this => NULL
+  # DEBUG D.110955 => NULL
+  # DEBUG D.110954 => NULL
+  # DEBUG this => NULL
+  # DEBUG D.110952 => NULL
+  # DEBUG D.110953 => NULL
+  return;
+
+}
+
+
+
+;; Function s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::s_decayvertex (_ZN13s_decayvertexIN3SOA11ObjectProxyINS0_5_ViewISt5tupleIJSt6vectorI8vertex_tNS0_16AlignedAllocatorIS5_Lm64EEEEEES_J8f_vertexEE8positionEEEECI2SC_EPS9_m, funcdef_no=5139, decl_uid=102277, cgraph_uid=1405, symbol_order=1865)
+
+Released 5 names, 62.50%, removed 5 holes
+s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::s_decayvertex (struct s_decayvertex * const this, struct SOAStorage * D.102279, size_type D.102280)
+{
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#10 => &this_2(D)->D.102303
+  # DEBUG this => D#10
+  # DEBUG D.110962 => _7(D)
+  # DEBUG D.110963 => _6(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#9 => &D#10->D.101954
+  # DEBUG this => D#9
+  # DEBUG D.110965 => _7(D)
+  # DEBUG D.110964 => _6(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#8 => &D#9->D.101686
+  # DEBUG this => D#8
+  # DEBUG D.110968 => _7(D)
+  # DEBUG D.110967 => _6(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#7 => &D#8->D.101625
+  # DEBUG this => D#7
+  # DEBUG stor => _7(D)
+  # DEBUG idx => _6(D)
+  # DEBUG INLINE_ENTRY __ct 
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  MEM[(struct position *)this_2(D)].m_stor = _7(D);
+  MEM[(struct position *)this_2(D)].m_idx = _6(D);
+  # DEBUG this => NULL
+  # DEBUG stor => NULL
+  # DEBUG idx => NULL
+  # DEBUG this => NULL
+  # DEBUG D.110968 => NULL
+  # DEBUG D.110967 => NULL
+  # DEBUG this => NULL
+  # DEBUG D.110965 => NULL
+  # DEBUG D.110964 => NULL
+  # DEBUG this => NULL
+  # DEBUG D.110962 => NULL
+  # DEBUG D.110963 => NULL
+  return;
+
+}
+
+
+
+;; Function SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[] (_ZNK3SOA5_ViewISt5tupleIJSt6vectorI8vertex_tNS_16AlignedAllocatorIS3_Lm64EEEEEE13s_decayvertexJ8f_vertexEEixEm, funcdef_no=5125, decl_uid=102782, cgraph_uid=1407, symbol_order=1867)
+
+Released 9 names, 128.57%, removed 9 holes
+SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[] (const struct _View * const this, size_type idx)
+{
+  const struct const_reference D.110665;
+  const struct SOAStorage * _1;
+
+  <bb 2> [local count: 1073741825]:
+  _1 = &this_2(D)->m_storage;
+  # DEBUG this => &D.108182
+  # DEBUG D.110975 => _1
+  # DEBUG D.110976 => idx_4(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#10 => &D.108182.D.102303
+  # DEBUG this => D#10
+  # DEBUG D.110978 => _1
+  # DEBUG D.110977 => idx_4(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#9 => &D#10->D.101954
+  # DEBUG this => D#9
+  # DEBUG D.110981 => _1
+  # DEBUG D.110980 => idx_4(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#8 => &D#9->D.101686
+  # DEBUG this => D#8
+  # DEBUG D.110984 => _1
+  # DEBUG D.110983 => idx_4(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#7 => &D#8->D.101625
+  # DEBUG this => D#7
+  # DEBUG stor => _1
+  # DEBUG idx => idx_4(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG stor => NULL
+  # DEBUG idx => NULL
+  # DEBUG this => NULL
+  # DEBUG D.110984 => NULL
+  # DEBUG D.110983 => NULL
+  # DEBUG this => NULL
+  # DEBUG D.110981 => NULL
+  # DEBUG D.110980 => NULL
+  # DEBUG this => NULL
+  # DEBUG D.110978 => NULL
+  # DEBUG D.110977 => NULL
+  # DEBUG this => NULL
+  # DEBUG D.110975 => NULL
+  # DEBUG D.110976 => NULL
+  MEM[(struct s_decayvertex *)&D.110665] = _1;
+  MEM[(struct s_decayvertex *)&D.110665 + 8B] = idx_4(D);
+  return D.110665;
+
+}
+
+
+
+;; Function std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::_ZNKSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEE4sizeEv.isra.2 (_ZNKSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEE4sizeEv.isra.2, funcdef_no=5440, decl_uid=110993, cgraph_uid=1405, symbol_order=2375)
+
+Released 0 names, 0.00%, removed 0 holes
+std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::_ZNKSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEE4sizeEv.isra.2 (struct vertex_t * const ISRA.14, struct vertex_t * const ISRA.15)
+{
+  struct vertex_t * _2;
+  struct vertex_t * _3;
+  long int _4;
+  long int _5;
+  long unsigned int _6;
+
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+  # DEBUG this s=> this
+
+  <bb 2> [local count: 1073741825]:
+  _2 = ISRA.15_8(D);
+  _3 = ISRA.14_9(D);
+  _4 = _2 - _3;
+  _5 = _4 /[ex] 4;
+  _6 = (long unsigned int) _5;
+  return _6;
+
+}
+
+
+
+;; Function SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::size (_ZNK3SOA5_ViewISt5tupleIJSt6vectorI8vertex_tNS_16AlignedAllocatorIS3_Lm64EEEEEE13s_decayvertexJ8f_vertexEE4sizeEv, funcdef_no=5096, decl_uid=102640, cgraph_uid=1365, symbol_order=1825)
+
+Released 8 names, 100.00%, removed 8 holes
+SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::size (const struct _View * const this)
+{
+  struct vertex_t * _3;
+  struct vertex_t * _4;
+  long int _5;
+  long int _6;
+  long unsigned int _7;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#12 => &this_1(D)->m_storage
+  # DEBUG __t => D#12
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#5 => &MEM[(const struct tuple *)D#12].D.94746
+  # DEBUG __t => D#5
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => D#5
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#4 => &D#5->D.93464
+  # DEBUG __b => D#4
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#13 => &MEM[(const struct _Head_base &)this_1(D)]._M_head_impl
+  # DEBUG __b => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  _3 = MEM[(struct vertex_t * *)this_1(D) + 8B];
+  # DEBUG D#11 => D#13
+  _4 = MEM[(struct vertex_t * *)this_1(D) + 16B];
+  # DEBUG D#11 => D#13
+  # DEBUG INLINE_ENTRY size
+  # DEBUG this => D#11
+  # DEBUG this => D#11
+  _5 = _4 - _3;
+  _6 = _5 /[ex] 4;
+  _7 = (long unsigned int) _6;
+  return _7;
+
+}
+
+
+
+;; Function __gnu_cxx::new_allocator<short unsigned int>::new_allocator (_ZN9__gnu_cxx13new_allocatorItEC2Ev, funcdef_no=5196, decl_uid=89158, cgraph_uid=1465, symbol_order=1925)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::new_allocator<short unsigned int>::new_allocator (struct new_allocator * const this)
+{
+  <bb 2> [local count: 1073741825]:
+  return;
+
+}
+
+
+
+;; Function std::allocator<short unsigned int>::allocator (_ZNSaItEC2Ev, funcdef_no=5098, decl_uid=89223, cgraph_uid=1367, symbol_order=1827)
+
+Released 1 names, 33.33%, removed 1 holes
+std::allocator<short unsigned int>::allocator (struct allocator * const this)
+{
+  <bb 2> [local count: 1073741825]:
+  # DEBUG this => this_2(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  return;
+
+}
+
+
+
+;; Function __gnu_cxx::new_allocator<short unsigned int>::~new_allocator (_ZN9__gnu_cxx13new_allocatorItED2Ev, funcdef_no=5199, decl_uid=89163, cgraph_uid=1468, symbol_order=1928)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::new_allocator<short unsigned int>::~new_allocator (struct new_allocator * const this)
+{
+  <bb 2> [local count: 1073741825]:
+  return;
+
+}
+
+
+
+;; Function std::allocator<short unsigned int>::~allocator (_ZNSaItED2Ev, funcdef_no=5101, decl_uid=89228, cgraph_uid=1370, symbol_order=1830)
+
+Released 1 names, 33.33%, removed 1 holes
+std::allocator<short unsigned int>::~allocator (struct allocator * const this)
+{
+  <bb 2> [local count: 1073741825]:
+  # DEBUG this => this_2(D)
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => NULL
+  return;
+
+}
+
+
+
+;; Function std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::~_Vector_impl (_ZNSt12_Vector_baseItSaItEE12_Vector_implD2Ev, funcdef_no=5111, decl_uid=90193, cgraph_uid=1379, symbol_order=1839)
+
+Released 1 names, 25.00%, removed 1 holes
+std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::~_Vector_impl (struct _Vector_impl * const this)
+{
+  <bb 2> [local count: 1073741825]:
+  # DEBUG this => this_2(D)
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => this_2(D)
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  return;
+
+}
+
+
+
+;; Function __gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::__normal_iterator (_ZN9__gnu_cxx17__normal_iteratorIPtSt6vectorItSaItEEEC2ERKS1_, funcdef_no=5206, decl_uid=107064, cgraph_uid=1475, symbol_order=1935)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::__normal_iterator (struct __normal_iterator * const this, short unsigned int * const & __i)
+{
+  short unsigned int * _1;
+
+  <bb 2> [local count: 1073741825]:
+  MEM[(struct  &)this_3(D)] ={v} {CLOBBER};
+  _1 = *__i_5(D);
+  this_3(D)->_M_current = _1;
+  return;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::end (_ZNSt6vectorItSaItEE3endEv, funcdef_no=5107, decl_uid=89657, cgraph_uid=1376, symbol_order=1836)
+
+Released 5 names, 100.00%, removed 5 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::end (struct vector * const this)
+{
+  struct iterator D.110613;
+  short unsigned int * _4;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#14 => &this_1(D)->D.90158._M_impl._M_finish
+  # DEBUG this => &D.108007
+  # DEBUG __i => D#14
+  # DEBUG INLINE_ENTRY __ct 
+  _4 = MEM[(short unsigned int * const &)this_1(D) + 8];
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  MEM[(struct __normal_iterator *)&D.110613] = _4;
+  return D.110613;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::begin (_ZNSt6vectorItSaItEE5beginEv, funcdef_no=5106, decl_uid=89653, cgraph_uid=1375, symbol_order=1835)
+
+Released 5 names, 100.00%, removed 5 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::begin (struct vector * const this)
+{
+  struct iterator D.110616;
+  short unsigned int * _4;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#15 => &this_1(D)->D.90158._M_impl._M_start
+  # DEBUG this => &D.108005
+  # DEBUG __i => D#15
+  # DEBUG INLINE_ENTRY __ct 
+  _4 = MEM[(short unsigned int * const &)this_1(D)];
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  MEM[(struct __normal_iterator *)&D.110616] = _4;
+  return D.110616;
+
+}
+
+
+
+;; Function __gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++ (_ZN9__gnu_cxx17__normal_iteratorIPtSt6vectorItSaItEEEppEv, funcdef_no=5209, decl_uid=107026, cgraph_uid=1478, symbol_order=1938)
+
+Released 1 names, 16.67%, removed 1 holes
+__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++ (struct __normal_iterator * const this)
+{
+  short unsigned int * _1;
+  short unsigned int * _2;
+
+  <bb 2> [local count: 1073741825]:
+  _1 = this_4(D)->_M_current;
+  _2 = _1 + 2;
+  this_4(D)->_M_current = _2;
+  return this_4(D);
+
+}
+
+
+
+;; Function __gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::_ZNK9__gnu_cxx17__normal_iteratorIPtSt6vectorItSaItEEEdeEv.isra.3 (_ZNK9__gnu_cxx17__normal_iteratorIPtSt6vectorItSaItEEEdeEv.isra.3, funcdef_no=5441, decl_uid=111032, cgraph_uid=1475, symbol_order=2378)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::_ZNK9__gnu_cxx17__normal_iteratorIPtSt6vectorItSaItEEEdeEv.isra.3 (short unsigned int * const ISRA.18)
+{
+  short unsigned int & _2;
+
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+
+  <bb 2> [local count: 1073741825]:
+  _2 = ISRA.18_4(D);
+  return _2;
+
+}
+
+
+
+;; Function __gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::__normal_iterator (_ZN9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEC2ERKS2_, funcdef_no=5217, decl_uid=107267, cgraph_uid=1486, symbol_order=1946)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::__normal_iterator (struct __normal_iterator * const this, const short unsigned int * const & __i)
+{
+  const short unsigned int * _1;
+
+  <bb 2> [local count: 1073741825]:
+  MEM[(struct  &)this_3(D)] ={v} {CLOBBER};
+  _1 = *__i_5(D);
+  this_3(D)->_M_current = _1;
+  return;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE3endEv.isra.4 (_ZNKSt6vectorItSaItEE3endEv.isra.4, funcdef_no=5442, decl_uid=111043, cgraph_uid=1476, symbol_order=2380)
+
+Released 0 names, 0.00%, removed 0 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE3endEv.isra.4 (short unsigned int * const ISRA.20)
+{
+  struct const_iterator D.111051;
+  short unsigned int * _2;
+
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+
+  <bb 2> [local count: 1073741825]:
+  _2 = ISRA.20_5(D);
+  # DEBUG this => &D.111050
+  # DEBUG __i => &D.111049
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  MEM[(struct __normal_iterator *)&D.111051] = _2;
+  return D.111051;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE5beginEv.isra.5 (_ZNKSt6vectorItSaItEE5beginEv.isra.5, funcdef_no=5443, decl_uid=111059, cgraph_uid=1486, symbol_order=2381)
+
+Released 0 names, 0.00%, removed 0 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE5beginEv.isra.5 (short unsigned int * const ISRA.22)
+{
+  struct const_iterator D.111067;
+  short unsigned int * _2;
+
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+
+  <bb 2> [local count: 1073741825]:
+  _2 = ISRA.22_5(D);
+  # DEBUG this => &D.111066
+  # DEBUG __i => &D.111065
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  MEM[(struct __normal_iterator *)&D.111067] = _2;
+  return D.111067;
+
+}
+
+
+
+;; Function std::__addressof<std::vector<short unsigned int, std::allocator<short unsigned int> > > (_ZSt11__addressofISt6vectorItSaItEEEPT_RS3_, funcdef_no=5220, decl_uid=108670, cgraph_uid=1488, symbol_order=1948)
+
+Released 1 names, 33.33%, removed 1 holes
+std::__addressof<std::vector<short unsigned int, std::allocator<short unsigned int> > > (struct vector & __r)
+{
+  <bb 2> [local count: 1073741825]:
+  return __r_1(D);
+
+}
+
+
+
+;; Function std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::back_insert_iterator (_ZNSt20back_insert_iteratorISt6vectorItSaItEEEC2ERS2_, funcdef_no=5221, decl_uid=107311, cgraph_uid=1490, symbol_order=1950)
+
+Released 2 names, 33.33%, removed 2 holes
+std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::back_insert_iterator (struct back_insert_iterator * const this, struct vector & __x)
+{
+  <bb 2> [local count: 1073741825]:
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  # DEBUG __r => __x_4(D)
+  # DEBUG INLINE_ENTRY __addressof
+  # DEBUG __r => NULL
+  this_2(D)->container = __x_4(D);
+  return;
+
+}
+
+
+
+;; Function std::back_inserter<std::vector<short unsigned int, std::allocator<short unsigned int> > > (_ZSt13back_inserterISt6vectorItSaItEEESt20back_insert_iteratorIT_ERS4_, funcdef_no=5122, decl_uid=107287, cgraph_uid=1391, symbol_order=1851)
+
+Released 5 names, 125.00%, removed 5 holes
+std::back_inserter<std::vector<short unsigned int, std::allocator<short unsigned int> > > (struct vector & __x)
+{
+  struct back_insert_iterator D.110635;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG this => &D.108090
+  # DEBUG __x => __x_2(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG __r => __x_2(D)
+  # DEBUG INLINE_ENTRY __addressof
+  # DEBUG __r => NULL
+  # DEBUG this => NULL
+  # DEBUG __x => NULL
+  MEM[(struct back_insert_iterator *)&D.110635] = __x_2(D);
+  return D.110635;
+
+}
+
+
+
+;; Function __gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++ (_ZN9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEppEv, funcdef_no=5224, decl_uid=107229, cgraph_uid=1493, symbol_order=1953)
+
+Released 1 names, 16.67%, removed 1 holes
+__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++ (struct __normal_iterator * const this)
+{
+  const short unsigned int * _1;
+  const short unsigned int * _2;
+
+  <bb 2> [local count: 1073741825]:
+  _1 = this_4(D)->_M_current;
+  _2 = _1 + 2;
+  this_4(D)->_M_current = _2;
+  return this_4(D);
+
+}
+
+
+
+;; Function __gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::_ZNK9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEdeEv.isra.6 (_ZNK9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEdeEv.isra.6, funcdef_no=5444, decl_uid=111082, cgraph_uid=1490, symbol_order=2382)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::_ZNK9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEdeEv.isra.6 (const short unsigned int * const ISRA.24)
+{
+  const short unsigned int & _2;
+
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+
+  <bb 2> [local count: 1073741825]:
+  _2 = ISRA.24_4(D);
+  return _2;
+
+}
+
+
+
+;; Function std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator* (_ZNSt20back_insert_iteratorISt6vectorItSaItEEEdeEv, funcdef_no=5227, decl_uid=107301, cgraph_uid=1496, symbol_order=1956)
+
+Released 1 names, 33.33%, removed 1 holes
+std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator* (struct back_insert_iterator * const this)
+{
+  <bb 2> [local count: 1073741825]:
+  return this_1(D);
+
+}
+
+
+
+;; Function std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++ (_ZNSt20back_insert_iteratorISt6vectorItSaItEEEppEv, funcdef_no=5229, decl_uid=107303, cgraph_uid=1498, symbol_order=1958)
+
+Released 1 names, 33.33%, removed 1 holes
+std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++ (struct back_insert_iterator * const this)
+{
+  <bb 2> [local count: 1073741825]:
+  return this_1(D);
+
+}
+
+
+
+;; Function __gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::base (_ZNK9__gnu_cxx17__normal_iteratorIPtSt6vectorItSaItEEE4baseEv, funcdef_no=5283, decl_uid=107051, cgraph_uid=1552, symbol_order=2012)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::base (const struct __normal_iterator * const this)
+{
+  short unsigned int * const & _2;
+
+  <bb 2> [local count: 1073741825]:
+  _2 = &this_1(D)->_M_current;
+  return _2;
+
+}
+
+
+
+;; Function __gnu_cxx::operator!=<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > > (_ZN9__gnu_cxxneIPtSt6vectorItSaItEEEEbRKNS_17__normal_iteratorIT_T0_EESA_, funcdef_no=5208, decl_uid=108009, cgraph_uid=1477, symbol_order=1937)
+
+Released 6 names, 85.71%, removed 6 holes
+__gnu_cxx::operator!=<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > > (const struct __normal_iterator & __lhs, const struct __normal_iterator & __rhs)
+{
+  short unsigned int * _1;
+  short unsigned int * _2;
+  bool _6;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG this => __lhs_4(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _1 = MEM[(short unsigned int * const &)__lhs_4(D)];
+  # DEBUG this => __rhs_5(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _2 = MEM[(short unsigned int * const &)__rhs_5(D)];
+  _6 = _1 != _2;
+  return _6;
+
+}
+
+
+
+;; Function std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int> (_ZSt4iotaIN9__gnu_cxx17__normal_iteratorIPtSt6vectorItSaItEEEEiEvT_S7_T0_, funcdef_no=5108, decl_uid=107083, cgraph_uid=1377, symbol_order=1837)
+
+Released 10 names, 83.33%, removed 10 holes
+std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int> (struct __normal_iterator __first, struct __normal_iterator __last, int __value)
+{
+  short unsigned int * __first$_M_current;
+  short unsigned int _1;
+  short unsigned int * _6;
+  short unsigned int * _10;
+
+  <bb 2> [local count: 118111601]:
+  __first$_M_current_11 = MEM[(struct __normal_iterator *)&__first];
+  # DEBUG __first$_M_current => __first$_M_current_11
+
+  <bb 3> [local count: 1073741825]:
+  # __value_2 = PHI <__value_8(4), __value_4(D)(2)>
+  # __first$_M_current_9 = PHI <_10(4), __first$_M_current_11(2)>
+  # DEBUG __first$_M_current => __first$_M_current_9
+  # DEBUG __value => __value_2
+  # DEBUG __lhs => &__first
+  # DEBUG __rhs => &__last
+  # DEBUG INLINE_ENTRY operator!=
+  # DEBUG this => &__first
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG this => &__last
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _6 = MEM[(short unsigned int * const &)&__last];
+  # DEBUG __lhs => NULL
+  # DEBUG __rhs => NULL
+  if (_6 != __first$_M_current_9)
+    goto <bb 4>; [89.00%]
+  else
+    goto <bb 5>; [11.00%]
+
+  <bb 4> [local count: 955630223]:
+  _1 = (short unsigned int) __value_2;
+  # DEBUG D#16 => &__first
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#16
+  *__first$_M_current_9 = _1;
+  __value_8 = __value_2 + 1;
+  # DEBUG __value => __value_8
+  # DEBUG this => &__first
+  # DEBUG INLINE_ENTRY operator++
+  _10 = __first$_M_current_9 + 2;
+  # DEBUG __first$_M_current => _10
+  goto <bb 3>; [100.00%]
+
+  <bb 5> [local count: 118111601]:
+  return;
+
+}
+
+
+
+;; Function std::_Destroy_aux<true>::_ZNSt12_Destroy_auxILb1EE9__destroyIPtEEvT_S3_.isra.7 (_ZNSt12_Destroy_auxILb1EE9__destroyIPtEEvT_S3_.isra.7, funcdef_no=5445, decl_uid=111107, cgraph_uid=1475, symbol_order=2385)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_Destroy_aux<true>::_ZNSt12_Destroy_auxILb1EE9__destroyIPtEEvT_S3_.isra.7 ()
+{
+  <bb 3> [local count: 1073741825]:
+  # DEBUG D.111112 s=> D.111109
+  # DEBUG D.111113 s=> D.111110
+
+  <bb 2> [local count: 1073741825]:
+  return;
+
+}
+
+
+
+;; Function std::_ZSt8_DestroyIPtEvT_S1_.isra.8 (_ZSt8_DestroyIPtEvT_S1_.isra.8, funcdef_no=5446, decl_uid=111117, cgraph_uid=1475, symbol_order=2386)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_ZSt8_DestroyIPtEvT_S1_.isra.8 ()
+{
+  <bb 3> [local count: 1073741825]:
+  # DEBUG __first s=> __first
+  # DEBUG __last s=> __last
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#23 s=> __last
+  # DEBUG D#22 s=> __first
+  # DEBUG D#20 => D#22
+  # DEBUG D#21 => D#23
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111115 => D#20
+  # DEBUG D.111114 => D#21
+  return;
+
+}
+
+
+
+;; Function std::_ZSt8_DestroyIPttEvT_S1_RSaIT0_E.isra.9 (_ZSt8_DestroyIPttEvT_S1_RSaIT0_E.isra.9, funcdef_no=5447, decl_uid=111129, cgraph_uid=1475, symbol_order=2387)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_ZSt8_DestroyIPttEvT_S1_RSaIT0_E.isra.9 ()
+{
+  <bb 3> [local count: 1073741825]:
+  # DEBUG __first s=> __first
+  # DEBUG __last s=> __last
+  # DEBUG D.111137 s=> D.111133
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#27 s=> __last
+  # DEBUG D#26 s=> __first
+  # DEBUG D#24 => D#26
+  # DEBUG D#25 => D#27
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __first => D#24
+  # DEBUG __last => D#25
+  # DEBUG D#23 => D#25
+  # DEBUG D#22 => D#24
+  # DEBUG D#20 => D#22
+  # DEBUG D#21 => D#23
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111115 => D#20
+  # DEBUG D.111114 => D#21
+  return;
+
+}
+
+
+
+;; Function std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::_Vector_impl (_ZNSt12_Vector_baseItSaItEE12_Vector_implC2Ev, funcdef_no=5287, decl_uid=89446, cgraph_uid=1556, symbol_order=2016)
+
+Released 1 names, 14.29%, removed 1 holes
+std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::_Vector_impl (struct _Vector_impl * const this)
+{
+  <bb 2> [local count: 1073741825]:
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  # DEBUG this => this_2(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => this_2(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  this_2(D)->_M_start = 0B;
+  this_2(D)->_M_finish = 0B;
+  this_2(D)->_M_end_of_storage = 0B;
+  return;
+
+}
+
+
+
+;; Function std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_base (_ZNSt12_Vector_baseItSaItEEC2Ev, funcdef_no=5214, decl_uid=89505, cgraph_uid=1483, symbol_order=1943)
+
+Released 3 names, 37.50%, removed 3 holes
+std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_base (struct _Vector_base * const this)
+{
+  struct _Vector_impl * _1;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#31 => &this_3(D)->_M_impl
+  # DEBUG this => D#31
+  # DEBUG INLINE_ENTRY __ct 
+  MEM[(struct  &)this_3(D)] ={v} {CLOBBER};
+  # DEBUG this => D#31
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => D#31
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  MEM[(struct _Vector_impl *)this_3(D)]._M_start = 0B;
+  MEM[(struct _Vector_impl *)this_3(D)]._M_finish = 0B;
+  MEM[(struct _Vector_impl *)this_3(D)]._M_end_of_storage = 0B;
+  # DEBUG this => NULL
+  return;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::vector (_ZNSt6vectorItSaItEEC2Ev, funcdef_no=5118, decl_uid=90150, cgraph_uid=1387, symbol_order=1847)
+
+Released 3 names, 37.50%, removed 3 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::vector (struct vector * const this)
+{
+  struct _Vector_base * _1;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#32 => &this_3(D)->D.90158
+  # DEBUG this => D#32
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#31 => &D#32->_M_impl
+  # DEBUG this => D#31
+  # DEBUG INLINE_ENTRY __ct 
+  MEM[(struct  &)this_3(D)] ={v} {CLOBBER};
+  # DEBUG this => D#31
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => D#31
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  MEM[(struct _Vector_impl *)this_3(D)]._M_start = 0B;
+  MEM[(struct _Vector_impl *)this_3(D)]._M_finish = 0B;
+  MEM[(struct _Vector_impl *)this_3(D)]._M_end_of_storage = 0B;
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  return;
+
+}
+
+
+
+;; Function __gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::base (_ZNK9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEE4baseEv, funcdef_no=5289, decl_uid=107254, cgraph_uid=1558, symbol_order=2018)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::base (const struct __normal_iterator * const this)
+{
+  const short unsigned int * const & _2;
+
+  <bb 2> [local count: 1073741825]:
+  _2 = &this_1(D)->_M_current;
+  return _2;
+
+}
+
+
+
+;; Function __gnu_cxx::operator!=<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > > (_ZN9__gnu_cxxneIPKtSt6vectorItSaItEEEEbRKNS_17__normal_iteratorIT_T0_EESB_, funcdef_no=5223, decl_uid=108092, cgraph_uid=1492, symbol_order=1952)
+
+Released 6 names, 85.71%, removed 6 holes
+__gnu_cxx::operator!=<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > > (const struct __normal_iterator & __lhs, const struct __normal_iterator & __rhs)
+{
+  const short unsigned int * _1;
+  const short unsigned int * _2;
+  bool _6;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG this => __lhs_4(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _1 = MEM[(const short unsigned int * const &)__lhs_4(D)];
+  # DEBUG this => __rhs_5(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _2 = MEM[(const short unsigned int * const &)__rhs_5(D)];
+  _6 = _1 != _2;
+  return _6;
+
+}
+
+
+
+;; Function __gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE10deallocateEPtm.isra.10 (_ZN9__gnu_cxx13new_allocatorItE10deallocateEPtm.isra.10, funcdef_no=5448, decl_uid=111157, cgraph_uid=1558, symbol_order=2390)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE10deallocateEPtm.isra.10 (short unsigned int * __p)
+{
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+  # DEBUG D.111164 s=> D.111161
+
+  <bb 2> [local count: 1073741825]:
+  operator delete (__p_1(D));
+  return;
+
+}
+
+
+
+;; Function std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE10deallocateERS0_Ptm.isra.11 (_ZNSt16allocator_traitsISaItEE10deallocateERS0_Ptm.isra.11, funcdef_no=5449, decl_uid=111169, cgraph_uid=1558, symbol_order=2391)
+
+Released 0 names, 0.00%, removed 0 holes
+std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE10deallocateERS0_Ptm.isra.11 (short unsigned int * __p)
+{
+  <bb 3> [local count: 1073741825]:
+  # DEBUG __a s=> __a
+  # DEBUG __n s=> __n
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#36 s=> __n
+  # DEBUG D#35 s=> __a
+  # DEBUG D#33 => D#35
+  # DEBUG D#34 => D#36
+  # DEBUG __p => __p_1(D)
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG this => D#33
+  # DEBUG D.111175 => D#34
+  operator delete (__p_1(D));
+  # DEBUG __p => NULL
+  return;
+
+}
+
+
+
+;; Function std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE13_M_deallocateEPtm.isra.12 (_ZNSt12_Vector_baseItSaItEE13_M_deallocateEPtm.isra.12, funcdef_no=5450, decl_uid=111187, cgraph_uid=1558, symbol_order=2392)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE13_M_deallocateEPtm.isra.12 (short unsigned int * __p)
+{
+  <bb 5> [local count: 1073741825]:
+  # DEBUG this s=> this
+  # DEBUG __n s=> __n
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#41 s=> __n
+  # DEBUG D#40 s=> this
+  if (__p_1(D) != 0B)
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  # DEBUG D#39 => &D#40->_M_impl
+  # DEBUG D#37 => D#39
+  # DEBUG D#38 => D#41
+  # DEBUG __p => __p_1(D)
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG __a => D#37
+  # DEBUG __n => D#38
+  # DEBUG D#36 => D#38
+  # DEBUG D#35 => D#37
+  # DEBUG D#33 => D#35
+  # DEBUG D#34 => D#36
+  # DEBUG __p => __p_1(D)
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG this => D#33
+  # DEBUG D.111197 => D#34
+  operator delete (__p_1(D));
+  # DEBUG __p => NULL
+
+  <bb 4> [local count: 1073741825]:
+  return;
+
+}
+
+
+
+;; Function std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::~_Vector_base (_ZNSt12_Vector_baseItSaItEED2Ev, funcdef_no=5113, decl_uid=89510, cgraph_uid=1382, symbol_order=1842)
+
+Released 9 names, 128.57%, removed 9 holes
+std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::~_Vector_base (struct _Vector_base * const this)
+{
+  short unsigned int * _1;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#47 => this_3(D)->_M_impl._M_end_of_storage
+  _1 = this_3(D)->_M_impl._M_start;
+  # DEBUG D#46 => D#47 - _1
+  # DEBUG D#45 => D#46 /[ex] 2
+  # DEBUG D#42 => this_3(D)
+  # DEBUG D#43 => (long unsigned int) D#45
+  # DEBUG __p => _1
+  # DEBUG INLINE_ENTRY _M_deallocate
+  # DEBUG this => D#42
+  # DEBUG __n => D#43
+  # DEBUG D#41 => D#43
+  # DEBUG D#40 => D#42
+  if (_1 != 0B)
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  # DEBUG D#39 => &D#40->_M_impl
+  # DEBUG D#37 => D#39
+  # DEBUG D#38 => D#41
+  # DEBUG __p => _1
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG __a => D#37
+  # DEBUG __n => D#38
+  # DEBUG D#36 => D#38
+  # DEBUG D#35 => D#37
+  # DEBUG D#33 => D#35
+  # DEBUG D#34 => D#36
+  # DEBUG __p => _1
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG this => D#33
+  # DEBUG D.111213 => D#34
+  operator delete (_1);
+  # DEBUG __p => NULL
+
+  <bb 4> [local count: 1073741825]:
+  # DEBUG __p => NULL
+  # DEBUG D#44 => &this_3(D)->_M_impl
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  MEM[(struct  &)this_3(D)] ={v} {CLOBBER};
+  return;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::~vector (_ZNSt6vectorItSaItEED2Ev, funcdef_no=5012, decl_uid=90155, cgraph_uid=1282, symbol_order=1742)
+
+Released 9 names, 128.57%, removed 9 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::~vector (struct vector * const this)
+{
+  short unsigned int * _1;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#48 => &this_2(D)->D.90158
+  # DEBUG this => D#48
+  # DEBUG INLINE_ENTRY _M_get_Tp_allocator
+  # DEBUG D#51 => &MEM[(struct _Vector_base *)this_2(D)]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#50 => this_2(D)->D.90158._M_impl._M_finish
+  _1 = this_2(D)->D.90158._M_impl._M_start;
+  # DEBUG D#28 => _1
+  # DEBUG D#29 => D#50
+  # DEBUG D#30 => D#51
+  # DEBUG INLINE_ENTRY _Destroy
+  # DEBUG __first => D#28
+  # DEBUG __last => D#29
+  # DEBUG D.111230 => D#30
+  # DEBUG D#27 => D#29
+  # DEBUG D#26 => D#28
+  # DEBUG D#24 => D#26
+  # DEBUG D#25 => D#27
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __first => D#24
+  # DEBUG __last => D#25
+  # DEBUG D#23 => D#25
+  # DEBUG D#22 => D#24
+  # DEBUG D#20 => D#22
+  # DEBUG D#21 => D#23
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111115 => D#20
+  # DEBUG D.111114 => D#21
+  # DEBUG D#49 => &this_2(D)->D.90158
+  # DEBUG this => D#49
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#47 => D#49->_M_impl._M_end_of_storage
+  # DEBUG D#46 => D#47 - _1
+  # DEBUG D#45 => D#46 /[ex] 2
+  # DEBUG D#42 => D#49
+  # DEBUG D#43 => (long unsigned int) D#45
+  # DEBUG __p => _1
+  # DEBUG INLINE_ENTRY _M_deallocate
+  # DEBUG this => D#42
+  # DEBUG __n => D#43
+  # DEBUG D#41 => D#43
+  # DEBUG D#40 => D#42
+  if (_1 != 0B)
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  # DEBUG D#39 => &D#40->_M_impl
+  # DEBUG D#37 => D#39
+  # DEBUG D#38 => D#41
+  # DEBUG __p => _1
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG __a => D#37
+  # DEBUG __n => D#38
+  # DEBUG D#36 => D#38
+  # DEBUG D#35 => D#37
+  # DEBUG D#33 => D#35
+  # DEBUG D#34 => D#36
+  # DEBUG __p => _1
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG this => D#33
+  # DEBUG D.111225 => D#34
+  operator delete (_1);
+  # DEBUG __p => NULL
+
+  <bb 4> [local count: 1073741825]:
+  # DEBUG __p => NULL
+  # DEBUG D#44 => &D#49->_M_impl
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  return;
+
+}
+
+
+
+;; Function SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::~SelectionView (_ZN13SelectionViewIRKN3SOA9ContainerISt6vector13s_decayvertexJEEEtED2Ev, funcdef_no=4725, decl_uid=104285, cgraph_uid=995, symbol_order=1455)
+
+Released 3 names, 42.86%, removed 3 holes
+SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::~SelectionView (struct SelectionView * const this)
+{
+  short unsigned int * _4;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#52 => &this_1(D)->m_indices
+  # DEBUG this => D#52
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#48 => &MEM[(struct vector *)D#52].D.90158
+  # DEBUG this => D#48
+  # DEBUG INLINE_ENTRY _M_get_Tp_allocator
+  # DEBUG D#51 => &MEM[(struct _Vector_base *)D#52]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#50 => MEM[(struct vector *)D#52].D.90158._M_impl._M_finish
+  _4 = MEM[(struct vector *)this_1(D) + 8B].D.90158._M_impl._M_start;
+  # DEBUG D#28 => _4
+  # DEBUG D#29 => D#50
+  # DEBUG D#30 => D#51
+  # DEBUG INLINE_ENTRY _Destroy
+  # DEBUG __first => D#28
+  # DEBUG __last => D#29
+  # DEBUG D.111240 => D#30
+  # DEBUG D#27 => D#29
+  # DEBUG D#26 => D#28
+  # DEBUG D#24 => D#26
+  # DEBUG D#25 => D#27
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __first => D#24
+  # DEBUG __last => D#25
+  # DEBUG D#23 => D#25
+  # DEBUG D#22 => D#24
+  # DEBUG D#20 => D#22
+  # DEBUG D#21 => D#23
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111115 => D#20
+  # DEBUG D.111114 => D#21
+  # DEBUG D#49 => &MEM[(struct vector *)D#52].D.90158
+  # DEBUG this => D#49
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#47 => D#49->_M_impl._M_end_of_storage
+  # DEBUG D#46 => D#47 - _4
+  # DEBUG D#45 => D#46 /[ex] 2
+  # DEBUG D#42 => D#49
+  # DEBUG D#43 => (long unsigned int) D#45
+  # DEBUG __p => _4
+  # DEBUG INLINE_ENTRY _M_deallocate
+  # DEBUG this => D#42
+  # DEBUG __n => D#43
+  # DEBUG D#41 => D#43
+  # DEBUG D#40 => D#42
+  if (_4 != 0B)
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  # DEBUG D#39 => &D#40->_M_impl
+  # DEBUG D#37 => D#39
+  # DEBUG D#38 => D#41
+  # DEBUG __p => _4
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG __a => D#37
+  # DEBUG __n => D#38
+  # DEBUG D#36 => D#38
+  # DEBUG D#35 => D#37
+  # DEBUG D#33 => D#35
+  # DEBUG D#34 => D#36
+  # DEBUG __p => _4
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG this => D#33
+  # DEBUG D.111250 => D#34
+  operator delete (_4);
+  # DEBUG __p => NULL
+
+  <bb 4> [local count: 1073741825]:
+  # DEBUG __p => NULL
+  # DEBUG D#44 => &D#49->_M_impl
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  MEM[(struct  &)this_1(D)] ={v} {CLOBBER};
+  return;
+
+}
+
+
+
+;; Function std::forward<const short unsigned int&> (_ZSt7forwardIRKtEOT_RNSt16remove_referenceIS2_E4typeE, funcdef_no=5348, decl_uid=109979, cgraph_uid=1616, symbol_order=2076)
+
+Released 1 names, 33.33%, removed 1 holes
+std::forward<const short unsigned int&> (const type & __t)
+{
+  <bb 2> [local count: 1073741825]:
+  return __t_1(D);
+
+}
+
+
+
+;; Function __gnu_cxx::new_allocator<short unsigned int>::new_allocator (_ZN9__gnu_cxx13new_allocatorItEC2ERKS1_, funcdef_no=5370, decl_uid=89153, cgraph_uid=1639, symbol_order=2099)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::new_allocator<short unsigned int>::new_allocator (struct new_allocator * const this, const struct new_allocator & D.89155)
+{
+  <bb 2> [local count: 1073741825]:
+  return;
+
+}
+
+
+
+;; Function std::allocator<short unsigned int>::allocator (_ZNSaItEC2ERKS_, funcdef_no=5341, decl_uid=89218, cgraph_uid=1610, symbol_order=2070)
+
+Released 1 names, 25.00%, removed 1 holes
+std::allocator<short unsigned int>::allocator (struct allocator * const this, const struct allocator & __a)
+{
+  <bb 2> [local count: 1073741825]:
+  # DEBUG this => this_2(D)
+  # DEBUG D.111259 => __a_3(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG D.111259 => NULL
+  return;
+
+}
+
+
+
+;; Function std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::_Vector_impl (_ZNSt12_Vector_baseItSaItEE12_Vector_implC2ERKS0_, funcdef_no=5279, decl_uid=89441, cgraph_uid=1548, symbol_order=2008)
+
+Released 1 names, 12.50%, removed 1 holes
+std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::_Vector_impl (struct _Vector_impl * const this, const struct _Tp_alloc_type & __a)
+{
+  <bb 2> [local count: 1073741825]:
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  # DEBUG this => this_2(D)
+  # DEBUG __a => __a_4(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => this_2(D)
+  # DEBUG D.111263 => __a_4(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG D.111263 => NULL
+  # DEBUG this => NULL
+  # DEBUG __a => NULL
+  this_2(D)->_M_start = 0B;
+  this_2(D)->_M_finish = 0B;
+  this_2(D)->_M_end_of_storage = 0B;
+  return;
+
+}
+
+
+
+;; Function SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position::stor (_ZN3SOA5_ViewISt5tupleIJSt6vectorI8vertex_tNS_16AlignedAllocatorIS3_Lm64EEEEEE13s_decayvertexJ8f_vertexEE8position4storEv, funcdef_no=5374, decl_uid=94810, cgraph_uid=1643, symbol_order=2103)
+
+Released 0 names, 0.00%, removed 0 holes
+SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position::stor (struct position * const this)
+{
+  struct SOAStorage * & _2;
+
+  <bb 2> [local count: 1073741825]:
+  _2 = &this_1(D)->m_stor;
+  return _2;
+
+}
+
+
+
+;; Function SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position::idx (_ZN3SOA5_ViewISt5tupleIJSt6vectorI8vertex_tNS_16AlignedAllocatorIS3_Lm64EEEEEE13s_decayvertexJ8f_vertexEE8position3idxEv, funcdef_no=5375, decl_uid=94814, cgraph_uid=1644, symbol_order=2104)
+
+Released 0 names, 0.00%, removed 0 holes
+SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position::idx (struct position * const this)
+{
+  size_type & _2;
+
+  <bb 2> [local count: 1073741825]:
+  _2 = &this_1(D)->m_idx;
+  return _2;
+
+}
+
+
+
+;; Function SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::get<0> (_ZN3SOA11ObjectProxyINS_5_ViewISt5tupleIJSt6vectorI8vertex_tNS_16AlignedAllocatorIS4_Lm64EEEEEE13s_decayvertexJ8f_vertexEE8positionEE3getILm0EEEDTixcl3getIXT_EEdecldtcl7declvalIRSC_EE4storEEcldtcl7declvalISF_EE3idxEEv, funcdef_no=5346, decl_uid=101694, cgraph_uid=1615, symbol_order=2075)
+
+Released 14 names, 175.00%, removed 14 holes
+SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::get<0> (struct ObjectProxy * const this)
+{
+  struct SOAStorage * _1;
+  long unsigned int _2;
+  struct value_type & _5;
+  long unsigned int _6;
+  struct vertex_t * _7;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#53 => &this_3(D)->D.101625
+  # DEBUG this => D#53
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _1 = MEM[(struct SOAStorage * &)this_3(D)];
+  # DEBUG __t => _1
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#3 => &MEM[(struct tuple *)_1].D.94746
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#2 => &D#3->D.93464
+  # DEBUG __b => D#2
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#54 => &MEM[(struct _Head_base &)_1]._M_head_impl
+  # DEBUG __b => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG D#55 => &this_3(D)->D.101625
+  # DEBUG this => D#55
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _2 = MEM[(size_type &)this_3(D) + 8];
+  _7 = MEM[(struct vertex_t * *)_1 + 8B];
+  # DEBUG D#6 => D#54
+  # DEBUG __n => _2
+  # DEBUG INLINE_ENTRY operator[]
+  # DEBUG this => D#6
+  _6 = _2 * 4;
+  _5 = _7 + _6;
+  # DEBUG __n => NULL
+  return _5;
+
+}
+
+
+
+;; Function SOA::impl::FieldBase<vertex_t, f_vertex>::AccessorBase<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, 0, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::_get (_ZN3SOA4impl9FieldBaseI8vertex_t8f_vertexE12AccessorBaseINS0_8SkinBaseINS_17PrintableNullSkinINS_11ObjectProxyINS_5_ViewISt5tupleIJSt6vectorIS2_NS_16AlignedAllocatorIS2_Lm64EEEEEE13s_decayvertexJS3_EE8positionEEEEEJS3_EEELm0ESK_E4_getEv, funcdef_no=5290, decl_uid=101696, cgraph_uid=1559, symbol_order=2019)
+
+Released 3 names, 37.50%, removed 3 holes
+SOA::impl::FieldBase<vertex_t, f_vertex>::AccessorBase<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, 0, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::_get (struct AccessorBase * const this)
+{
+  struct SOAStorage * _3;
+  long unsigned int _4;
+  struct vertex_t * _5;
+  long unsigned int _6;
+  struct value_type & _7;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#56 => &MEM[(struct SkinBase *)this_1(D)].D.101954.D.101686
+  # DEBUG this => D#56
+  # DEBUG INLINE_ENTRY get
+  # DEBUG D#53 => &D#56->D.101625
+  # DEBUG this => D#53
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _3 = MEM[(struct SOAStorage * &)this_1(D)];
+  # DEBUG __t => _3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#3 => &MEM[(struct tuple *)_3].D.94746
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#2 => &D#3->D.93464
+  # DEBUG __b => D#2
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#54 => &MEM[(struct _Head_base &)_3]._M_head_impl
+  # DEBUG __b => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG D#55 => &D#56->D.101625
+  # DEBUG this => D#55
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _4 = MEM[(size_type &)this_1(D) + 8];
+  _5 = MEM[(struct vertex_t * *)_3 + 8B];
+  # DEBUG D#6 => D#54
+  # DEBUG __n => _4
+  # DEBUG INLINE_ENTRY operator[]
+  # DEBUG this => D#6
+  _6 = _4 * 4;
+  _7 = _5 + _6;
+  # DEBUG __n => NULL
+  # DEBUG this => NULL
+  return _7;
+
+}
+
+
+
+;; Function f_vertex::accessors<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, SOA::Typelist::typelist<f_vertex>, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::vertex (_ZN8f_vertex9accessorsIN3SOA4impl8SkinBaseINS1_17PrintableNullSkinINS1_11ObjectProxyINS1_5_ViewISt5tupleIJSt6vectorI8vertex_tNS1_16AlignedAllocatorIS9_Lm64EEEEEE13s_decayvertexJS_EE8positionEEEEEJS_EEENS1_8Typelist8typelistIJS_EEESI_E6vertexEv, funcdef_no=5226, decl_uid=101717, cgraph_uid=1495, symbol_order=1955)
+
+Released 2 names, 25.00%, removed 2 holes
+f_vertex::accessors<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, SOA::Typelist::typelist<f_vertex>, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::vertex (struct accessors * const this)
+{
+  struct SOAStorage * _3;
+  long unsigned int _4;
+  struct vertex_t * _5;
+  long unsigned int _6;
+  struct value_type & _7;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG this => this_2(D)
+  # DEBUG INLINE_ENTRY _get
+  # DEBUG D#56 => &MEM[(struct SkinBase *)this_2(D)].D.101954.D.101686
+  # DEBUG this => D#56
+  # DEBUG INLINE_ENTRY get
+  # DEBUG D#53 => &D#56->D.101625
+  # DEBUG this => D#53
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _3 = MEM[(struct SOAStorage * &)this_2(D)];
+  # DEBUG __t => _3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#3 => &MEM[(struct tuple *)_3].D.94746
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#2 => &D#3->D.93464
+  # DEBUG __b => D#2
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#54 => &MEM[(struct _Head_base &)_3]._M_head_impl
+  # DEBUG __b => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG D#55 => &D#56->D.101625
+  # DEBUG this => D#55
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _4 = MEM[(size_type &)this_2(D) + 8];
+  _5 = MEM[(struct vertex_t * *)_3 + 8B];
+  # DEBUG D#6 => D#54
+  # DEBUG __n => _4
+  # DEBUG INLINE_ENTRY operator[]
+  # DEBUG this => D#6
+  _6 = _4 * 4;
+  _7 = _5 + _6;
+  # DEBUG __n => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  return _7;
+
+}
+
+
+
+;; Function foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>::_ZZ3fooRKN3SOA9ContainerISt6vector13s_decayvertexJEEEENKUlT_E_clIS2_INS_11ObjectProxyINS_5_ViewISt5tupleIJS1_I8vertex_tNS_16AlignedAllocatorISC_Lm64EEEEEES2_J8f_vertexEE8positionEEEEEEbS6_.isra.13 (_ZZ3fooRKN3SOA9ContainerISt6vector13s_decayvertexJEEEENKUlT_E_clIS2_INS_11ObjectProxyINS_5_ViewISt5tupleIJS1_I8vertex_tNS_16AlignedAllocatorISC_Lm64EEEEEES2_J8f_vertexEE8positionEEEEEEbS6_.isra.13, funcdef_no=5451, decl_uid=111300, cgraph_uid=1495, symbol_order=2398)
+
+Released 0 names, 0.00%, removed 0 holes
+foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>::_ZZ3fooRKN3SOA9ContainerISt6vector13s_decayvertexJEEEENKUlT_E_clIS2_INS_11ObjectProxyINS_5_ViewISt5tupleIJS1_I8vertex_tNS_16AlignedAllocatorISC_Lm64EEEEEES2_J8f_vertexEE8positionEEEEEEbS6_.isra.13 (struct s_decayvertex decayvertexskin)
+{
+  struct SOAStorage * _1;
+  long unsigned int _2;
+  struct vertex_t * _3;
+  long unsigned int _4;
+  struct value_type & _5;
+  float _6;
+  bool _7;
+
+  <bb 3> [local count: 1073741825]:
+  # DEBUG __closure s=> __closure
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG this => &decayvertexskin
+  # DEBUG INLINE_ENTRY vertex
+  # DEBUG this => &decayvertexskin
+  # DEBUG INLINE_ENTRY _get
+  # DEBUG D#56 => &MEM[(struct SkinBase *)&decayvertexskin].D.101954.D.101686
+  # DEBUG this => D#56
+  # DEBUG INLINE_ENTRY get
+  # DEBUG D#53 => &D#56->D.101625
+  # DEBUG this => D#53
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _1 = MEM[(struct SOAStorage * &)&decayvertexskin];
+  # DEBUG __t => _1
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#3 => &MEM[(struct tuple *)_1].D.94746
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#2 => &D#3->D.93464
+  # DEBUG __b => D#2
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#54 => &MEM[(struct _Head_base &)_1]._M_head_impl
+  # DEBUG __b => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG D#55 => &D#56->D.101625
+  # DEBUG this => D#55
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _2 = MEM[(size_type &)&decayvertexskin + 8];
+  _3 = MEM[(struct vertex_t * *)_1 + 8B];
+  # DEBUG D#6 => D#54
+  # DEBUG __n => _2
+  # DEBUG INLINE_ENTRY operator[]
+  # DEBUG this => D#6
+  _4 = _2 * 4;
+  _5 = _3 + _4;
+  # DEBUG __n => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  _6 = _5->k;
+  _7 = _6 > 3.0e+0;
+  return _7;
+
+}
+
+
+
+;; Function SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int> (_ZZN13SelectionViewIRKN3SOA9ContainerISt6vector13s_decayvertexJEEEtEC4IZ3fooS6_EUlT_E_EERKS7_OS9_ENKUlS9_E_clItEEDaS9_, funcdef_no=5124, decl_uid=108107, cgraph_uid=1409, symbol_order=1869)
+
+Released 16 names, 123.08%, removed 16 holes
+SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int> (const struct __lambda10 * const this, short unsigned int i)
+{
+  struct SelectionView * _1;
+  const struct container_t & _2;
+  long unsigned int _3;
+  struct vertex_t * _7;
+  long unsigned int _8;
+  struct value_type & _9;
+  float _10;
+  bool _11;
+  const struct SOAStorage * _12;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#61 => this_5(D)->__predicate_i
+  _1 = this_5(D)->__this;
+  _2 = _1->m_container;
+  # DEBUG D#58 => &_2->D.104277.D.104204.D.103696
+  _3 = (long unsigned int) i_6(D);
+  # DEBUG this => D#58
+  # DEBUG idx => _3
+  # DEBUG INLINE_ENTRY operator[]
+  _12 = &MEM[(const struct _View *)_2].m_storage;
+  # DEBUG this => NULL
+  # DEBUG D.111323 => _12
+  # DEBUG D.111322 => _3
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => D#10
+  # DEBUG D.111326 => _12
+  # DEBUG D.111325 => _3
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#9 => &D#10->D.101954
+  # DEBUG this => D#9
+  # DEBUG D.111329 => _12
+  # DEBUG D.111328 => _3
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#8 => &D#9->D.101686
+  # DEBUG this => D#8
+  # DEBUG D.111332 => _12
+  # DEBUG D.111331 => _3
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#7 => &D#8->D.101625
+  # DEBUG this => D#7
+  # DEBUG stor => _12
+  # DEBUG idx => _3
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG stor => NULL
+  # DEBUG idx => NULL
+  # DEBUG this => NULL
+  # DEBUG D.111332 => NULL
+  # DEBUG D.111331 => NULL
+  # DEBUG this => NULL
+  # DEBUG D.111329 => NULL
+  # DEBUG D.111328 => NULL
+  # DEBUG this => NULL
+  # DEBUG D.111326 => NULL
+  # DEBUG D.111325 => NULL
+  # DEBUG this => NULL
+  # DEBUG D.111323 => NULL
+  # DEBUG D.111322 => NULL
+  # DEBUG this => NULL
+  # DEBUG idx => NULL
+  # DEBUG D#57 => D#61
+  # DEBUG decayvertexskin => _12
+  # DEBUG decayvertexskin$8 => _3
+  # DEBUG INLINE_ENTRY operator()
+  # DEBUG __closure => D#57
+  # DEBUG this => &decayvertexskin
+  # DEBUG INLINE_ENTRY vertex
+  # DEBUG this => &decayvertexskin
+  # DEBUG INLINE_ENTRY _get
+  # DEBUG D#56 => &MEM[(struct SkinBase *)&decayvertexskin].D.101954.D.101686
+  # DEBUG this => D#56
+  # DEBUG INLINE_ENTRY get
+  # DEBUG D#53 => &D#56->D.101625
+  # DEBUG this => D#53
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG __t => _12
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#3 => &MEM[(struct tuple *)_12].D.94746
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#2 => &D#3->D.93464
+  # DEBUG __b => D#2
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#54 => &MEM[(struct _Head_base &)_12]._M_head_impl
+  # DEBUG __b => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG D#55 => &D#56->D.101625
+  # DEBUG this => D#55
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _7 = MEM[(struct vertex_t * *)_12 + 8B];
+  # DEBUG D#6 => D#54
+  # DEBUG __n => _3
+  # DEBUG INLINE_ENTRY operator[]
+  # DEBUG this => D#6
+  _8 = _3 * 4;
+  _9 = _7 + _8;
+  # DEBUG __n => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  _10 = _9->k;
+  _11 = _10 > 3.0e+0;
+  # DEBUG D#59 => {CLOBBER}
+  # DEBUG decayvertexskin => D#59
+  # DEBUG D#60 => {CLOBBER}
+  # DEBUG decayvertexskin$8 => D#60
+  return _11;
+
+}
+
+
+
+;; Function __gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE9constructItJRKtEEEvPT_DpOT0_.isra.14 (_ZN9__gnu_cxx13new_allocatorItE9constructItJRKtEEEvPT_DpOT0_.isra.14, funcdef_no=5452, decl_uid=111351, cgraph_uid=1407, symbol_order=2400)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE9constructItJRKtEEEvPT_DpOT0_.isra.14 (short unsigned int * __p, const short unsigned int ISRA.32)
+{
+  short unsigned int _2;
+
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+  # DEBUG D#62 s=> __args#0
+  # DEBUG __args#0 => D#62
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG __t => D#62
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => NULL
+  _2 = ISRA.32_6(D);
+  # DEBUG D#1 => 2
+  # DEBUG __p => __p_3(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111346 => D#1
+  # DEBUG BEGIN_STMT
+  # DEBUG __p => NULL
+  *__p_3(D) = _2;
+  return;
+
+}
+
+
+
+;; Function std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE9constructItJRKtEEEvRS0_PT_DpOT0_.isra.15 (_ZNSt16allocator_traitsISaItEE9constructItJRKtEEEvRS0_PT_DpOT0_.isra.15, funcdef_no=5453, decl_uid=111369, cgraph_uid=1284, symbol_order=2402)
+
+Released 0 names, 0.00%, removed 0 holes
+std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE9constructItJRKtEEEvRS0_PT_DpOT0_.isra.15 (short unsigned int * __p, const short unsigned int ISRA.33)
+{
+  short unsigned int _2;
+
+  <bb 3> [local count: 1073741825]:
+  # DEBUG __a s=> __a
+  # DEBUG D#66 s=> __args#0
+  # DEBUG __args#0 => D#66
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#65 s=> __a
+  # DEBUG __t => D#66
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => NULL
+  # DEBUG D#63 => D#65
+  _2 = ISRA.33_6(D);
+  # DEBUG D#64 => D#66
+  # DEBUG __p => __p_3(D)
+  # DEBUG INLINE_ENTRY construct
+  # DEBUG this => D#63
+  # DEBUG D#62 => D#64
+  # DEBUG __args#0 => D#62
+  # DEBUG __t => D#62
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => NULL
+  # DEBUG D#1 => 2
+  # DEBUG __p => __p_3(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111346 => D#1
+  # DEBUG BEGIN_STMT
+  # DEBUG __p => NULL
+  *__p_3(D) = _2;
+  # DEBUG __p => NULL
+  return;
+
+}
+
+
+
+;; Function __gnu_cxx::operator-<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > > (_ZN9__gnu_cxxmiIPtSt6vectorItSaItEEEENS_17__normal_iteratorIT_T0_E15difference_typeERKS8_SB_, funcdef_no=5378, decl_uid=109992, cgraph_uid=1647, symbol_order=2107)
+
+Released 6 names, 75.00%, removed 6 holes
+__gnu_cxx::operator-<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > > (const struct __normal_iterator & __lhs, const struct __normal_iterator & __rhs)
+{
+  short unsigned int * _1;
+  short unsigned int * _2;
+  long int _3;
+  difference_type _7;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG this => __lhs_5(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _1 = MEM[(short unsigned int * const &)__lhs_5(D)];
+  # DEBUG this => __rhs_6(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _2 = MEM[(short unsigned int * const &)__rhs_6(D)];
+  _3 = _1 - _2;
+  _7 = _3 /[ex] 2;
+  return _7;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE4sizeEv.isra.16 (_ZNKSt6vectorItSaItEE4sizeEv.isra.16, funcdef_no=5454, decl_uid=111388, cgraph_uid=1495, symbol_order=2405)
+
+Released 0 names, 0.00%, removed 0 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE4sizeEv.isra.16 (short unsigned int * const ISRA.34, short unsigned int * const ISRA.35)
+{
+  short unsigned int * _2;
+  short unsigned int * _3;
+  long int _4;
+  long int _5;
+  long unsigned int _6;
+
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+  # DEBUG this s=> this
+
+  <bb 2> [local count: 1073741825]:
+  _2 = ISRA.35_8(D);
+  _3 = ISRA.34_9(D);
+  _4 = _2 - _3;
+  _5 = _4 /[ex] 2;
+  _6 = (long unsigned int) _5;
+  return _6;
+
+}
+
+
+
+;; Function std::move_iterator<short unsigned int*>::move_iterator (_ZNSt13move_iteratorIPtEC2ES0_, funcdef_no=5397, decl_uid=110211, cgraph_uid=1666, symbol_order=2126)
+
+Released 0 names, 0.00%, removed 0 holes
+std::move_iterator<short unsigned int*>::move_iterator (struct move_iterator * const this, short unsigned int * __i)
+{
+  <bb 2> [local count: 1073741825]:
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  this_2(D)->_M_current = __i_4(D);
+  return;
+
+}
+
+
+
+;; Function std::__make_move_if_noexcept_iterator<short unsigned int> (_ZSt32__make_move_if_noexcept_iteratorItSt13move_iteratorIPtEET0_PT_, funcdef_no=5380, decl_uid=110106, cgraph_uid=1648, symbol_order=2108)
+
+Released 5 names, 125.00%, removed 5 holes
+std::__make_move_if_noexcept_iterator<short unsigned int> (short unsigned int * __i)
+{
+  struct move_iterator D.110743;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG this => &D.110259
+  # DEBUG __i => __i_2(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  MEM[(struct move_iterator *)&D.110743] = __i_2(D);
+  return D.110743;
+
+}
+
+
+
+;; Function __gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE7destroyItEEvPT_.isra.17 (_ZN9__gnu_cxx13new_allocatorItE7destroyItEEvPT_.isra.17, funcdef_no=5455, decl_uid=111402, cgraph_uid=1666, symbol_order=2406)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE7destroyItEEvPT_.isra.17 ()
+{
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+  # DEBUG __p s=> __p
+
+  <bb 2> [local count: 1073741825]:
+  return;
+
+}
+
+
+
+;; Function std::allocator_traits<std::allocator<short unsigned int> >::destroy<short unsigned int> (_ZNSt16allocator_traitsISaItEE7destroyItEEvRS0_PT_, funcdef_no=5381, decl_uid=110007, cgraph_uid=1650, symbol_order=2110)
+
+Released 1 names, 25.00%, removed 1 holes
+std::allocator_traits<std::allocator<short unsigned int> >::destroy<short unsigned int> (struct allocator_type & __a, short unsigned int * __p)
+{
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#70 => __a_2(D)
+  # DEBUG D#71 => __p_3(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#70
+  # DEBUG __p => D#71
+  return;
+
+}
+
+
+
+;; Function __gnu_cxx::new_allocator<short unsigned int>::_ZNK9__gnu_cxx13new_allocatorItE8max_sizeEv.isra.18 (_ZNK9__gnu_cxx13new_allocatorItE8max_sizeEv.isra.18, funcdef_no=5456, decl_uid=111413, cgraph_uid=1666, symbol_order=2407)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::new_allocator<short unsigned int>::_ZNK9__gnu_cxx13new_allocatorItE8max_sizeEv.isra.18 ()
+{
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+
+  <bb 2> [local count: 1073741825]:
+  return 9223372036854775807;
+
+}
+
+
+
+;; Function __gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE8allocateEmPKv.isra.19 (_ZN9__gnu_cxx13new_allocatorItE8allocateEmPKv.isra.19, funcdef_no=5457, decl_uid=111422, cgraph_uid=1667, symbol_order=2409)
+
+Released 0 names, 0.00%, removed 0 holes
+__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE8allocateEmPKv.isra.19 (size_type __n)
+{
+  signed long _2;
+  long unsigned int _3;
+  short unsigned int * _4;
+
+  <bb 5> [local count: 1073741825]:
+  # DEBUG this s=> this
+  # DEBUG D.111430 s=> D.111426
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#73 s=> this
+  # DEBUG D#72 => D#73
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#72
+  _2 = (signed long) __n_1(D);
+  if (_2 < 0)
+    goto <bb 3>; [0.04%]
+  else
+    goto <bb 4>; [99.96%]
+
+  <bb 3> [local count: 429497]:
+  std::__throw_bad_alloc ();
+
+  <bb 4> [local count: 1073312327]:
+  _3 = __n_1(D) * 2;
+  _4 = operator new (_3);
+  return _4;
+
+}
+
+
+
+;; Function std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE8allocateERS0_m.isra.20 (_ZNSt16allocator_traitsISaItEE8allocateERS0_m.isra.20, funcdef_no=5458, decl_uid=111437, cgraph_uid=1667, symbol_order=2410)
+
+Released 0 names, 0.00%, removed 0 holes
+std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE8allocateERS0_m.isra.20 (size_type __n)
+{
+  signed long _2;
+  long unsigned int _3;
+  short unsigned int * _4;
+
+  <bb 5> [local count: 1073741825]:
+  # DEBUG __a s=> __a
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#76 s=> __a
+  # DEBUG D#74 => D#76
+  # DEBUG D#75 => 0B
+  # DEBUG __n => __n_1(D)
+  # DEBUG INLINE_ENTRY allocate
+  # DEBUG this => D#74
+  # DEBUG D.111442 => D#75
+  # DEBUG D#73 => D#74
+  # DEBUG D#72 => D#73
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#72
+  _2 = (signed long) __n_1(D);
+  if (_2 < 0)
+    goto <bb 3>; [0.04%]
+  else
+    goto <bb 4>; [99.96%]
+
+  <bb 3> [local count: 429497]:
+  std::__throw_bad_alloc ();
+
+  <bb 4> [local count: 1073312327]:
+  _3 = __n_1(D) * 2;
+  _4 = operator new (_3);
+  # DEBUG __n => NULL
+  return _4;
+
+}
+
+
+
+;; Function std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE11_M_allocateEm.isra.21 (_ZNSt12_Vector_baseItSaItEE11_M_allocateEm.isra.21, funcdef_no=5459, decl_uid=111455, cgraph_uid=1667, symbol_order=2411)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE11_M_allocateEm.isra.21 (size_t __n)
+{
+  signed long _2;
+  long unsigned int _3;
+  short unsigned int * _4;
+  short unsigned int * iftmp.0_5;
+
+  <bb 7> [local count: 1073741825]:
+  # DEBUG this s=> this
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#79 s=> this
+  if (__n_1(D) != 0)
+    goto <bb 3>; [71.00%]
+  else
+    goto <bb 6>; [29.00%]
+
+  <bb 3> [local count: 762356695]:
+  # DEBUG D#78 => &D#79->_M_impl
+  # DEBUG D#77 => D#78
+  # DEBUG __n => __n_1(D)
+  # DEBUG INLINE_ENTRY allocate
+  # DEBUG __a => D#77
+  # DEBUG D#76 => D#77
+  # DEBUG D#74 => D#76
+  # DEBUG D#75 => 0B
+  # DEBUG __n => __n_1(D)
+  # DEBUG INLINE_ENTRY allocate
+  # DEBUG this => D#74
+  # DEBUG D.111463 => D#75
+  # DEBUG D#73 => D#74
+  # DEBUG D#72 => D#73
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#72
+  _2 = (signed long) __n_1(D);
+  if (_2 < 0)
+    goto <bb 4>; [0.04%]
+  else
+    goto <bb 5>; [99.96%]
+
+  <bb 4> [local count: 304943]:
+  std::__throw_bad_alloc ();
+
+  <bb 5> [local count: 762051752]:
+  _3 = __n_1(D) * 2;
+  _4 = operator new (_3);
+  # DEBUG __n => NULL
+  # DEBUG __n => NULL
+
+  <bb 6> [local count: 1073436882]:
+  # iftmp.0_5 = PHI <0B(2), _4(5)>
+  return iftmp.0_5;
+
+}
+
+
+
+;; Function std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_create_storage (_ZNSt12_Vector_baseItSaItEE17_M_create_storageEm, funcdef_no=5281, decl_uid=89460, cgraph_uid=1550, symbol_order=2010)
+
+Released 3 names, 27.27%, removed 3 holes
+std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_create_storage (struct _Vector_base * const this, size_t __n)
+{
+  long unsigned int _1;
+  short unsigned int * _2;
+  short unsigned int * _7;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#80 => this_4(D)
+  _7 = std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE11_M_allocateEm.isra.21 (__n_5(D));
+  this_4(D)->_M_impl._M_start = _7;
+  this_4(D)->_M_impl._M_finish = _7;
+  _1 = __n_5(D) * 2;
+  _2 = _7 + _1;
+  this_4(D)->_M_impl._M_end_of_storage = _2;
+  return;
+
+}
+
+
+
+;; Function std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_base (_ZNSt12_Vector_baseItSaItEEC2EmRKS0_, funcdef_no=5202, decl_uid=89487, cgraph_uid=1471, symbol_order=1931)
+
+Released 7 names, 43.75%, removed 7 holes
+std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_base (struct _Vector_base * const this, size_t __n, const struct allocator_type & __a)
+{
+  short unsigned int * _5;
+  long unsigned int _6;
+  short unsigned int * _7;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#82 => &this_2(D)->_M_impl
+  # DEBUG this => D#82
+  # DEBUG __a => __a_3(D)
+  # DEBUG INLINE_ENTRY __ct 
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  # DEBUG this => D#82
+  # DEBUG __a => __a_3(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => D#82
+  # DEBUG D.111475 => __a_3(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG D.111475 => NULL
+  # DEBUG this => NULL
+  # DEBUG __a => NULL
+  MEM[(struct _Vector_impl *)this_2(D)]._M_start = 0B;
+  MEM[(struct _Vector_impl *)this_2(D)]._M_finish = 0B;
+  MEM[(struct _Vector_impl *)this_2(D)]._M_end_of_storage = 0B;
+  # DEBUG this => NULL
+  # DEBUG __a => NULL
+  # DEBUG this => this_2(D)
+  # DEBUG __n => __n_4(D)
+  # DEBUG INLINE_ENTRY _M_create_storage
+  # DEBUG D#80 => this_2(D)
+  _5 = std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE11_M_allocateEm.isra.21 (__n_4(D));
+  this_2(D)->_M_impl._M_start = _5;
+  this_2(D)->_M_impl._M_finish = _5;
+  _6 = __n_4(D) * 2;
+  _7 = _5 + _6;
+  this_2(D)->_M_impl._M_end_of_storage = _7;
+  # DEBUG this => NULL
+  # DEBUG __n => NULL
+  return;
+
+}
+
+
+
+;; Function std::__niter_base<short unsigned int*> (_ZSt12__niter_baseIPtET_S1_, funcdef_no=5405, decl_uid=110281, cgraph_uid=1674, symbol_order=2134)
+
+Released 1 names, 33.33%, removed 1 holes
+std::__niter_base<short unsigned int*> (short unsigned int * __it)
+{
+  <bb 2> [local count: 1073741825]:
+  return __it_1(D);
+
+}
+
+
+
+;; Function std::_ZSt10__fill_n_aIPtmtEN9__gnu_cxx11__enable_ifIXsrSt11__is_scalarIT1_E7__valueET_E6__typeES6_T0_RKS4_.isra.22 (_ZSt10__fill_n_aIPtmtEN9__gnu_cxx11__enable_ifIXsrSt11__is_scalarIT1_E7__valueET_E6__typeES6_T0_RKS4_.isra.22, funcdef_no=5460, decl_uid=111483, cgraph_uid=1379, symbol_order=2412)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_ZSt10__fill_n_aIPtmtEN9__gnu_cxx11__enable_ifIXsrSt11__is_scalarIT1_E7__valueET_E6__typeES6_T0_RKS4_.isra.22 (short unsigned int * __first, long unsigned int __n, const short unsigned int ISRA.37)
+{
+  const short unsigned int __tmp;
+  long unsigned int __niter;
+
+  <bb 6> [local count: 118111601]:
+  # DEBUG __value s=> __value
+
+  <bb 2> [local count: 118111601]:
+  __tmp_2 = ISRA.37_13(D);
+  # DEBUG __tmp => __tmp_2
+  # DEBUG __niter => __n_9(D)
+
+  <bb 3> [local count: 1073741825]:
+  # __first_4 = PHI <__first_8(D)(2), __first_6(4)>
+  # __niter_3 = PHI <__n_9(D)(2), __niter_5(4)>
+  # DEBUG __niter => __niter_3
+  # DEBUG __first => __first_4
+  if (__niter_3 == 0)
+    goto <bb 5>; [11.00%]
+  else
+    goto <bb 4>; [89.00%]
+
+  <bb 4> [local count: 955630223]:
+  *__first_4 = __tmp_2;
+  __niter_5 = __niter_3 + 18446744073709551615;
+  # DEBUG __niter => __niter_5
+  __first_6 = __first_4 + 2;
+  # DEBUG __first => __first_6
+  goto <bb 3>; [100.00%]
+
+  <bb 5> [local count: 118111601]:
+  # __first_7 = PHI <__first_4(3)>
+  return __first_7;
+
+}
+
+
+
+;; Function std::_ZSt6fill_nIPtmtET_S1_T0_RKT1_.isra.23 (_ZSt6fill_nIPtmtET_S1_T0_RKT1_.isra.23, funcdef_no=5461, decl_uid=111503, cgraph_uid=1548, symbol_order=2414)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_ZSt6fill_nIPtmtET_S1_T0_RKT1_.isra.23 (short unsigned int * __first, long unsigned int __n, const short unsigned int ISRA.38)
+{
+  short unsigned int * __first;
+  long unsigned int __niter;
+  short unsigned int _2;
+
+  <bb 6> [local count: 118111601]:
+  # DEBUG D#84 s=> __value
+  # DEBUG __value => D#84
+
+  <bb 2> [local count: 118111601]:
+  # DEBUG __it => __first_8(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  _2 = ISRA.38_13(D);
+  # DEBUG D#83 => D#84
+  # DEBUG __first => __first_8(D)
+  # DEBUG __n => __n_9(D)
+  # DEBUG INLINE_ENTRY __fill_n_a
+  # DEBUG __value => D#83
+  # DEBUG __tmp => _2
+  # DEBUG __niter => __n_9(D)
+
+  <bb 3> [local count: 1073741825]:
+  # __first_4 = PHI <__first_8(D)(2), __first_6(4)>
+  # __niter_3 = PHI <__n_9(D)(2), __niter_5(4)>
+  # DEBUG __niter => __niter_3
+  # DEBUG __first => __first_4
+  if (__niter_3 == 0)
+    goto <bb 5>; [11.00%]
+  else
+    goto <bb 4>; [89.00%]
+
+  <bb 4> [local count: 955630223]:
+  *__first_4 = _2;
+  __niter_5 = __niter_3 + 18446744073709551615;
+  # DEBUG __niter => __niter_5
+  __first_6 = __first_4 + 2;
+  # DEBUG __first => __first_6
+  goto <bb 3>; [100.00%]
+
+  <bb 5> [local count: 118111601]:
+  # __first_7 = PHI <__first_4(3)>
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __tmp => NULL
+  # DEBUG __niter => NULL
+  return __first_7;
+
+}
+
+
+
+;; Function std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int> (_ZNSt27__uninitialized_default_n_1ILb1EE18__uninit_default_nIPtmEET_S3_T0_, funcdef_no=5373, decl_uid=109969, cgraph_uid=1642, symbol_order=2102)
+
+Released 10 names, 90.91%, removed 10 holes
+std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int> (short unsigned int * __first, long unsigned int __n)
+{
+  long unsigned int __niter;
+  short unsigned int * __first;
+
+  <bb 2> [local count: 118111601]:
+  # DEBUG D#85 => &D.110039
+  # DEBUG __first => __first_2(D)
+  # DEBUG __n => __n_3(D)
+  # DEBUG INLINE_ENTRY fill_n
+  # DEBUG D#84 => D#85
+  # DEBUG __value => D#84
+  # DEBUG __it => __first_2(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#83 => D#84
+  # DEBUG __first => __first_2(D)
+  # DEBUG __n => __n_3(D)
+  # DEBUG INLINE_ENTRY __fill_n_a
+  # DEBUG __value => D#83
+  # DEBUG __tmp => 0
+  # DEBUG __niter => __n_3(D)
+
+  <bb 3> [local count: 1073741825]:
+  # __first_5 = PHI <__first_2(D)(2), __first_7(4)>
+  # __niter_4 = PHI <__n_3(D)(2), __niter_6(4)>
+  # DEBUG __niter => __niter_4
+  # DEBUG __first => __first_5
+  if (__niter_4 == 0)
+    goto <bb 5>; [11.00%]
+  else
+    goto <bb 4>; [89.00%]
+
+  <bb 4> [local count: 955630223]:
+  *__first_5 = 0;
+  __niter_6 = __niter_4 + 18446744073709551615;
+  # DEBUG __niter => __niter_6
+  __first_7 = __first_5 + 2;
+  # DEBUG __first => __first_7
+  goto <bb 3>; [100.00%]
+
+  <bb 5> [local count: 118111601]:
+  # __first_10 = PHI <__first_5(3)>
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __tmp => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __first => NULL
+  # DEBUG __niter => NULL
+  return __first_10;
+
+}
+
+
+
+;; Function std::__uninitialized_default_n<short unsigned int*, long unsigned int> (_ZSt25__uninitialized_default_nIPtmET_S1_T0_, funcdef_no=5344, decl_uid=109640, cgraph_uid=1613, symbol_order=2073)
+
+Released 5 names, 45.45%, removed 5 holes
+std::__uninitialized_default_n<short unsigned int*, long unsigned int> (short unsigned int * __first, long unsigned int __n)
+{
+  short unsigned int * __first;
+  long unsigned int __niter;
+
+  <bb 2> [local count: 118111601]:
+  # DEBUG __assignable => 1
+  # DEBUG __first => __first_3(D)
+  # DEBUG __n => __n_4(D)
+  # DEBUG INLINE_ENTRY __uninit_default_n
+  # DEBUG __first => __first_3(D)
+  # DEBUG __n => __n_4(D)
+  # DEBUG INLINE_ENTRY fill_n
+  # DEBUG D#84 => D#85
+  # DEBUG __value => D#84
+  # DEBUG __it => __first_3(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#83 => D#84
+  # DEBUG __first => __first_3(D)
+  # DEBUG __n => __n_4(D)
+  # DEBUG INLINE_ENTRY __fill_n_a
+  # DEBUG __value => D#83
+  # DEBUG __tmp => 0
+  # DEBUG __niter => __n_4(D)
+
+  <bb 3> [local count: 1073741825]:
+  # __first_6 = PHI <__first_3(D)(2), __first_8(4)>
+  # __niter_5 = PHI <__n_4(D)(2), __niter_7(4)>
+  # DEBUG __niter => __niter_5
+  # DEBUG __first => __first_6
+  if (__niter_5 == 0)
+    goto <bb 5>; [11.00%]
+  else
+    goto <bb 4>; [89.00%]
+
+  <bb 4> [local count: 955630223]:
+  *__first_6 = 0;
+  __niter_7 = __niter_5 + 18446744073709551615;
+  # DEBUG __niter => __niter_7
+  __first_8 = __first_6 + 2;
+  # DEBUG __first => __first_8
+  goto <bb 3>; [100.00%]
+
+  <bb 5> [local count: 118111601]:
+  # __first_1 = PHI <__first_6(3)>
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __tmp => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __first => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  return __first_1;
+
+}
+
+
+
+;; Function std::_ZSt27__uninitialized_default_n_aIPtmtET_S1_T0_RSaIT1_E.isra.24 (_ZSt27__uninitialized_default_n_aIPtmtET_S1_T0_RSaIT1_E.isra.24, funcdef_no=5462, decl_uid=111559, cgraph_uid=1613, symbol_order=2415)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_ZSt27__uninitialized_default_n_aIPtmtET_S1_T0_RSaIT1_E.isra.24 (short unsigned int * __first, long unsigned int __n)
+{
+  short unsigned int * __first;
+  long unsigned int __niter;
+
+  <bb 6> [local count: 118111601]:
+  # DEBUG D.111581 s=> D.111563
+
+  <bb 2> [local count: 118111601]:
+  # DEBUG __first => __first_6(D)
+  # DEBUG __n => __n_7(D)
+  # DEBUG INLINE_ENTRY __uninitialized_default_n
+  # DEBUG __assignable => 1
+  # DEBUG __first => __first_6(D)
+  # DEBUG __n => __n_7(D)
+  # DEBUG INLINE_ENTRY __uninit_default_n
+  # DEBUG __first => __first_6(D)
+  # DEBUG __n => __n_7(D)
+  # DEBUG INLINE_ENTRY fill_n
+  # DEBUG D#84 => D#85
+  # DEBUG __value => D#84
+  # DEBUG __it => __first_6(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#83 => D#84
+  # DEBUG __first => __first_6(D)
+  # DEBUG __n => __n_7(D)
+  # DEBUG INLINE_ENTRY __fill_n_a
+  # DEBUG __value => D#83
+  # DEBUG __tmp => 0
+  # DEBUG __niter => __n_7(D)
+
+  <bb 3> [local count: 1073741825]:
+  # __first_2 = PHI <__first_6(D)(2), __first_4(4)>
+  # __niter_1 = PHI <__n_7(D)(2), __niter_3(4)>
+  # DEBUG __niter => __niter_1
+  # DEBUG __first => __first_2
+  if (__niter_1 == 0)
+    goto <bb 5>; [11.00%]
+  else
+    goto <bb 4>; [89.00%]
+
+  <bb 4> [local count: 955630223]:
+  *__first_2 = 0;
+  __niter_3 = __niter_1 + 18446744073709551615;
+  # DEBUG __niter => __niter_3
+  __first_4 = __first_2 + 2;
+  # DEBUG __first => __first_4
+  goto <bb 3>; [100.00%]
+
+  <bb 5> [local count: 118111601]:
+  # __first_5 = PHI <__first_2(3)>
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __tmp => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __first => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __first => NULL
+  # DEBUG __niter => NULL
+  return __first_5;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNSt6vectorItSaItEE21_M_default_initializeEm.isra.25 (_ZNSt6vectorItSaItEE21_M_default_initializeEm.isra.25, funcdef_no=5463, decl_uid=111604, cgraph_uid=1642, symbol_order=2417)
+
+Released 0 names, 0.00%, removed 0 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNSt6vectorItSaItEE21_M_default_initializeEm.isra.25 (short unsigned int * ISRA.39, short unsigned int * * ISRA.40, size_type __n)
+{
+  short unsigned int * __first;
+  long unsigned int __niter;
+  short unsigned int * _2;
+
+  <bb 6> [local count: 118111601]:
+  # DEBUG D#89 s=> this
+  # DEBUG this => D#89
+  # DEBUG this s=> this
+
+  <bb 2> [local count: 118111601]:
+  # DEBUG D#87 => &D#89->D.90158
+  # DEBUG this => D#87
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#88 => &MEM[(struct _Vector_base *)D#89]._M_impl
+  # DEBUG this => NULL
+  _2 = ISRA.39_13(D);
+  # DEBUG D#86 => D#88
+  # DEBUG __first => _2
+  # DEBUG __n => __n_8(D)
+  # DEBUG INLINE_ENTRY __uninitialized_default_n_a
+
+  <bb 3> [local count: 1073741825]:
+  # __first_4 = PHI <_2(2), __first_6(4)>
+  # __niter_3 = PHI <__n_8(D)(2), __niter_5(4)>
+  # DEBUG __niter => __niter_3
+  # DEBUG __first => __first_4
+  if (__niter_3 == 0)
+    goto <bb 5>; [11.00%]
+  else
+    goto <bb 4>; [89.00%]
+
+  <bb 4> [local count: 955630223]:
+  *__first_4 = 0;
+  __niter_5 = __niter_3 + 18446744073709551615;
+  # DEBUG __niter => __niter_5
+  __first_6 = __first_4 + 2;
+  # DEBUG __first => __first_6
+  goto <bb 3>; [100.00%]
+
+  <bb 5> [local count: 118111601]:
+  # __first_7 = PHI <__first_4(3)>
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __tmp => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __first => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __first => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __first => NULL
+  # DEBUG __niter => NULL
+  *ISRA.40_14(D) = __first_7;
+  return;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::vector (_ZNSt6vectorItSaItEEC2EmRKS0_, funcdef_no=5104, decl_uid=90138, cgraph_uid=1373, symbol_order=1833)
+
+Released 7 names, 29.17%, removed 7 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::vector (struct vector * const this, size_type __n, const struct allocator_type & __a)
+{
+  long unsigned int __niter;
+  short unsigned int * __first;
+  short unsigned int * _10;
+  long unsigned int _11;
+  short unsigned int * _12;
+
+  <bb 2> [local count: 118111601]:
+  # DEBUG D#91 => &this_2(D)->D.90158
+  # DEBUG this => D#91
+  # DEBUG __n => __n_3(D)
+  # DEBUG __a => __a_4(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#82 => &D#91->_M_impl
+  # DEBUG this => D#82
+  # DEBUG __a => __a_4(D)
+  # DEBUG INLINE_ENTRY __ct 
+  MEM[(struct  &)this_2(D)] ={v} {CLOBBER};
+  # DEBUG this => D#82
+  # DEBUG __a => __a_4(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => D#82
+  # DEBUG D.111667 => __a_4(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG D.111667 => NULL
+  # DEBUG this => NULL
+  # DEBUG __a => NULL
+  MEM[(struct _Vector_impl *)this_2(D)]._M_start = 0B;
+  MEM[(struct _Vector_impl *)this_2(D)]._M_finish = 0B;
+  MEM[(struct _Vector_impl *)this_2(D)]._M_end_of_storage = 0B;
+  # DEBUG this => NULL
+  # DEBUG __a => NULL
+  # DEBUG this => D#91
+  # DEBUG __n => __n_3(D)
+  # DEBUG INLINE_ENTRY _M_create_storage
+  # DEBUG D#80 => D#91
+  _10 = std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE11_M_allocateEm.isra.21 (__n_3(D));
+  MEM[(struct _Vector_base *)this_2(D)]._M_impl._M_start = _10;
+  MEM[(struct _Vector_base *)this_2(D)]._M_impl._M_finish = _10;
+  _11 = __n_3(D) * 2;
+  _12 = _10 + _11;
+  MEM[(struct _Vector_base *)this_2(D)]._M_impl._M_end_of_storage = _12;
+  # DEBUG this => NULL
+  # DEBUG __n => NULL
+  # DEBUG this => NULL
+  # DEBUG __n => NULL
+  # DEBUG __a => NULL
+  # DEBUG D#90 => this_2(D)
+  # DEBUG D#90 => this_2(D)
+  # DEBUG __n => __n_3(D)
+  # DEBUG INLINE_ENTRY _M_default_initialize
+  # DEBUG D#89 => D#90
+  # DEBUG this => D#89
+  # DEBUG this => D#90
+  # DEBUG D#87 => &D#89->D.90158
+  # DEBUG this => D#87
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#88 => &MEM[(struct _Vector_base *)D#89]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#86 => D#88
+  # DEBUG __first => _10
+  # DEBUG __n => __n_3(D)
+  # DEBUG INLINE_ENTRY __uninitialized_default_n_a
+
+  <bb 3> [local count: 1073741825]:
+  # __first_7 = PHI <_10(2), __first_9(4)>
+  # __niter_6 = PHI <__n_3(D)(2), __niter_8(4)>
+  # DEBUG __niter => __niter_6
+  # DEBUG __first => __first_7
+  if (__niter_6 == 0)
+    goto <bb 5>; [11.00%]
+  else
+    goto <bb 4>; [89.00%]
+
+  <bb 4> [local count: 955630223]:
+  *__first_7 = 0;
+  __niter_8 = __niter_6 + 18446744073709551615;
+  # DEBUG __niter => __niter_8
+  __first_9 = __first_7 + 2;
+  # DEBUG __first => __first_9
+  goto <bb 3>; [100.00%]
+
+  <bb 5> [local count: 118111601]:
+  # __first_5 = PHI <__first_7(3)>
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __tmp => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __first => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __first => NULL
+  # DEBUG __niter => NULL
+  # DEBUG __first => NULL
+  # DEBUG __n => NULL
+  # DEBUG __first => NULL
+  # DEBUG __niter => NULL
+  MEM[(short unsigned int * *)this_2(D) + 8B] = __first_5;
+  # DEBUG __n => NULL
+  # DEBUG __first => NULL
+  # DEBUG __niter => NULL
+  return;
+
+}
+
+
+
+;; Function SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView (_ZN13SelectionViewIRKN3SOA9ContainerISt6vector13s_decayvertexJEEEtEC2ES6_, funcdef_no=5009, decl_uid=90239, cgraph_uid=1279, symbol_order=1739)
+
+Released 20 names, 83.33%, removed 20 holes
+SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView (struct SelectionView * const this, const struct container_t & container)
+{
+  short unsigned int * __first$_M_current;
+  int __value;
+  struct allocator_type D.107088;
+  struct index_vector * _1;
+  struct index_vector * _2;
+  long int _8;
+  long int _9;
+  struct vertex_t * _11;
+  struct vertex_t * _13;
+  long unsigned int _14;
+  short unsigned int _17;
+  short unsigned int * _19;
+  short unsigned int * _20;
+  short unsigned int * _21;
+
+  <bb 2> [local count: 118111601]:
+  MEM[(struct  &)this_4(D)] ={v} {CLOBBER};
+  this_4(D)->m_container = container_6(D);
+  _1 = &this_4(D)->m_indices;
+  # DEBUG this => &D.107088
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => &D.107088
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG D#92 => &container_6(D)->D.104277.D.104204.D.103696
+  # DEBUG this => D#92
+  # DEBUG INLINE_ENTRY size
+  # DEBUG D#12 => &D#92->m_storage
+  # DEBUG __t => D#12
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#5 => &MEM[(const struct tuple *)D#12].D.94746
+  # DEBUG __t => D#5
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => D#5
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#4 => &D#5->D.93464
+  # DEBUG __b => D#4
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#13 => &MEM[(const struct _Head_base &)D#92]._M_head_impl
+  # DEBUG __b => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  _13 = MEM[(struct vertex_t * *)container_6(D) + 8B];
+  # DEBUG D#11 => D#13
+  _11 = MEM[(struct vertex_t * *)container_6(D) + 16B];
+  # DEBUG D#11 => D#13
+  # DEBUG INLINE_ENTRY size
+  # DEBUG this => D#11
+  # DEBUG this => D#11
+  _9 = _11 - _13;
+  _8 = _9 /[ex] 4;
+  _14 = (long unsigned int) _8;
+  # DEBUG this => NULL
+  std::vector<short unsigned int, std::allocator<short unsigned int> >::vector (_1, _14, &D.107088);
+  # DEBUG this => &D.107088
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => &D.107088
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  D.107088 ={v} {CLOBBER};
+  # DEBUG D#93 => &this_4(D)->m_indices
+  # DEBUG this => D#93
+  # DEBUG INLINE_ENTRY end
+  # DEBUG D#14 => &MEM[(struct vector *)D#93].D.90158._M_impl._M_finish
+  # DEBUG this => NULL
+  # DEBUG __i => D#14
+  # DEBUG INLINE_ENTRY __ct 
+  _21 = MEM[(short unsigned int * const &)this_4(D) + 16];
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG this => NULL
+  # DEBUG D#94 => &this_4(D)->m_indices
+  # DEBUG this => D#94
+  # DEBUG INLINE_ENTRY begin
+  # DEBUG D#15 => &MEM[(struct vector *)D#94].D.90158._M_impl._M_start
+  # DEBUG this => NULL
+  # DEBUG __i => D#15
+  # DEBUG INLINE_ENTRY __ct 
+  _20 = MEM[(short unsigned int * const &)this_4(D) + 8];
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG this => NULL
+  # DEBUG __first => _20
+  # DEBUG __last => _21
+  # DEBUG __value => 0
+  # DEBUG INLINE_ENTRY iota
+  # DEBUG __first$_M_current => _20
+
+  <bb 3> [local count: 1073741825]:
+  # __value_16 = PHI <0(2), __value_18(4)>
+  # __first$_M_current_15 = PHI <_20(2), _19(4)>
+  # DEBUG __first$_M_current => __first$_M_current_15
+  # DEBUG __value => __value_16
+  # DEBUG __lhs => &__first
+  # DEBUG __rhs => &__last
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => &__first
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG this => &__last
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG __lhs => NULL
+  # DEBUG __rhs => NULL
+  if (__first$_M_current_15 != _21)
+    goto <bb 4>; [89.00%]
+  else
+    goto <bb 5>; [11.00%]
+
+  <bb 4> [local count: 955630223]:
+  _17 = (short unsigned int) __value_16;
+  # DEBUG D#16 => &__first
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#16
+  *__first$_M_current_15 = _17;
+  __value_18 = __value_16 + 1;
+  # DEBUG __value => __value_18
+  # DEBUG this => &__first
+  # DEBUG INLINE_ENTRY operator++
+  _19 = __first$_M_current_15 + 2;
+  # DEBUG __first$_M_current => _19
+  goto <bb 3>; [100.00%]
+
+  <bb 5> [local count: 118111601]:
+  # DEBUG __value => NULL
+  # DEBUG __first$_M_current => NULL
+  # DEBUG D#95 => {CLOBBER}
+  # DEBUG __first => D#95
+  # DEBUG D#96 => {CLOBBER}
+  # DEBUG __last => D#96
+  return;
+
+}
+
+
+
+;; Function std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE8max_sizeERKS0_.isra.26 (_ZNSt16allocator_traitsISaItEE8max_sizeERKS0_.isra.26, funcdef_no=5464, decl_uid=111707, cgraph_uid=1666, symbol_order=2421)
+
+Released 0 names, 0.00%, removed 0 holes
+std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE8max_sizeERKS0_.isra.26 ()
+{
+  <bb 3> [local count: 1073741825]:
+  # DEBUG __a s=> __a
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#97 s=> __a
+  # DEBUG D#72 => D#97
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#72
+  return 9223372036854775807;
+
+}
+
+
+
+;; Function std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_get_Tp_allocator (_ZNKSt12_Vector_baseItSaItEE19_M_get_Tp_allocatorEv, funcdef_no=5408, decl_uid=89387, cgraph_uid=1677, symbol_order=2137)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_get_Tp_allocator (const struct _Vector_base * const this)
+{
+  const struct _Tp_alloc_type & _2;
+
+  <bb 2> [local count: 1073741825]:
+  _2 = &this_1(D)->_M_impl;
+  return _2;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE8max_sizeEv.isra.27 (_ZNKSt6vectorItSaItEE8max_sizeEv.isra.27, funcdef_no=5465, decl_uid=111719, cgraph_uid=1677, symbol_order=2422)
+
+Released 0 names, 0.00%, removed 0 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE8max_sizeEv.isra.27 ()
+{
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#102 s=> this
+  # DEBUG D#101 s=> this
+  # DEBUG D#99 => &D#101->D.90158
+  # DEBUG this => D#99
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#100 => &MEM[(const struct _Vector_base *)D#102]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#98 => D#100
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __a => D#98
+  # DEBUG D#97 => D#98
+  # DEBUG D#72 => D#97
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#72
+  return 9223372036854775807;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len (_ZNKSt6vectorItSaItEE12_M_check_lenEmPKc, funcdef_no=5377, decl_uid=90034, cgraph_uid=1646, symbol_order=2106)
+
+Released 47 names, 247.37%, removed 47 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len (const struct vector * const this, size_type __n, const char * __s)
+{
+  const size_type __len;
+  const long unsigned int D.110048;
+  long unsigned int _1;
+  long unsigned int __n.6_2;
+  long unsigned int _3;
+  size_type iftmp.8_4;
+  long unsigned int _8;
+  long int _10;
+  long int _13;
+  short unsigned int * _14;
+  short unsigned int * _15;
+  const long unsigned int & _16;
+  signed long _18;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#103 => this_6(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#103
+  # DEBUG D#102 => D#103
+  # DEBUG D#101 => D#103
+  # DEBUG D#99 => &D#101->D.90158
+  # DEBUG this => D#99
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#100 => &MEM[(const struct _Vector_base *)D#102]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#98 => D#100
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __a => D#98
+  # DEBUG D#97 => D#98
+  # DEBUG D#72 => D#97
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#72
+  _14 = MEM[(short unsigned int * *)this_6(D)];
+  # DEBUG D#69 => this_6(D)
+  _15 = MEM[(short unsigned int * *)this_6(D) + 8B];
+  # DEBUG D#69 => this_6(D)
+  # DEBUG INLINE_ENTRY size
+  # DEBUG this => D#69
+  # DEBUG this => D#69
+  _13 = _15 - _14;
+  _10 = _13 /[ex] 2;
+  _8 = (long unsigned int) _10;
+  _1 = 9223372036854775807 - _8;
+  __n.6_2 = __n;
+  if (_1 < __n.6_2)
+    goto <bb 3>; [0.04%]
+  else
+    goto <bb 4>; [99.96%]
+
+  <bb 3> [local count: 429497]:
+  std::__throw_length_error (__s_17(D));
+
+  <bb 4> [local count: 1073312327]:
+  # DEBUG D#69 => this_6(D)
+  # DEBUG D#69 => this_6(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#69
+  # DEBUG this => D#69
+  # DEBUG D#69 => this_6(D)
+  # DEBUG D#69 => this_6(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#69
+  # DEBUG this => D#69
+  D.110048 = _8;
+  # DEBUG __a => &D.110048
+  # DEBUG __b => &__n
+  # DEBUG INLINE_ENTRY max
+  if (__n.6_2 > _8)
+    goto <bb 5>; [34.00%]
+  else
+    goto <bb 6>; [66.00%]
+
+  <bb 5> [local count: 364926191]:
+
+  <bb 6> [local count: 1073312327]:
+  # _16 = PHI <&D.110048(4), &__n(5)>
+  # DEBUG __a => NULL
+  # DEBUG __b => NULL
+  _3 = *_16;
+  __len_11 = _3 + _8;
+  # DEBUG __len => __len_11
+  D.110048 ={v} {CLOBBER};
+  # DEBUG D#69 => this_6(D)
+  # DEBUG D#69 => this_6(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#69
+  # DEBUG this => D#69
+  if (_8 > __len_11)
+    goto <bb 9>; [35.00%]
+  else
+    goto <bb 7>; [65.00%]
+
+  <bb 7> [local count: 697653013]:
+  # DEBUG D#103 => this_6(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#103
+  # DEBUG D#102 => D#103
+  # DEBUG D#101 => D#103
+  # DEBUG D#99 => &D#101->D.90158
+  # DEBUG this => D#99
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#100 => &MEM[(const struct _Vector_base *)D#102]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#98 => D#100
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __a => D#98
+  # DEBUG D#97 => D#98
+  # DEBUG D#72 => D#97
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#72
+  _18 = (signed long) __len_11;
+  if (_18 < 0)
+    goto <bb 8>; [27.23%]
+  else
+    goto <bb 9>; [72.77%]
+
+  <bb 8> [local count: 189970915]:
+
+  <bb 9> [local count: 1073312327]:
+  # iftmp.8_4 = PHI <9223372036854775807(8), __len_11(7), 9223372036854775807(6)>
+  return iftmp.8_4;
+
+}
+
+
+
+;; Function std::move_iterator<short unsigned int*>::_ZNKSt13move_iteratorIPtE4baseEv.isra.28 (_ZNKSt13move_iteratorIPtE4baseEv.isra.28, funcdef_no=5466, decl_uid=111758, cgraph_uid=1666, symbol_order=2428)
+
+Released 0 names, 0.00%, removed 0 holes
+std::move_iterator<short unsigned int*>::_ZNKSt13move_iteratorIPtE4baseEv.isra.28 (short unsigned int * const ISRA.47)
+{
+  short unsigned int * _2;
+
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this s=> this
+
+  <bb 2> [local count: 1073741825]:
+  _2 = ISRA.47_4(D);
+  return _2;
+
+}
+
+
+
+;; Function std::__miter_base<short unsigned int*> (_ZSt12__miter_baseIPtET_S1_, funcdef_no=5415, decl_uid=110410, cgraph_uid=1684, symbol_order=2144)
+
+Released 1 names, 33.33%, removed 1 holes
+std::__miter_base<short unsigned int*> (short unsigned int * __it)
+{
+  <bb 2> [local count: 1073741825]:
+  return __it_1(D);
+
+}
+
+
+
+;; Function std::__miter_base<short unsigned int*> (_ZSt12__miter_baseIPtEDTcl12__miter_basecldtfp_4baseEEESt13move_iteratorIT_E, funcdef_no=5413, decl_uid=110413, cgraph_uid=1682, symbol_order=2142)
+
+Released 5 names, 166.67%, removed 5 holes
+std::__miter_base<short unsigned int*> (struct move_iterator __it)
+{
+  short unsigned int * _2;
+
+  <bb 2> [local count: 1073741825]:
+  _2 = MEM[(short unsigned int * *)&__it];
+  # DEBUG D#104 => &__it
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => _2
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  return _2;
+
+}
+
+
+
+;; Function std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<short unsigned int> (_ZNSt11__copy_moveILb1ELb1ESt26random_access_iterator_tagE8__copy_mItEEPT_PKS3_S6_S4_, funcdef_no=5417, decl_uid=110465, cgraph_uid=1686, symbol_order=2146)
+
+Released 3 names, 27.27%, removed 3 holes
+std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<short unsigned int> (const short unsigned int * __first, const short unsigned int * __last, short unsigned int * __result)
+{
+  long int _1;
+  long unsigned int _2;
+  long unsigned int _3;
+  short unsigned int * _10;
+
+  <bb 2> [local count: 1073741825]:
+  _1 = __last_5(D) - __first_6(D);
+  # DEBUG _Num => _1 /[ex] 2
+  if (__last_5(D) != __first_6(D))
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  _2 = (long unsigned int) _1;
+  __builtin_memmove (__result_8(D), __first_6(D), _2);
+
+  <bb 4> [local count: 1073741825]:
+  _3 = (long unsigned int) _1;
+  _10 = __result_8(D) + _3;
+  return _10;
+
+}
+
+
+
+;; Function std::__copy_move_a<true, short unsigned int*, short unsigned int*> (_ZSt13__copy_move_aILb1EPtS0_ET1_T0_S2_S1_, funcdef_no=5416, decl_uid=110425, cgraph_uid=1685, symbol_order=2145)
+
+Released 4 names, 36.36%, removed 4 holes
+std::__copy_move_a<true, short unsigned int*, short unsigned int*> (short unsigned int * __first, short unsigned int * __last, short unsigned int * __result)
+{
+  long int _5;
+  long unsigned int _6;
+  long unsigned int _7;
+  short unsigned int * _8;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG __simple => 1
+  # DEBUG __first => __first_2(D)
+  # DEBUG __last => __last_3(D)
+  # DEBUG __result => __result_4(D)
+  # DEBUG INLINE_ENTRY __copy_m
+  _5 = __last_3(D) - __first_2(D);
+  # DEBUG _Num => _5 /[ex] 2
+  if (__first_2(D) != __last_3(D))
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  _6 = (long unsigned int) _5;
+  __builtin_memmove (__result_4(D), __first_2(D), _6);
+
+  <bb 4> [local count: 1073741825]:
+  _7 = (long unsigned int) _5;
+  _8 = __result_4(D) + _7;
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  return _8;
+
+}
+
+
+
+;; Function std::__copy_move_a2<true, short unsigned int*, short unsigned int*> (_ZSt14__copy_move_a2ILb1EPtS0_ET1_T0_S2_S1_, funcdef_no=5414, decl_uid=110419, cgraph_uid=1683, symbol_order=2143)
+
+Released 10 names, 90.91%, removed 10 holes
+std::__copy_move_a2<true, short unsigned int*, short unsigned int*> (short unsigned int * __first, short unsigned int * __last, short unsigned int * __result)
+{
+  long unsigned int _3;
+  long unsigned int _5;
+  long int _7;
+  short unsigned int * _8;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG __it => __result_2(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __last_4(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __first_6(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __first => __first_6(D)
+  # DEBUG __last => __last_4(D)
+  # DEBUG __result => __result_2(D)
+  # DEBUG INLINE_ENTRY __copy_move_a
+  # DEBUG __simple => 1
+  # DEBUG __first => __first_6(D)
+  # DEBUG __last => __last_4(D)
+  # DEBUG __result => __result_2(D)
+  # DEBUG INLINE_ENTRY __copy_m
+  _7 = __last_4(D) - __first_6(D);
+  # DEBUG _Num => _7 /[ex] 2
+  if (__last_4(D) != __first_6(D))
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  _5 = (long unsigned int) _7;
+  __builtin_memmove (__result_2(D), __first_6(D), _5);
+
+  <bb 4> [local count: 1073741825]:
+  _3 = (long unsigned int) _7;
+  _8 = __result_2(D) + _3;
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  return _8;
+
+}
+
+
+
+;; Function std::copy<std::move_iterator<short unsigned int*>, short unsigned int*> (_ZSt4copyISt13move_iteratorIPtES1_ET0_T_S4_S3_, funcdef_no=5411, decl_uid=110396, cgraph_uid=1681, symbol_order=2141)
+
+Released 12 names, 92.31%, removed 12 holes
+std::copy<std::move_iterator<short unsigned int*>, short unsigned int*> (struct move_iterator __first, struct move_iterator __last, short unsigned int * __result)
+{
+  short unsigned int * const __it;
+  short unsigned int * const __it;
+  long unsigned int _3;
+  long int _5;
+  long unsigned int _7;
+  short unsigned int * _8;
+
+  <bb 2> [local count: 1073741825]:
+  __it_10 = MEM[(struct move_iterator *)&__last];
+  # DEBUG __it => __it_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#104 => &__it
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __it_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#105 => {CLOBBER}
+  # DEBUG __it => D#105
+  __it_1 = MEM[(struct move_iterator *)&__first];
+  # DEBUG __it => __it_1
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#104 => &__it
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __it_1
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#106 => {CLOBBER}
+  # DEBUG __it => D#106
+  # DEBUG __first => __it_1
+  # DEBUG __last => __it_10
+  # DEBUG __result => __result_6(D)
+  # DEBUG INLINE_ENTRY __copy_move_a2
+  # DEBUG __it => __result_6(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __it_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __it_1
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __first => __it_1
+  # DEBUG __last => __it_10
+  # DEBUG __result => __result_6(D)
+  # DEBUG INLINE_ENTRY __copy_move_a
+  # DEBUG __simple => 1
+  # DEBUG __first => __it_1
+  # DEBUG __last => __it_10
+  # DEBUG __result => __result_6(D)
+  # DEBUG INLINE_ENTRY __copy_m
+  _5 = __it_10 - __it_1;
+  # DEBUG _Num => _5 /[ex] 2
+  if (__it_1 != __it_10)
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  _3 = (long unsigned int) _5;
+  __builtin_memmove (__result_6(D), __it_1, _3);
+
+  <bb 4> [local count: 1073741825]:
+  _7 = (long unsigned int) _5;
+  _8 = __result_6(D) + _7;
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  return _8;
+
+}
+
+
+
+;; Function std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*> (_ZNSt20__uninitialized_copyILb1EE13__uninit_copyISt13move_iteratorIPtES3_EET0_T_S6_S5_, funcdef_no=5410, decl_uid=110389, cgraph_uid=1679, symbol_order=2139)
+
+Released 6 names, 46.15%, removed 6 holes
+std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*> (struct move_iterator __first, struct move_iterator __last, short unsigned int * __result)
+{
+  short unsigned int * const __last;
+  short unsigned int * const __first;
+  long int _6;
+  long unsigned int _7;
+  long unsigned int _8;
+  short unsigned int * _9;
+
+  <bb 2> [local count: 1073741825]:
+  __first_11 = MEM[(struct move_iterator *)&__first];
+  # DEBUG __first => __first_11
+  __last_4 = MEM[(struct move_iterator *)&__last];
+  # DEBUG __last => __last_4
+  # DEBUG __result => __result_2(D)
+  # DEBUG INLINE_ENTRY copy
+  # DEBUG __it => __last_4
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#104 => &__it
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __last_4
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#105 => {CLOBBER}
+  # DEBUG __it => D#105
+  # DEBUG __it => __first_11
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#104 => &__it
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __first_11
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#106 => {CLOBBER}
+  # DEBUG __it => D#106
+  # DEBUG __first => __first_11
+  # DEBUG __last => __last_4
+  # DEBUG __result => __result_2(D)
+  # DEBUG INLINE_ENTRY __copy_move_a2
+  # DEBUG __it => __result_2(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __last_4
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __first_11
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __first => __first_11
+  # DEBUG __last => __last_4
+  # DEBUG __result => __result_2(D)
+  # DEBUG INLINE_ENTRY __copy_move_a
+  # DEBUG __simple => 1
+  # DEBUG __first => __first_11
+  # DEBUG __last => __last_4
+  # DEBUG __result => __result_2(D)
+  # DEBUG INLINE_ENTRY __copy_m
+  _6 = __last_4 - __first_11;
+  # DEBUG _Num => _6 /[ex] 2
+  if (__last_4 != __first_11)
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  _7 = (long unsigned int) _6;
+  __builtin_memmove (__result_2(D), __first_11, _7);
+
+  <bb 4> [local count: 1073741825]:
+  _8 = (long unsigned int) _6;
+  _9 = __result_2(D) + _8;
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __result => NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => NULL
+  # DEBUG D#107 => {CLOBBER}
+  # DEBUG __first => D#107
+  # DEBUG D#108 => {CLOBBER}
+  # DEBUG __last => D#108
+  return _9;
+
+}
+
+
+
+;; Function std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*> (_ZSt18uninitialized_copyISt13move_iteratorIPtES1_ET0_T_S4_S3_, funcdef_no=5409, decl_uid=110338, cgraph_uid=1678, symbol_order=2138)
+
+Released 7 names, 53.85%, removed 7 holes
+std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*> (struct move_iterator __first, struct move_iterator __last, short unsigned int * __result)
+{
+  short unsigned int * const __last;
+  short unsigned int * const __first;
+  long int _6;
+  long unsigned int _7;
+  long unsigned int _8;
+  short unsigned int * _9;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG __assignable => 1
+  __first_1 = MEM[(struct move_iterator *)&__first];
+  # DEBUG __first => __first_1
+  __last_11 = MEM[(struct move_iterator *)&__last];
+  # DEBUG __last => __last_11
+  # DEBUG __result => __result_3(D)
+  # DEBUG INLINE_ENTRY __uninit_copy
+  # DEBUG __first => __first_1
+  # DEBUG __last => __last_11
+  # DEBUG __result => __result_3(D)
+  # DEBUG INLINE_ENTRY copy
+  # DEBUG __it => __last_11
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __last_11
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#105 => {CLOBBER}
+  # DEBUG __it => D#105
+  # DEBUG __it => __first_1
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __first_1
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#106 => {CLOBBER}
+  # DEBUG __it => D#106
+  # DEBUG __first => __first_1
+  # DEBUG __last => __last_11
+  # DEBUG __result => __result_3(D)
+  # DEBUG INLINE_ENTRY __copy_move_a2
+  # DEBUG __it => __result_3(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __last_11
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __first_1
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __first => __first_1
+  # DEBUG __last => __last_11
+  # DEBUG __result => __result_3(D)
+  # DEBUG INLINE_ENTRY __copy_move_a
+  # DEBUG __simple => 1
+  # DEBUG __first => __first_1
+  # DEBUG __last => __last_11
+  # DEBUG __result => __result_3(D)
+  # DEBUG INLINE_ENTRY __copy_m
+  _6 = __last_11 - __first_1;
+  # DEBUG _Num => _6 /[ex] 2
+  if (__first_1 != __last_11)
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  _7 = (long unsigned int) _6;
+  __builtin_memmove (__result_3(D), __first_1, _7);
+
+  <bb 4> [local count: 1073741825]:
+  _8 = (long unsigned int) _6;
+  _9 = __result_3(D) + _8;
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __result => NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => NULL
+  # DEBUG D#107 => {CLOBBER}
+  # DEBUG __first => D#107
+  # DEBUG D#108 => {CLOBBER}
+  # DEBUG __last => D#108
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#109 => {CLOBBER}
+  # DEBUG __first => D#109
+  # DEBUG D#110 => {CLOBBER}
+  # DEBUG __last => D#110
+  return _9;
+
+}
+
+
+
+;; Function std::_ZSt22__uninitialized_copy_aISt13move_iteratorIPtES1_tET0_T_S4_S3_RSaIT1_E.isra.29 (_ZSt22__uninitialized_copy_aISt13move_iteratorIPtES1_tET0_T_S4_S3_RSaIT1_E.isra.29, funcdef_no=5467, decl_uid=111910, cgraph_uid=1678, symbol_order=2432)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_ZSt22__uninitialized_copy_aISt13move_iteratorIPtES1_tET0_T_S4_S3_RSaIT1_E.isra.29 (struct move_iterator __first, struct move_iterator __last, short unsigned int * __result)
+{
+  short unsigned int * const __first;
+  short unsigned int * const __last;
+  long int _3;
+  long unsigned int _4;
+  long unsigned int _6;
+  short unsigned int * _7;
+
+  <bb 5> [local count: 1073741825]:
+  # DEBUG D.111951 s=> D.111915
+
+  <bb 2> [local count: 1073741825]:
+  __first_1 = MEM[(struct move_iterator *)&__first];
+  # DEBUG __first => __first_1
+  __last_2 = MEM[(struct move_iterator *)&__last];
+  # DEBUG __last => __last_2
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY uninitialized_copy
+  # DEBUG __assignable => 1
+  # DEBUG __first => __first_1
+  # DEBUG __last => __last_2
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY __uninit_copy
+  # DEBUG __first => __first_1
+  # DEBUG __last => __last_2
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY copy
+  # DEBUG __it => __last_2
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __last_2
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#105 => {CLOBBER}
+  # DEBUG __it => D#105
+  # DEBUG __it => __first_1
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __first_1
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#106 => {CLOBBER}
+  # DEBUG __it => D#106
+  # DEBUG __first => __first_1
+  # DEBUG __last => __last_2
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY __copy_move_a2
+  # DEBUG __it => __result_5(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __last_2
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __first_1
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __first => __first_1
+  # DEBUG __last => __last_2
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY __copy_move_a
+  # DEBUG __simple => 1
+  # DEBUG __first => __first_1
+  # DEBUG __last => __last_2
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY __copy_m
+  _3 = __last_2 - __first_1;
+  # DEBUG _Num => _3 /[ex] 2
+  if (__first_1 != __last_2)
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  _4 = (long unsigned int) _3;
+  __builtin_memmove (__result_5(D), __first_1, _4);
+
+  <bb 4> [local count: 1073741825]:
+  _6 = (long unsigned int) _3;
+  _7 = __result_5(D) + _6;
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __result => NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => NULL
+  # DEBUG D#107 => {CLOBBER}
+  # DEBUG __first => D#107
+  # DEBUG D#108 => {CLOBBER}
+  # DEBUG __last => D#108
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#109 => {CLOBBER}
+  # DEBUG __first => D#109
+  # DEBUG D#110 => {CLOBBER}
+  # DEBUG __last => D#110
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#111 => {CLOBBER}
+  # DEBUG __first => D#111
+  # DEBUG D#112 => {CLOBBER}
+  # DEBUG __last => D#112
+  return _7;
+
+}
+
+
+
+;; Function std::_ZSt34__uninitialized_move_if_noexcept_aIPtS0_SaItEET0_T_S3_S2_RT1_.isra.30 (_ZSt34__uninitialized_move_if_noexcept_aIPtS0_SaItEET0_T_S3_S2_RT1_.isra.30, funcdef_no=5468, decl_uid=112003, cgraph_uid=1648, symbol_order=2434)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_ZSt34__uninitialized_move_if_noexcept_aIPtS0_SaItEET0_T_S3_S2_RT1_.isra.30 (short unsigned int * __first, short unsigned int * __last, short unsigned int * __result)
+{
+  long int _3;
+  long unsigned int _4;
+  long unsigned int _6;
+  short unsigned int * _7;
+
+  <bb 5> [local count: 1073741825]:
+  # DEBUG __alloc s=> __alloc
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#116 s=> __alloc
+  # DEBUG __i => __last_1(D)
+  # DEBUG INLINE_ENTRY __make_move_if_noexcept_iterator
+  # DEBUG this => NULL
+  # DEBUG __i => __last_1(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => __first_2(D)
+  # DEBUG INLINE_ENTRY __make_move_if_noexcept_iterator
+  # DEBUG this => NULL
+  # DEBUG __i => __first_2(D)
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => NULL
+  # DEBUG D#113 => D#116
+  # DEBUG __first => __first_2(D)
+  # DEBUG __last => __last_1(D)
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY __uninitialized_copy_a
+  # DEBUG D.112015 => D#113
+  # DEBUG __first => __first_2(D)
+  # DEBUG __last => __last_1(D)
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY uninitialized_copy
+  # DEBUG __assignable => 1
+  # DEBUG __first => __first_2(D)
+  # DEBUG __last => __last_1(D)
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY __uninit_copy
+  # DEBUG __first => __first_2(D)
+  # DEBUG __last => __last_1(D)
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY copy
+  # DEBUG __it => __last_1(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __last_1(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#105 => {CLOBBER}
+  # DEBUG __it => D#105
+  # DEBUG __it => __first_2(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __first_2(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#106 => {CLOBBER}
+  # DEBUG __it => D#106
+  # DEBUG __first => __first_2(D)
+  # DEBUG __last => __last_1(D)
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY __copy_move_a2
+  # DEBUG __it => __result_5(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __last_1(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __first_2(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __first => __first_2(D)
+  # DEBUG __last => __last_1(D)
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY __copy_move_a
+  # DEBUG __simple => 1
+  # DEBUG __first => __first_2(D)
+  # DEBUG __last => __last_1(D)
+  # DEBUG __result => __result_5(D)
+  # DEBUG INLINE_ENTRY __copy_m
+  _3 = __last_1(D) - __first_2(D);
+  # DEBUG _Num => _3 /[ex] 2
+  if (__last_1(D) != __first_2(D))
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  _4 = (long unsigned int) _3;
+  __builtin_memmove (__result_5(D), __first_2(D), _4);
+
+  <bb 4> [local count: 1073741825]:
+  _6 = (long unsigned int) _3;
+  _7 = __result_5(D) + _6;
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __result => NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => NULL
+  # DEBUG D#107 => {CLOBBER}
+  # DEBUG __first => D#107
+  # DEBUG D#108 => {CLOBBER}
+  # DEBUG __last => D#108
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#109 => {CLOBBER}
+  # DEBUG __first => D#109
+  # DEBUG D#110 => {CLOBBER}
+  # DEBUG __last => D#110
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#111 => {CLOBBER}
+  # DEBUG __first => D#111
+  # DEBUG D#112 => {CLOBBER}
+  # DEBUG __last => D#112
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG D#114 => {CLOBBER}
+  # DEBUG __first => D#114
+  # DEBUG D#115 => {CLOBBER}
+  # DEBUG __last => D#115
+  return _7;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&> (_ZNSt6vectorItSaItEE17_M_realloc_insertIJRKtEEEvN9__gnu_cxx17__normal_iteratorIPtS1_EEDpOT_, funcdef_no=5349, decl_uid=109699, cgraph_uid=1618, symbol_order=2078)
+
+Released 59 names, 178.79%, removed 59 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&> (struct vector * const this, struct iterator __position, const short unsigned int & __args#0)
+{
+  short unsigned int * const __position;
+  short unsigned int * __new_finish;
+  short unsigned int * __old_finish;
+  short unsigned int * __old_start;
+  long unsigned int _1;
+  short unsigned int * _2;
+  const size_type _6;
+  long unsigned int _7;
+  long unsigned int _11;
+  short unsigned int * _12;
+  short unsigned int * _14;
+  short unsigned int * _16;
+  long unsigned int _18;
+  long unsigned int _19;
+  long int _20;
+  short unsigned int _24;
+  long int _25;
+
+  <bb 2> [local count: 1073741825]:
+  __position_10 = MEM[(struct __normal_iterator *)&__position];
+  # DEBUG __position => __position_10
+  _6 = std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len (this_4(D), 1, "vector::_M_realloc_insert");
+  # DEBUG __len => _6
+  __old_start_8 = this_4(D)->D.90158._M_impl._M_start;
+  # DEBUG __old_start => __old_start_8
+  __old_finish_9 = this_4(D)->D.90158._M_impl._M_finish;
+  # DEBUG __old_finish => __old_finish_9
+  # DEBUG this => this_4(D)
+  # DEBUG INLINE_ENTRY begin
+  # DEBUG D#15 => &this_4(D)->D.90158._M_impl._M_start
+  # DEBUG this => NULL
+  # DEBUG __i => D#15
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG this => NULL
+  # DEBUG __lhs => &__position
+  # DEBUG __rhs => &D.109991
+  # DEBUG INLINE_ENTRY operator-
+  # DEBUG this => &__position
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG this => &D.109991
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _25 = __position_10 - __old_start_8;
+  # DEBUG D#127 => _25 /[ex] 2
+  # DEBUG __lhs => NULL
+  # DEBUG __rhs => NULL
+  # DEBUG __elems_before => (const size_type) D#127
+  # DEBUG D#126 => &this_4(D)->D.90158
+  # DEBUG D#80 => D#126
+  _14 = std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE11_M_allocateEm.isra.21 (_6);
+  # DEBUG __new_start => _14
+  # DEBUG __new_finish => _14
+  # DEBUG __t => __args#0_15(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => NULL
+  _1 = (long unsigned int) _25;
+  _2 = _14 + _1;
+  # DEBUG D#125 => &this_4(D)->D.90158._M_impl
+  # DEBUG D#67 => D#125
+  _24 = *__args#0_15(D);
+  # DEBUG D#68 => __args#0_15(D)
+  # DEBUG __p => _2
+  # DEBUG INLINE_ENTRY construct
+  # DEBUG __a => D#67
+  # DEBUG D#66 => D#68
+  # DEBUG __args#0 => D#66
+  # DEBUG D#65 => D#67
+  # DEBUG __t => D#66
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => NULL
+  # DEBUG D#63 => D#65
+  # DEBUG D#64 => D#66
+  # DEBUG __p => _2
+  # DEBUG INLINE_ENTRY construct
+  # DEBUG this => D#63
+  # DEBUG D#62 => D#64
+  # DEBUG __args#0 => D#62
+  # DEBUG __t => D#62
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => NULL
+  # DEBUG D#1 => 2
+  # DEBUG __p => _2
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111346 => D#1
+  # DEBUG BEGIN_STMT
+  # DEBUG __p => NULL
+  *_2 = _24;
+  # DEBUG __p => NULL
+  # DEBUG __p => NULL
+  # DEBUG __new_finish => 0B
+  # DEBUG D#118 => &this_4(D)->D.90158
+  # DEBUG this => D#118
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#124 => &MEM[(struct _Vector_base *)this_4(D)]._M_impl
+  # DEBUG this => NULL
+  # DEBUG this => &__position
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG D#117 => D#124
+  # DEBUG __first => __old_start_8
+  # DEBUG __last => __position_10
+  # DEBUG __result => _14
+  # DEBUG INLINE_ENTRY __uninitialized_move_if_noexcept_a
+  # DEBUG __alloc => D#117
+  # DEBUG D#116 => D#117
+  # DEBUG __i => __position_10
+  # DEBUG INLINE_ENTRY __make_move_if_noexcept_iterator
+  # DEBUG this => NULL
+  # DEBUG __i => __position_10
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => __old_start_8
+  # DEBUG INLINE_ENTRY __make_move_if_noexcept_iterator
+  # DEBUG this => NULL
+  # DEBUG __i => __old_start_8
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => NULL
+  # DEBUG D#113 => D#116
+  # DEBUG __first => __old_start_8
+  # DEBUG __last => __position_10
+  # DEBUG __result => _14
+  # DEBUG INLINE_ENTRY __uninitialized_copy_a
+  # DEBUG D.112136 => D#113
+  # DEBUG __first => __old_start_8
+  # DEBUG __last => __position_10
+  # DEBUG __result => _14
+  # DEBUG INLINE_ENTRY uninitialized_copy
+  # DEBUG __assignable => 1
+  # DEBUG __first => __old_start_8
+  # DEBUG __last => __position_10
+  # DEBUG __result => _14
+  # DEBUG INLINE_ENTRY __uninit_copy
+  # DEBUG __first => __old_start_8
+  # DEBUG __last => __position_10
+  # DEBUG __result => _14
+  # DEBUG INLINE_ENTRY copy
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#105 => {CLOBBER}
+  # DEBUG __it => D#105
+  # DEBUG __it => __old_start_8
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __old_start_8
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#106 => {CLOBBER}
+  # DEBUG __it => D#106
+  # DEBUG __first => __old_start_8
+  # DEBUG __last => __position_10
+  # DEBUG __result => _14
+  # DEBUG INLINE_ENTRY __copy_move_a2
+  # DEBUG __it => _14
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __old_start_8
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __first => __old_start_8
+  # DEBUG __last => __position_10
+  # DEBUG __result => _14
+  # DEBUG INLINE_ENTRY __copy_move_a
+  # DEBUG __simple => 1
+  # DEBUG __first => __old_start_8
+  # DEBUG __last => __position_10
+  # DEBUG __result => _14
+  # DEBUG INLINE_ENTRY __copy_m
+  # DEBUG _Num => _25 /[ex] 2
+  if (__old_start_8 != __position_10)
+    goto <bb 3>; [53.47%]
+  else
+    goto <bb 4>; [46.53%]
+
+  <bb 3> [local count: 574129753]:
+  __builtin_memmove (_14, __old_start_8, _1);
+
+  <bb 4> [local count: 1073741825]:
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __result => NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => NULL
+  # DEBUG D#107 => {CLOBBER}
+  # DEBUG __first => D#107
+  # DEBUG D#108 => {CLOBBER}
+  # DEBUG __last => D#108
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#109 => {CLOBBER}
+  # DEBUG __first => D#109
+  # DEBUG D#110 => {CLOBBER}
+  # DEBUG __last => D#110
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#111 => {CLOBBER}
+  # DEBUG __first => D#111
+  # DEBUG D#112 => {CLOBBER}
+  # DEBUG __last => D#112
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG D#114 => {CLOBBER}
+  # DEBUG __first => D#114
+  # DEBUG D#115 => {CLOBBER}
+  # DEBUG __last => D#115
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __new_finish => _2
+  _7 = _1 + 2;
+  __new_finish_17 = _14 + _7;
+  # DEBUG __new_finish => __new_finish_17
+  # DEBUG D#119 => &this_4(D)->D.90158
+  # DEBUG this => D#119
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG this => &__position
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG D#117 => D#124
+  # DEBUG __first => __position_10
+  # DEBUG __last => __old_finish_9
+  # DEBUG __result => __new_finish_17
+  # DEBUG INLINE_ENTRY __uninitialized_move_if_noexcept_a
+  # DEBUG __alloc => D#117
+  # DEBUG D#116 => D#117
+  # DEBUG __i => __old_finish_9
+  # DEBUG INLINE_ENTRY __make_move_if_noexcept_iterator
+  # DEBUG this => NULL
+  # DEBUG __i => __old_finish_9
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => __position_10
+  # DEBUG INLINE_ENTRY __make_move_if_noexcept_iterator
+  # DEBUG this => NULL
+  # DEBUG __i => __position_10
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => NULL
+  # DEBUG D#113 => D#116
+  # DEBUG __first => __position_10
+  # DEBUG __last => __old_finish_9
+  # DEBUG __result => __new_finish_17
+  # DEBUG INLINE_ENTRY __uninitialized_copy_a
+  # DEBUG D.112088 => D#113
+  # DEBUG __first => __position_10
+  # DEBUG __last => __old_finish_9
+  # DEBUG __result => __new_finish_17
+  # DEBUG INLINE_ENTRY uninitialized_copy
+  # DEBUG __assignable => 1
+  # DEBUG __first => __position_10
+  # DEBUG __last => __old_finish_9
+  # DEBUG __result => __new_finish_17
+  # DEBUG INLINE_ENTRY __uninit_copy
+  # DEBUG __first => __position_10
+  # DEBUG __last => __old_finish_9
+  # DEBUG __result => __new_finish_17
+  # DEBUG INLINE_ENTRY copy
+  # DEBUG __it => __old_finish_9
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __old_finish_9
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#105 => {CLOBBER}
+  # DEBUG __it => D#105
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#106 => {CLOBBER}
+  # DEBUG __it => D#106
+  # DEBUG __first => __position_10
+  # DEBUG __last => __old_finish_9
+  # DEBUG __result => __new_finish_17
+  # DEBUG INLINE_ENTRY __copy_move_a2
+  # DEBUG __it => __new_finish_17
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __old_finish_9
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __first => __position_10
+  # DEBUG __last => __old_finish_9
+  # DEBUG __result => __new_finish_17
+  # DEBUG INLINE_ENTRY __copy_move_a
+  # DEBUG __simple => 1
+  # DEBUG __first => __position_10
+  # DEBUG __last => __old_finish_9
+  # DEBUG __result => __new_finish_17
+  # DEBUG INLINE_ENTRY __copy_m
+  _20 = __old_finish_9 - __position_10;
+  # DEBUG _Num => _20 /[ex] 2
+  if (__old_finish_9 != __position_10)
+    goto <bb 5>; [53.47%]
+  else
+    goto <bb 6>; [46.53%]
+
+  <bb 5> [local count: 574129753]:
+  _19 = (long unsigned int) _20;
+  __builtin_memmove (__new_finish_17, __position_10, _19);
+
+  <bb 6> [local count: 1073741825]:
+  _18 = (long unsigned int) _20;
+  _16 = __new_finish_17 + _18;
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __result => NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => NULL
+  # DEBUG D#107 => {CLOBBER}
+  # DEBUG __first => D#107
+  # DEBUG D#108 => {CLOBBER}
+  # DEBUG __last => D#108
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#109 => {CLOBBER}
+  # DEBUG __first => D#109
+  # DEBUG D#110 => {CLOBBER}
+  # DEBUG __last => D#110
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#111 => {CLOBBER}
+  # DEBUG __first => D#111
+  # DEBUG D#112 => {CLOBBER}
+  # DEBUG __last => D#112
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG D#114 => {CLOBBER}
+  # DEBUG __first => D#114
+  # DEBUG D#115 => {CLOBBER}
+  # DEBUG __last => D#115
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __new_finish => _16
+  # DEBUG D#120 => &this_4(D)->D.90158
+  # DEBUG this => D#120
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG D#28 => __old_start_8
+  # DEBUG D#29 => __old_finish_9
+  # DEBUG D#30 => D#124
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __first => D#28
+  # DEBUG __last => D#29
+  # DEBUG D.112073 => D#30
+  # DEBUG D#27 => D#29
+  # DEBUG D#26 => D#28
+  # DEBUG D#24 => D#26
+  # DEBUG D#25 => D#27
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __first => D#24
+  # DEBUG __last => D#25
+  # DEBUG D#23 => D#25
+  # DEBUG D#22 => D#24
+  # DEBUG D#20 => D#22
+  # DEBUG D#21 => D#23
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111115 => D#20
+  # DEBUG D.111114 => D#21
+  # DEBUG D#123 => this_4(D)->D.90158._M_impl._M_end_of_storage
+  # DEBUG D#122 => D#123 - __old_start_8
+  # DEBUG D#121 => D#122 /[ex] 2
+  # DEBUG D#42 => D#126
+  # DEBUG D#43 => (long unsigned int) D#121
+  # DEBUG __p => __old_start_8
+  # DEBUG INLINE_ENTRY _M_deallocate
+  # DEBUG this => D#42
+  # DEBUG __n => D#43
+  # DEBUG D#41 => D#43
+  # DEBUG D#40 => D#42
+  if (__old_start_8 != 0B)
+    goto <bb 7>; [53.47%]
+  else
+    goto <bb 8>; [46.53%]
+
+  <bb 7> [local count: 574129753]:
+  # DEBUG D#39 => &D#40->_M_impl
+  # DEBUG D#37 => D#39
+  # DEBUG D#38 => D#41
+  # DEBUG __p => __old_start_8
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG __a => D#37
+  # DEBUG __n => D#38
+  # DEBUG D#36 => D#38
+  # DEBUG D#35 => D#37
+  # DEBUG D#33 => D#35
+  # DEBUG D#34 => D#36
+  # DEBUG __p => __old_start_8
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG this => D#33
+  # DEBUG D.112071 => D#34
+  operator delete (__old_start_8);
+  # DEBUG __p => NULL
+
+  <bb 8> [local count: 1073741825]:
+  # DEBUG __p => NULL
+  this_4(D)->D.90158._M_impl._M_start = _14;
+  this_4(D)->D.90158._M_impl._M_finish = _16;
+  _11 = _6 * 2;
+  _12 = _14 + _11;
+  this_4(D)->D.90158._M_impl._M_end_of_storage = _12;
+  return;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back (_ZNSt6vectorItSaItEE9push_backERKt, funcdef_no=5291, decl_uid=89724, cgraph_uid=1560, symbol_order=2020)
+
+Released 8 names, 61.54%, removed 8 holes
+std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back (struct vector * const this, const value_type & __x)
+{
+  struct __normal_iterator D.110699;
+  short unsigned int * _1;
+  short unsigned int * _2;
+  short unsigned int * _3;
+  short unsigned int _10;
+
+  <bb 2> [local count: 1073741825]:
+  _1 = this_6(D)->D.90158._M_impl._M_finish;
+  _2 = this_6(D)->D.90158._M_impl._M_end_of_storage;
+  if (_1 != _2)
+    goto <bb 3>; [82.57%]
+  else
+    goto <bb 4>; [17.43%]
+
+  <bb 3> [local count: 886588624]:
+  # DEBUG D#128 => &this_6(D)->D.90158._M_impl
+  # DEBUG D#67 => D#128
+  _10 = MEM[(const short unsigned int &)__x_7(D)];
+  # DEBUG D#68 => __x_7(D)
+  # DEBUG __p => _1
+  # DEBUG INLINE_ENTRY construct
+  # DEBUG __a => D#67
+  # DEBUG D#66 => D#68
+  # DEBUG __args#0 => D#66
+  # DEBUG D#65 => D#67
+  # DEBUG __t => D#66
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => NULL
+  # DEBUG D#63 => D#65
+  # DEBUG D#64 => D#66
+  # DEBUG __p => _1
+  # DEBUG INLINE_ENTRY construct
+  # DEBUG this => D#63
+  # DEBUG D#62 => D#64
+  # DEBUG __args#0 => D#62
+  # DEBUG __t => D#62
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => NULL
+  # DEBUG D#1 => 2
+  # DEBUG __p => _1
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111346 => D#1
+  # DEBUG BEGIN_STMT
+  # DEBUG __p => NULL
+  *_1 = _10;
+  # DEBUG __p => NULL
+  # DEBUG __p => NULL
+  _3 = _1 + 2;
+  this_6(D)->D.90158._M_impl._M_finish = _3;
+  goto <bb 5>; [100.00%]
+
+  <bb 4> [local count: 187153200]:
+  # DEBUG this => this_6(D)
+  # DEBUG INLINE_ENTRY end
+  # DEBUG D#14 => &this_6(D)->D.90158._M_impl._M_finish
+  # DEBUG this => NULL
+  # DEBUG __i => D#14
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  MEM[(struct __normal_iterator *)&D.110699] = _1;
+  # DEBUG this => NULL
+  std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&> (this_6(D), D.110699, __x_7(D));
+
+  <bb 5> [local count: 1073741824]:
+  return;
+
+}
+
+
+
+;; Function std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator= (_ZNSt20back_insert_iteratorISt6vectorItSaItEEEaSERKt, funcdef_no=5228, decl_uid=107295, cgraph_uid=1497, symbol_order=1957)
+
+Released 1 names, 16.67%, removed 1 holes
+std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator= (struct back_insert_iterator * const this, const value_type & __value)
+{
+  struct vector * _1;
+
+  <bb 2> [local count: 1073741825]:
+  _1 = this_3(D)->container;
+  std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back (_1, __value_4(D));
+  return this_3(D);
+
+}
+
+
+
+;; Function std::_ZSt7copy_ifIN9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEESt20back_insert_iteratorIS6_EZN13SelectionViewIRKN3SOA9ContainerIS4_13s_decayvertexJEEEtEC4IZ3fooSG_EUlT_E_EERKSH_OSJ_EUlSJ_E_ET0_SJ_SJ_SP_T1_.isra.31 (_ZSt7copy_ifIN9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEESt20back_insert_iteratorIS6_EZN13SelectionViewIRKN3SOA9ContainerIS4_13s_decayvertexJEEEtEC4IZ3fooSG_EUlT_E_EERKSH_OSJ_EUlSJ_E_ET0_SJ_SJ_SP_T1_.isra.31, funcdef_no=5469, decl_uid=112259, cgraph_uid=1493, symbol_order=2441)
+
+Released 0 names, 0.00%, removed 0 holes
+std::_ZSt7copy_ifIN9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEESt20back_insert_iteratorIS6_EZN13SelectionViewIRKN3SOA9ContainerIS4_13s_decayvertexJEEEtEC4IZ3fooSG_EUlT_E_EERKSH_OSJ_EUlSJ_E_ET0_SJ_SJ_SP_T1_.isra.31 (struct __normal_iterator __first, struct __normal_iterator __last, struct back_insert_iterator __result, struct SelectionView * const ISRA.68)
+{
+  struct back_insert_iterator D.112309;
+  const short unsigned int * __first$_M_current;
+  const short unsigned int * _2;
+  short unsigned int _4;
+  struct SelectionView * _5;
+  const struct container_t & _6;
+  long unsigned int _7;
+  struct vertex_t * _8;
+  long unsigned int _9;
+  struct value_type & _10;
+  float _11;
+  struct vector * _12;
+  const short unsigned int * _13;
+
+  <bb 8> [local count: 118111601]:
+
+  <bb 2> [local count: 118111601]:
+  __first$_M_current_1 = MEM[(struct __normal_iterator *)&__first];
+  # DEBUG __first$_M_current => __first$_M_current_1
+
+  <bb 3> [local count: 1073741825]:
+  # __first$_M_current_3 = PHI <__first$_M_current_1(2), _13(6)>
+  # DEBUG __first$_M_current => __first$_M_current_3
+  # DEBUG __lhs => &__first
+  # DEBUG __rhs => &__last
+  # DEBUG INLINE_ENTRY operator!=
+  # DEBUG this => &__first
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG this => &__last
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _2 = MEM[(const short unsigned int * const &)&__last];
+  # DEBUG __lhs => NULL
+  # DEBUG __rhs => NULL
+  if (_2 != __first$_M_current_3)
+    goto <bb 4>; [89.00%]
+  else
+    goto <bb 7>; [11.00%]
+
+  <bb 4> [local count: 955630223]:
+  # DEBUG D#19 => &__first
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#19
+  _4 = *__first$_M_current_3;
+  # DEBUG this => &__pred
+  # DEBUG i => _4
+  # DEBUG INLINE_ENTRY operator()
+  # DEBUG D#61 => __pred.__predicate_i
+  _5 = ISRA.68_19(D);
+  _6 = _5->m_container;
+  # DEBUG D#58 => &_6->D.104277.D.104204.D.103696
+  _7 = (long unsigned int) _4;
+  # DEBUG this => D#58
+  # DEBUG idx => _7
+  # DEBUG INLINE_ENTRY operator[]
+  # DEBUG D#129 => &MEM[(const struct _View *)_6].m_storage
+  # DEBUG this => NULL
+  # DEBUG D.112277 => D#129
+  # DEBUG D.112276 => _7
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => D#10
+  # DEBUG D.112280 => D#129
+  # DEBUG D.112279 => _7
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#9 => &D#10->D.101954
+  # DEBUG this => D#9
+  # DEBUG D.112283 => D#129
+  # DEBUG D.112282 => _7
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#8 => &D#9->D.101686
+  # DEBUG this => D#8
+  # DEBUG D.112286 => D#129
+  # DEBUG D.112285 => _7
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#7 => &D#8->D.101625
+  # DEBUG this => D#7
+  # DEBUG stor => D#129
+  # DEBUG idx => _7
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG stor => NULL
+  # DEBUG idx => NULL
+  # DEBUG this => NULL
+  # DEBUG D.112286 => NULL
+  # DEBUG D.112285 => NULL
+  # DEBUG this => NULL
+  # DEBUG D.112283 => NULL
+  # DEBUG D.112282 => NULL
+  # DEBUG this => NULL
+  # DEBUG D.112280 => NULL
+  # DEBUG D.112279 => NULL
+  # DEBUG this => NULL
+  # DEBUG D.112277 => NULL
+  # DEBUG D.112276 => NULL
+  # DEBUG this => NULL
+  # DEBUG idx => NULL
+  # DEBUG D#57 => D#61
+  # DEBUG decayvertexskin => D#129
+  # DEBUG decayvertexskin$8 => _7
+  # DEBUG INLINE_ENTRY operator()
+  # DEBUG __closure => D#57
+  # DEBUG this => &decayvertexskin
+  # DEBUG INLINE_ENTRY vertex
+  # DEBUG this => &decayvertexskin
+  # DEBUG INLINE_ENTRY _get
+  # DEBUG D#56 => &MEM[(struct SkinBase *)&decayvertexskin].D.101954.D.101686
+  # DEBUG this => D#56
+  # DEBUG INLINE_ENTRY get
+  # DEBUG D#53 => &D#56->D.101625
+  # DEBUG this => D#53
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG __t => D#129
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#3 => &MEM[(struct tuple *)D#129].D.94746
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => D#3
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#2 => &D#3->D.93464
+  # DEBUG __b => D#2
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#54 => &MEM[(struct _Head_base &)D#129]._M_head_impl
+  # DEBUG __b => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG __t => NULL
+  # DEBUG D#55 => &D#56->D.101625
+  # DEBUG this => D#55
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  _8 = MEM[(struct vertex_t * *)_6 + 8B];
+  # DEBUG D#6 => D#54
+  # DEBUG __n => _7
+  # DEBUG INLINE_ENTRY operator[]
+  # DEBUG this => D#6
+  _9 = _7 * 4;
+  _10 = _8 + _9;
+  # DEBUG __n => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  _11 = _10->k;
+  # DEBUG D#59 => {CLOBBER}
+  # DEBUG decayvertexskin => D#59
+  # DEBUG D#60 => {CLOBBER}
+  # DEBUG decayvertexskin$8 => D#60
+  # DEBUG this => NULL
+  # DEBUG i => NULL
+  if (_11 > 3.0e+0)
+    goto <bb 5>; [33.00%]
+  else
+    goto <bb 6>; [67.00%]
+
+  <bb 5> [local count: 315357974]:
+  # DEBUG D#19 => &__first
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#19
+  # DEBUG this => &__result
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG this => &__result
+  # DEBUG __value => __first$_M_current_3
+  # DEBUG INLINE_ENTRY operator=
+  _12 = __result.container;
+  std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back (_12, __first$_M_current_3);
+  # DEBUG this => NULL
+  # DEBUG __value => NULL
+  # DEBUG this => &__result
+  # DEBUG INLINE_ENTRY NULL
+
+  <bb 6> [local count: 955630223]:
+  # DEBUG this => &__first
+  # DEBUG INLINE_ENTRY operator++
+  _13 = __first$_M_current_3 + 2;
+  # DEBUG __first$_M_current => _13
+  goto <bb 3>; [100.00%]
+
+  <bb 7> [local count: 118111601]:
+  D.112309 = __result;
+  return D.112309;
+
+}
+
+
+
+;; Function SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::_ZN13SelectionViewIRKN3SOA9ContainerISt6vector13s_decayvertexJEEEtEC2IZ3fooS6_EUlT_E_EERKS7_OS9_.isra.32 (_ZN13SelectionViewIRKN3SOA9ContainerISt6vector13s_decayvertexJEEEtEC2IZ3fooS6_EUlT_E_EERKS7_OS9_.isra.32, funcdef_no=5470, decl_uid=112357, cgraph_uid=1282, symbol_order=2442)
+
+Released 0 names, 0.00%, removed 0 holes
+SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::_ZN13SelectionViewIRKN3SOA9ContainerISt6vector13s_decayvertexJEEEtEC2IZ3fooS6_EUlT_E_EERKS7_OS9_.isra.32 (struct SelectionView * const this, const struct SelectionView & old_selection)
+{
+  struct back_insert_iterator D.112408;
+  struct back_insert_iterator D.112406;
+  struct __normal_iterator D.112405;
+  struct __normal_iterator D.112404;
+  const struct container_t & _3;
+  struct index_vector * _4;
+  short unsigned int * _5;
+  short unsigned int * _6;
+  short unsigned int * _7;
+
+  <bb 7> [local count: 1073741825]:
+  # DEBUG predicate_i s=> predicate_i
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG D#133 s=> predicate_i
+  MEM[(struct  &)this_1(D)] ={v} {CLOBBER};
+  _3 = old_selection_2(D)->m_container;
+  this_1(D)->m_container = _3;
+  _4 = &this_1(D)->m_indices;
+  # DEBUG this => _4
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#32 => &MEM[(struct vector *)_4].D.90158
+  # DEBUG this => D#32
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG D#31 => &D#32->_M_impl
+  # DEBUG this => D#31
+  # DEBUG INLINE_ENTRY __ct 
+  MEM[(struct  &)this_1(D) + 8] ={v} {CLOBBER};
+  # DEBUG this => D#31
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => D#31
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  MEM[(struct _Vector_impl *)this_1(D) + 8B]._M_start = 0B;
+  MEM[(struct _Vector_impl *)this_1(D) + 8B]._M_finish = 0B;
+  MEM[(struct _Vector_impl *)this_1(D) + 8B]._M_end_of_storage = 0B;
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG D.112352 => D#133
+  # DEBUG __x => _4
+  # DEBUG INLINE_ENTRY back_inserter
+  # DEBUG this => NULL
+  # DEBUG __x => _4
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG __r => _4
+  # DEBUG INLINE_ENTRY __addressof
+  # DEBUG __r => NULL
+  # DEBUG this => NULL
+  # DEBUG __x => NULL
+  MEM[(struct back_insert_iterator *)&D.112406] = _4;
+  # DEBUG __x => NULL
+  # DEBUG D#131 => &old_selection_2(D)->m_indices
+  _5 = MEM[(short unsigned int * *)old_selection_2(D) + 16B];
+  # DEBUG D#17 => D#131
+  # DEBUG INLINE_ENTRY end
+  # DEBUG this => D#17
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  MEM[(struct __normal_iterator *)&D.112405] = _5;
+  # DEBUG D#132 => &old_selection_2(D)->m_indices
+  _6 = MEM[(short unsigned int * *)old_selection_2(D) + 8B];
+  # DEBUG D#18 => D#132
+  # DEBUG INLINE_ENTRY begin
+  # DEBUG this => D#18
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  MEM[(struct __normal_iterator *)&D.112404] = _6;
+  # DEBUG D#130 => D.112407
+  D.112408 = std::_ZSt7copy_ifIN9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEESt20back_insert_iteratorIS6_EZN13SelectionViewIRKN3SOA9ContainerIS4_13s_decayvertexJEEEtEC4IZ3fooSG_EUlT_E_EERKSH_OSJ_EUlSJ_E_ET0_SJ_SJ_SP_T1_.isra.31 (D.112404, D.112405, D.112406, this_1(D));
+
+  <bb 3> [local count: 1073741825]:
+  return;
+
+  <bb 4> [count: 0]:
+<L0>:
+  # DEBUG this => _4
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#48 => &MEM[(struct vector *)_4].D.90158
+  # DEBUG this => D#48
+  # DEBUG INLINE_ENTRY _M_get_Tp_allocator
+  # DEBUG D#51 => &MEM[(struct _Vector_base *)_4]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#50 => MEM[(struct vector *)_4].D.90158._M_impl._M_finish
+  _7 = MEM[(struct vector *)this_1(D) + 8B].D.90158._M_impl._M_start;
+  # DEBUG D#28 => _7
+  # DEBUG D#29 => D#50
+  # DEBUG D#30 => D#51
+  # DEBUG INLINE_ENTRY _Destroy
+  # DEBUG __first => D#28
+  # DEBUG __last => D#29
+  # DEBUG D.112366 => D#30
+  # DEBUG D#27 => D#29
+  # DEBUG D#26 => D#28
+  # DEBUG D#24 => D#26
+  # DEBUG D#25 => D#27
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __first => D#24
+  # DEBUG __last => D#25
+  # DEBUG D#23 => D#25
+  # DEBUG D#22 => D#24
+  # DEBUG D#20 => D#22
+  # DEBUG D#21 => D#23
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111115 => D#20
+  # DEBUG D.111114 => D#21
+  # DEBUG D#49 => &MEM[(struct vector *)_4].D.90158
+  # DEBUG this => D#49
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#47 => D#49->_M_impl._M_end_of_storage
+  # DEBUG D#46 => D#47 - _7
+  # DEBUG D#45 => D#46 /[ex] 2
+  # DEBUG D#42 => D#49
+  # DEBUG D#43 => (long unsigned int) D#45
+  # DEBUG __p => _7
+  # DEBUG INLINE_ENTRY _M_deallocate
+  # DEBUG this => D#42
+  # DEBUG __n => D#43
+  # DEBUG D#41 => D#43
+  # DEBUG D#40 => D#42
+  if (_7 != 0B)
+    goto <bb 5>; [53.47%]
+  else
+    goto <bb 6>; [46.53%]
+
+  <bb 5> [count: 0]:
+  # DEBUG D#39 => &D#40->_M_impl
+  # DEBUG D#37 => D#39
+  # DEBUG D#38 => D#41
+  # DEBUG __p => _7
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG __a => D#37
+  # DEBUG __n => D#38
+  # DEBUG D#36 => D#38
+  # DEBUG D#35 => D#37
+  # DEBUG D#33 => D#35
+  # DEBUG D#34 => D#36
+  # DEBUG __p => _7
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG this => D#33
+  # DEBUG D.112376 => D#34
+  operator delete (_7);
+  # DEBUG __p => NULL
+
+  <bb 6> [count: 0]:
+  # DEBUG __p => NULL
+  # DEBUG D#44 => &D#49->_M_impl
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  MEM[(struct  &)this_1(D) + 8] ={v} {CLOBBER};
+  # DEBUG this => NULL
+  resx 2
+
+}
+
+
+
+;; Function foo (_Z3fooRKN3SOA9ContainerISt6vector13s_decayvertexJEEE, funcdef_no=4664, decl_uid=89013, cgraph_uid=997, symbol_order=1457)
+
+Released 10 names, 58.82%, removed 10 holes
+foo (const struct Container & v)
+{
+  struct SelectionView SS;
+  struct SelectionView S;
+  short unsigned int * _7;
+  short unsigned int * _8;
+  short unsigned int * _9;
+
+  <bb 2> [local count: 1073741825]:
+  # DEBUG BEGIN_STMT
+  SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView (&S, v_2(D));
+  # DEBUG BEGIN_STMT
+  # DEBUG D#134 => &D.104305
+  SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::_ZN13SelectionViewIRKN3SOA9ContainerISt6vector13s_decayvertexJEEEtEC2IZ3fooS6_EUlT_E_EERKS7_OS9_.isra.32 (&SS, &S);
+
+  <bb 3> [local count: 1073741825]:
+  # DEBUG this => &SS
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#52 => &SS.m_indices
+  # DEBUG this => D#52
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#48 => &MEM[(struct vector *)D#52].D.90158
+  # DEBUG this => D#48
+  # DEBUG INLINE_ENTRY _M_get_Tp_allocator
+  # DEBUG D#51 => &MEM[(struct _Vector_base *)D#52]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#50 => MEM[(struct vector *)D#52].D.90158._M_impl._M_finish
+  _8 = MEM[(struct vector *)&SS + 8B].D.90158._M_impl._M_start;
+  # DEBUG D#28 => _8
+  # DEBUG D#29 => D#50
+  # DEBUG D#30 => D#51
+  # DEBUG INLINE_ENTRY _Destroy
+  # DEBUG __first => D#28
+  # DEBUG __last => D#29
+  # DEBUG D.112437 => D#30
+  # DEBUG D#27 => D#29
+  # DEBUG D#26 => D#28
+  # DEBUG D#24 => D#26
+  # DEBUG D#25 => D#27
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __first => D#24
+  # DEBUG __last => D#25
+  # DEBUG D#23 => D#25
+  # DEBUG D#22 => D#24
+  # DEBUG D#20 => D#22
+  # DEBUG D#21 => D#23
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111115 => D#20
+  # DEBUG D.111114 => D#21
+  # DEBUG D#49 => &MEM[(struct vector *)D#52].D.90158
+  # DEBUG this => D#49
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#47 => D#49->_M_impl._M_end_of_storage
+  # DEBUG D#46 => D#47 - _8
+  # DEBUG D#45 => D#46 /[ex] 2
+  # DEBUG D#42 => D#49
+  # DEBUG D#43 => (long unsigned int) D#45
+  # DEBUG __p => _8
+  # DEBUG INLINE_ENTRY _M_deallocate
+  # DEBUG this => D#42
+  # DEBUG __n => D#43
+  # DEBUG D#41 => D#43
+  # DEBUG D#40 => D#42
+  if (_8 != 0B)
+    goto <bb 4>; [53.47%]
+  else
+    goto <bb 5>; [46.53%]
+
+  <bb 4> [local count: 574129753]:
+  # DEBUG D#39 => &D#40->_M_impl
+  # DEBUG D#37 => D#39
+  # DEBUG D#38 => D#41
+  # DEBUG __p => _8
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG __a => D#37
+  # DEBUG __n => D#38
+  # DEBUG D#36 => D#38
+  # DEBUG D#35 => D#37
+  # DEBUG D#33 => D#35
+  # DEBUG D#34 => D#36
+  # DEBUG __p => _8
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG this => D#33
+  # DEBUG D.112447 => D#34
+  operator delete (_8);
+  # DEBUG __p => NULL
+
+  <bb 5> [local count: 1073741825]:
+  # DEBUG __p => NULL
+  # DEBUG D#44 => &D#49->_M_impl
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  MEM[(struct  &)&SS] ={v} {CLOBBER};
+  # DEBUG this => NULL
+  # DEBUG this => &S
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#52 => &S.m_indices
+  # DEBUG this => D#52
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#48 => &MEM[(struct vector *)D#52].D.90158
+  # DEBUG this => D#48
+  # DEBUG INLINE_ENTRY _M_get_Tp_allocator
+  # DEBUG D#51 => &MEM[(struct _Vector_base *)D#52]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#50 => MEM[(struct vector *)D#52].D.90158._M_impl._M_finish
+  _7 = MEM[(struct vector *)&S + 8B].D.90158._M_impl._M_start;
+  # DEBUG D#28 => _7
+  # DEBUG D#29 => D#50
+  # DEBUG D#30 => D#51
+  # DEBUG INLINE_ENTRY _Destroy
+  # DEBUG __first => D#28
+  # DEBUG __last => D#29
+  # DEBUG D.112417 => D#30
+  # DEBUG D#27 => D#29
+  # DEBUG D#26 => D#28
+  # DEBUG D#24 => D#26
+  # DEBUG D#25 => D#27
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __first => D#24
+  # DEBUG __last => D#25
+  # DEBUG D#23 => D#25
+  # DEBUG D#22 => D#24
+  # DEBUG D#20 => D#22
+  # DEBUG D#21 => D#23
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111115 => D#20
+  # DEBUG D.111114 => D#21
+  # DEBUG D#49 => &MEM[(struct vector *)D#52].D.90158
+  # DEBUG this => D#49
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#47 => D#49->_M_impl._M_end_of_storage
+  # DEBUG D#46 => D#47 - _7
+  # DEBUG D#45 => D#46 /[ex] 2
+  # DEBUG D#42 => D#49
+  # DEBUG D#43 => (long unsigned int) D#45
+  # DEBUG __p => _7
+  # DEBUG INLINE_ENTRY _M_deallocate
+  # DEBUG this => D#42
+  # DEBUG __n => D#43
+  # DEBUG D#41 => D#43
+  # DEBUG D#40 => D#42
+  if (_7 != 0B)
+    goto <bb 6>; [53.47%]
+  else
+    goto <bb 7>; [46.53%]
+
+  <bb 6> [local count: 574129753]:
+  # DEBUG D#39 => &D#40->_M_impl
+  # DEBUG D#37 => D#39
+  # DEBUG D#38 => D#41
+  # DEBUG __p => _7
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG __a => D#37
+  # DEBUG __n => D#38
+  # DEBUG D#36 => D#38
+  # DEBUG D#35 => D#37
+  # DEBUG D#33 => D#35
+  # DEBUG D#34 => D#36
+  # DEBUG __p => _7
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG this => D#33
+  # DEBUG D.112427 => D#34
+  operator delete (_7);
+  # DEBUG __p => NULL
+
+  <bb 7> [local count: 1073741825]:
+  # DEBUG __p => NULL
+  # DEBUG D#44 => &D#49->_M_impl
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  S ={v} {CLOBBER};
+  SS ={v} {CLOBBER};
+  return;
+
+  <bb 8> [count: 0]:
+<L2>:
+  # DEBUG this => &S
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#52 => &S.m_indices
+  # DEBUG this => D#52
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#48 => &MEM[(struct vector *)D#52].D.90158
+  # DEBUG this => D#48
+  # DEBUG INLINE_ENTRY _M_get_Tp_allocator
+  # DEBUG D#51 => &MEM[(struct _Vector_base *)D#52]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#50 => MEM[(struct vector *)D#52].D.90158._M_impl._M_finish
+  _9 = MEM[(struct vector *)&S + 8B].D.90158._M_impl._M_start;
+  # DEBUG D#28 => _9
+  # DEBUG D#29 => D#50
+  # DEBUG D#30 => D#51
+  # DEBUG INLINE_ENTRY _Destroy
+  # DEBUG __first => D#28
+  # DEBUG __last => D#29
+  # DEBUG D.112457 => D#30
+  # DEBUG D#27 => D#29
+  # DEBUG D#26 => D#28
+  # DEBUG D#24 => D#26
+  # DEBUG D#25 => D#27
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __first => D#24
+  # DEBUG __last => D#25
+  # DEBUG D#23 => D#25
+  # DEBUG D#22 => D#24
+  # DEBUG D#20 => D#22
+  # DEBUG D#21 => D#23
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111115 => D#20
+  # DEBUG D.111114 => D#21
+  # DEBUG D#49 => &MEM[(struct vector *)D#52].D.90158
+  # DEBUG this => D#49
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG D#47 => D#49->_M_impl._M_end_of_storage
+  # DEBUG D#46 => D#47 - _9
+  # DEBUG D#45 => D#46 /[ex] 2
+  # DEBUG D#42 => D#49
+  # DEBUG D#43 => (long unsigned int) D#45
+  # DEBUG __p => _9
+  # DEBUG INLINE_ENTRY _M_deallocate
+  # DEBUG this => D#42
+  # DEBUG __n => D#43
+  # DEBUG D#41 => D#43
+  # DEBUG D#40 => D#42
+  if (_9 != 0B)
+    goto <bb 9>; [53.47%]
+  else
+    goto <bb 10>; [46.53%]
+
+  <bb 9> [count: 0]:
+  # DEBUG D#39 => &D#40->_M_impl
+  # DEBUG D#37 => D#39
+  # DEBUG D#38 => D#41
+  # DEBUG __p => _9
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG __a => D#37
+  # DEBUG __n => D#38
+  # DEBUG D#36 => D#38
+  # DEBUG D#35 => D#37
+  # DEBUG D#33 => D#35
+  # DEBUG D#34 => D#36
+  # DEBUG __p => _9
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG this => D#33
+  # DEBUG D.112467 => D#34
+  operator delete (_9);
+  # DEBUG __p => NULL
+
+  <bb 10> [count: 0]:
+  # DEBUG __p => NULL
+  # DEBUG D#44 => &D#49->_M_impl
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => D#44
+  # DEBUG INLINE_ENTRY __dt 
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  # DEBUG this => NULL
+  resx 2
+
+}
+
+

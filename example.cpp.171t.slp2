@@ -1,0 +1,894 @@
+
+;; Function main (main, funcdef_no=4728, decl_uid=104327, cgraph_uid=998, symbol_order=1458) (executed once)
+
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2
+;; 2 succs { 1 }
+main ()
+{
+  <bb 2> [local count: 1073741825]:
+  # DEBUG BEGIN_STMT
+  return 0;
+
+}
+
+
+
+;; Function std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&> (_ZNSt6vectorItSaItEE17_M_realloc_insertIJRKtEEEvN9__gnu_cxx17__normal_iteratorIPtS1_EEDpOT_, funcdef_no=5349, decl_uid=109699, cgraph_uid=1618, symbol_order=2078)
+
+;; 1 loops found
+;;
+;; Loop 0
+;;  header 0, latch 1
+;;  depth 0, outer -1
+;;  nodes: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14
+;; 2 succs { 5 3 }
+;; 3 succs { 14 4 }
+;; 4 succs { 14 5 }
+;; 5 succs { 13 6 }
+;; 6 succs { 7 10 }
+;; 7 succs { 9 8 }
+;; 8 succs { 12 }
+;; 9 succs { 11 }
+;; 10 succs { 9 11 }
+;; 11 succs { 8 12 }
+;; 12 succs { 1 }
+;; 13 succs { 14 }
+;; 14 succs { 6 }
+std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&> (struct vector * const this, struct iterator __position, const short unsigned int & __args#0)
+{
+  vector(2) long unsigned int * vectp.74;
+  vector(2) long unsigned int * {ref-all} vectp_this.73;
+  const long unsigned int D.112534;
+  const size_type __len;
+  size_type D.112533;
+  size_type __n;
+  short unsigned int * D.112524;
+  short unsigned int * const __position;
+  short unsigned int * __new_finish;
+  short unsigned int * __old_finish;
+  short unsigned int * __old_start;
+  long unsigned int _1;
+  short unsigned int * _2;
+  short unsigned int _24;
+  short unsigned int * _35;
+  short unsigned int * iftmp.0_36;
+  short unsigned int * _37;
+  short unsigned int * _38;
+  long int _39;
+  long int _40;
+  long unsigned int _41;
+  long unsigned int prephitmp_45;
+  long unsigned int _59;
+  long int _62;
+  short unsigned int * _63;
+  vector(2) long unsigned int _66;
+  long unsigned int _67;
+  long unsigned int _69;
+  vector(2) long unsigned int vect_cst__70;
+  long unsigned int _79;
+  short unsigned int * prephitmp_81;
+  short unsigned int * _84;
+  long int _85;
+  short unsigned int * _86;
+  long unsigned int _87;
+
+  <bb 2> [local count: 1073741825]:
+  __position_10 = MEM[(struct __normal_iterator *)&__position];
+  # DEBUG __position => __position_10
+  # DEBUG this => this_4(D)
+  # DEBUG __n => 1
+  # DEBUG __n => 1
+  # DEBUG __s => "vector::_M_realloc_insert"
+  # DEBUG INLINE_ENTRY _M_check_len
+  # DEBUG D#103 => this_4(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#103
+  # DEBUG D#102 => D#103
+  # DEBUG D#101 => D#103
+  # DEBUG D#99 => &D#101->D.90158
+  # DEBUG this => D#99
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#100 => &MEM[(const struct _Vector_base *)D#102]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#98 => D#100
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __a => D#98
+  # DEBUG D#97 => D#98
+  # DEBUG D#72 => D#97
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#72
+  _37 = MEM[(short unsigned int * *)this_4(D)];
+  # DEBUG D#69 => this_4(D)
+  _38 = MEM[(short unsigned int * *)this_4(D) + 8B];
+  # DEBUG D#69 => this_4(D)
+  # DEBUG INLINE_ENTRY size
+  # DEBUG this => D#69
+  # DEBUG this => D#69
+  _39 = _38 - _37;
+  _40 = _39 /[ex] 2;
+  _41 = (long unsigned int) _40;
+  # DEBUG D#69 => this_4(D)
+  # DEBUG D#69 => this_4(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#69
+  # DEBUG this => D#69
+  # DEBUG D#69 => this_4(D)
+  # DEBUG D#69 => this_4(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#69
+  # DEBUG this => D#69
+  # DEBUG __a => &D.112534
+  # DEBUG __b => &__n
+  # DEBUG INLINE_ENTRY max
+  _62 = __position_10 - _37;
+  if (_41 == 0)
+    goto <bb 5>; [34.00%]
+  else
+    goto <bb 3>; [66.00%]
+
+  <bb 3> [local count: 708386132]:
+  # DEBUG __a => NULL
+  # DEBUG __b => NULL
+  __len_46 = (const size_type) _39;
+  # DEBUG __len => __len_46
+  # DEBUG D#69 => this_4(D)
+  # DEBUG D#69 => this_4(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#69
+  # DEBUG this => D#69
+  if (_41 > __len_46)
+    goto <bb 14>; [53.03%]
+  else
+    goto <bb 4>; [46.97%]
+
+  <bb 4> [local count: 332726818]:
+  # DEBUG __a => NULL
+  # DEBUG __b => NULL
+  # DEBUG __len => __len_46
+  # DEBUG D#69 => this_4(D)
+  # DEBUG this => D#69
+  # DEBUG this => D#69
+  # DEBUG D#103 => this_4(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#103
+  # DEBUG D#102 => D#103
+  # DEBUG D#101 => D#103
+  # DEBUG D#99 => &D#101->D.90158
+  # DEBUG this => D#99
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#100 => &MEM[(const struct _Vector_base *)D#102]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#98 => D#100
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __a => D#98
+  # DEBUG D#97 => D#98
+  # DEBUG D#72 => D#97
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#72
+  if (_39 < 0)
+    goto <bb 14>; [57.10%]
+  else
+    goto <bb 5>; [42.90%]
+
+  <bb 5> [local count: 507682096]:
+  # __len_64 = PHI <1(2), __len_46(4)>
+  # DEBUG __a => NULL
+  # DEBUG __b => NULL
+  # DEBUG D#69 => this_4(D)
+  # DEBUG this => D#69
+  # DEBUG this => D#69
+  # DEBUG D#103 => this_4(D)
+  # DEBUG this => D#103
+  # DEBUG D#102 => D#103
+  # DEBUG D#101 => D#103
+  # DEBUG D#99 => &D#101->D.90158
+  # DEBUG D#100 => &MEM[(const struct _Vector_base *)D#102]._M_impl
+  # DEBUG this => NULL
+  # DEBUG D#98 => D#100
+  # DEBUG __a => D#98
+  # DEBUG D#97 => D#98
+  # DEBUG D#72 => D#97
+  # DEBUG this => D#72
+  # DEBUG this => NULL
+  # DEBUG __n => NULL
+  # DEBUG __s => NULL
+  # DEBUG __len => NULL
+  # DEBUG D#142 => {CLOBBER}
+  # DEBUG __n => D#142
+  # DEBUG __len => __len_64
+  # DEBUG __old_start => _37
+  # DEBUG __old_finish => _38
+  # DEBUG this => this_4(D)
+  # DEBUG INLINE_ENTRY begin
+  # DEBUG D#15 => &this_4(D)->D.90158._M_impl._M_start
+  # DEBUG this => NULL
+  # DEBUG __i => D#15
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG this => NULL
+  # DEBUG __lhs => &__position
+  # DEBUG __rhs => &D.109991
+  # DEBUG INLINE_ENTRY operator-
+  # DEBUG this => &__position
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG this => &D.109991
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG D#152 => __position_10 - _37
+  # DEBUG D#127 => D#152 /[ex] 2
+  # DEBUG __lhs => NULL
+  # DEBUG __rhs => NULL
+  # DEBUG __elems_before => (const size_type) D#127
+  # DEBUG D#126 => &this_4(D)->D.90158
+  # DEBUG D#80 => D#126
+  # DEBUG __n => __len_64
+  # DEBUG INLINE_ENTRY _M_allocate
+  # DEBUG this => D#80
+  # DEBUG D#79 => D#80
+  if (__len_64 != 0)
+    goto <bb 13>; [12.88%]
+  else
+    goto <bb 6>; [87.12%]
+
+  <bb 6> [local count: 1073007506]:
+  # iftmp.0_36 = PHI <_35(14), 0B(5)>
+  # prephitmp_81 = PHI <_84(14), 0B(5)>
+  # DEBUG __n => NULL
+  # DEBUG __new_start => iftmp.0_36
+  # DEBUG __new_finish => iftmp.0_36
+  # DEBUG __t => __args#0_15(D)
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => NULL
+  _1 = (long unsigned int) _62;
+  _2 = iftmp.0_36 + _1;
+  # DEBUG D#125 => &this_4(D)->D.90158._M_impl
+  # DEBUG D#67 => D#125
+  _24 = *__args#0_15(D);
+  # DEBUG D#68 => __args#0_15(D)
+  # DEBUG __p => _2
+  # DEBUG INLINE_ENTRY construct
+  # DEBUG __a => D#67
+  # DEBUG D#66 => D#68
+  # DEBUG __args#0 => D#66
+  # DEBUG D#65 => D#67
+  # DEBUG __t => D#66
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => NULL
+  # DEBUG D#63 => D#65
+  # DEBUG D#64 => D#66
+  # DEBUG __p => _2
+  # DEBUG INLINE_ENTRY construct
+  # DEBUG this => D#63
+  # DEBUG D#62 => D#64
+  # DEBUG __args#0 => D#62
+  # DEBUG __t => D#62
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __t => NULL
+  # DEBUG D#1 => 2
+  # DEBUG __p => _2
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111346 => D#1
+  # DEBUG BEGIN_STMT
+  # DEBUG __p => NULL
+  *_2 = _24;
+  # DEBUG __p => NULL
+  # DEBUG __p => NULL
+  # DEBUG __new_finish => 0B
+  # DEBUG D#118 => &this_4(D)->D.90158
+  # DEBUG this => D#118
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D#124 => &MEM[(struct _Vector_base *)this_4(D)]._M_impl
+  # DEBUG this => NULL
+  # DEBUG this => &__position
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG D#117 => D#124
+  # DEBUG __first => _37
+  # DEBUG __last => __position_10
+  # DEBUG __result => iftmp.0_36
+  # DEBUG INLINE_ENTRY __uninitialized_move_if_noexcept_a
+  # DEBUG __alloc => D#117
+  # DEBUG D#116 => D#117
+  # DEBUG __i => __position_10
+  # DEBUG INLINE_ENTRY __make_move_if_noexcept_iterator
+  # DEBUG this => NULL
+  # DEBUG __i => __position_10
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => _37
+  # DEBUG INLINE_ENTRY __make_move_if_noexcept_iterator
+  # DEBUG this => NULL
+  # DEBUG __i => _37
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => NULL
+  # DEBUG D#113 => D#116
+  # DEBUG __first => _37
+  # DEBUG __last => __position_10
+  # DEBUG __result => iftmp.0_36
+  # DEBUG INLINE_ENTRY __uninitialized_copy_a
+  # DEBUG D.112136 => D#113
+  # DEBUG __first => _37
+  # DEBUG __last => __position_10
+  # DEBUG __result => iftmp.0_36
+  # DEBUG INLINE_ENTRY uninitialized_copy
+  # DEBUG __assignable => 1
+  # DEBUG __first => _37
+  # DEBUG __last => __position_10
+  # DEBUG __result => iftmp.0_36
+  # DEBUG INLINE_ENTRY __uninit_copy
+  # DEBUG __first => _37
+  # DEBUG __last => __position_10
+  # DEBUG __result => iftmp.0_36
+  # DEBUG INLINE_ENTRY copy
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#105 => {CLOBBER}
+  # DEBUG __it => D#105
+  # DEBUG __it => _37
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => _37
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#106 => {CLOBBER}
+  # DEBUG __it => D#106
+  # DEBUG __first => _37
+  # DEBUG __last => __position_10
+  # DEBUG __result => iftmp.0_36
+  # DEBUG INLINE_ENTRY __copy_move_a2
+  # DEBUG __it => iftmp.0_36
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => _37
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __first => _37
+  # DEBUG __last => __position_10
+  # DEBUG __result => iftmp.0_36
+  # DEBUG INLINE_ENTRY __copy_move_a
+  # DEBUG __simple => 1
+  # DEBUG __first => _37
+  # DEBUG __last => __position_10
+  # DEBUG __result => iftmp.0_36
+  # DEBUG INLINE_ENTRY __copy_m
+  # DEBUG _Num => _62 /[ex] 2
+  _87 = _1 + 2;
+  _86 = iftmp.0_36 + _87;
+  _85 = _38 - __position_10;
+  _69 = (long unsigned int) _85;
+  _63 = _86 + _69;
+  if (__position_10 != _37)
+    goto <bb 7>; [53.47%]
+  else
+    goto <bb 10>; [46.53%]
+
+  <bb 7> [local count: 573737113]:
+  __builtin_memmove (iftmp.0_36, _37, _1);
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __result => NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => NULL
+  # DEBUG D#107 => {CLOBBER}
+  # DEBUG __first => D#107
+  # DEBUG D#108 => {CLOBBER}
+  # DEBUG __last => D#108
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#109 => {CLOBBER}
+  # DEBUG __first => D#109
+  # DEBUG D#110 => {CLOBBER}
+  # DEBUG __last => D#110
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#111 => {CLOBBER}
+  # DEBUG __first => D#111
+  # DEBUG D#112 => {CLOBBER}
+  # DEBUG __last => D#112
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG D#114 => {CLOBBER}
+  # DEBUG __first => D#114
+  # DEBUG D#115 => {CLOBBER}
+  # DEBUG __last => D#115
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __new_finish => _2
+  # DEBUG D#148 => _1 + 2
+  # DEBUG D#147 => iftmp.0_36 + D#148
+  # DEBUG __new_finish => D#147
+  # DEBUG D#119 => &this_4(D)->D.90158
+  # DEBUG this => D#119
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG this => &__position
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG D#117 => D#124
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#147
+  # DEBUG INLINE_ENTRY __uninitialized_move_if_noexcept_a
+  # DEBUG __alloc => D#117
+  # DEBUG D#116 => D#117
+  # DEBUG __i => _38
+  # DEBUG INLINE_ENTRY __make_move_if_noexcept_iterator
+  # DEBUG this => NULL
+  # DEBUG __i => _38
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => __position_10
+  # DEBUG INLINE_ENTRY __make_move_if_noexcept_iterator
+  # DEBUG this => NULL
+  # DEBUG __i => __position_10
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => NULL
+  # DEBUG D#113 => D#116
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#147
+  # DEBUG INLINE_ENTRY __uninitialized_copy_a
+  # DEBUG D.112088 => D#113
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#147
+  # DEBUG INLINE_ENTRY uninitialized_copy
+  # DEBUG __assignable => 1
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#147
+  # DEBUG INLINE_ENTRY __uninit_copy
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#147
+  # DEBUG INLINE_ENTRY copy
+  # DEBUG __it => _38
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => _38
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#105 => {CLOBBER}
+  # DEBUG __it => D#105
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#106 => {CLOBBER}
+  # DEBUG __it => D#106
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#147
+  # DEBUG INLINE_ENTRY __copy_move_a2
+  # DEBUG __it => D#147
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => _38
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#147
+  # DEBUG INLINE_ENTRY __copy_move_a
+  # DEBUG __simple => 1
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#147
+  # DEBUG INLINE_ENTRY __copy_m
+  # DEBUG D#146 => _38 - __position_10
+  # DEBUG _Num => D#146 /[ex] 2
+  if (__position_10 != _38)
+    goto <bb 9>; [53.47%]
+  else
+    goto <bb 8>; [46.53%]
+
+  <bb 8> [local count: 573737113]:
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __result => NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => NULL
+  # DEBUG D#107 => {CLOBBER}
+  # DEBUG D#108 => {CLOBBER}
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#109 => {CLOBBER}
+  # DEBUG D#110 => {CLOBBER}
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#111 => {CLOBBER}
+  # DEBUG D#112 => {CLOBBER}
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG D#114 => {CLOBBER}
+  # DEBUG __first => D#114
+  # DEBUG D#115 => {CLOBBER}
+  # DEBUG __last => D#115
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __new_finish => _63
+  # DEBUG D#120 => &this_4(D)->D.90158
+  # DEBUG this => NULL
+  # DEBUG D#28 => _37
+  # DEBUG D#29 => _38
+  # DEBUG D#30 => D#124
+  # DEBUG __first => D#28
+  # DEBUG __last => D#29
+  # DEBUG D.112073 => D#30
+  # DEBUG D#27 => D#29
+  # DEBUG D#26 => D#28
+  # DEBUG D#24 => D#26
+  # DEBUG D#25 => D#27
+  # DEBUG __first => D#24
+  # DEBUG __last => D#25
+  # DEBUG D#23 => D#25
+  # DEBUG D#22 => D#24
+  # DEBUG D#20 => D#22
+  # DEBUG D#21 => D#23
+  # DEBUG D.111115 => D#20
+  # DEBUG D.111114 => D#21
+  # DEBUG D#123 => this_4(D)->D.90158._M_impl._M_end_of_storage
+  # DEBUG D#122 => D#123 - _37
+  # DEBUG D#121 => D#122 /[ex] 2
+  # DEBUG D#42 => D#126
+  # DEBUG D#43 => (long unsigned int) D#121
+  # DEBUG __p => _37
+  # DEBUG this => D#42
+  # DEBUG __n => D#43
+  # DEBUG D#41 => D#43
+  # DEBUG D#40 => D#42
+  # DEBUG D#39 => &D#40->_M_impl
+  # DEBUG D#37 => D#39
+  # DEBUG D#38 => D#41
+  # DEBUG __p => _37
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG __a => D#37
+  # DEBUG __n => D#38
+  # DEBUG D#36 => D#38
+  # DEBUG D#35 => D#37
+  # DEBUG D#33 => D#35
+  # DEBUG D#34 => D#36
+  # DEBUG __p => _37
+  # DEBUG INLINE_ENTRY deallocate
+  # DEBUG this => D#33
+  # DEBUG D.112071 => D#34
+  operator delete (_37);
+  # DEBUG __p => NULL
+  goto <bb 12>; [100.00%]
+
+  <bb 9> [local count: 573737113]:
+  __builtin_memcpy (_86, __position_10, _69);
+  goto <bb 11>; [100.00%]
+
+  <bb 10> [local count: 499270392]:
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __result => NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => NULL
+  # DEBUG D#107 => {CLOBBER}
+  # DEBUG __first => D#107
+  # DEBUG D#108 => {CLOBBER}
+  # DEBUG __last => D#108
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#109 => {CLOBBER}
+  # DEBUG __first => D#109
+  # DEBUG D#110 => {CLOBBER}
+  # DEBUG __last => D#110
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#111 => {CLOBBER}
+  # DEBUG __first => D#111
+  # DEBUG D#112 => {CLOBBER}
+  # DEBUG __last => D#112
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG D#114 => {CLOBBER}
+  # DEBUG __first => D#114
+  # DEBUG D#115 => {CLOBBER}
+  # DEBUG __last => D#115
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __new_finish => _2
+  # DEBUG D#151 => _1 + 2
+  # DEBUG D#150 => iftmp.0_36 + D#151
+  # DEBUG __new_finish => D#150
+  # DEBUG D#119 => &this_4(D)->D.90158
+  # DEBUG this => D#119
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG this => &__position
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG D#117 => D#124
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#150
+  # DEBUG INLINE_ENTRY __uninitialized_move_if_noexcept_a
+  # DEBUG __alloc => D#117
+  # DEBUG D#116 => D#117
+  # DEBUG __i => _38
+  # DEBUG INLINE_ENTRY __make_move_if_noexcept_iterator
+  # DEBUG this => NULL
+  # DEBUG __i => _38
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => __position_10
+  # DEBUG INLINE_ENTRY __make_move_if_noexcept_iterator
+  # DEBUG this => NULL
+  # DEBUG __i => __position_10
+  # DEBUG INLINE_ENTRY __ct 
+  # DEBUG this => NULL
+  # DEBUG __i => NULL
+  # DEBUG __i => NULL
+  # DEBUG D#113 => D#116
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#150
+  # DEBUG INLINE_ENTRY __uninitialized_copy_a
+  # DEBUG D.112088 => D#113
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#150
+  # DEBUG INLINE_ENTRY uninitialized_copy
+  # DEBUG __assignable => 1
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#150
+  # DEBUG INLINE_ENTRY __uninit_copy
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#150
+  # DEBUG INLINE_ENTRY copy
+  # DEBUG __it => _38
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => _38
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#105 => {CLOBBER}
+  # DEBUG __it => D#105
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#104
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG D#106 => {CLOBBER}
+  # DEBUG __it => D#106
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#150
+  # DEBUG INLINE_ENTRY __copy_move_a2
+  # DEBUG __it => D#150
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => _38
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => __position_10
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __it => NULL
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#150
+  # DEBUG INLINE_ENTRY __copy_move_a
+  # DEBUG __simple => 1
+  # DEBUG __first => __position_10
+  # DEBUG __last => _38
+  # DEBUG __result => D#150
+  # DEBUG INLINE_ENTRY __copy_m
+  # DEBUG D#149 => _38 - __position_10
+  # DEBUG _Num => D#149 /[ex] 2
+  if (__position_10 != _38)
+    goto <bb 9>; [53.47%]
+  else
+    goto <bb 11>; [46.53%]
+
+  <bb 11> [local count: 806047626]:
+  # DEBUG D#144 => (long unsigned int) _85
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __result => NULL
+  # DEBUG __it => NULL
+  # DEBUG __it => NULL
+  # DEBUG D#107 => {CLOBBER}
+  # DEBUG __first => D#107
+  # DEBUG D#108 => {CLOBBER}
+  # DEBUG __last => D#108
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#109 => {CLOBBER}
+  # DEBUG __first => D#109
+  # DEBUG D#110 => {CLOBBER}
+  # DEBUG __last => D#110
+  # DEBUG __result => NULL
+  # DEBUG __last => NULL
+  # DEBUG __first => NULL
+  # DEBUG D#111 => {CLOBBER}
+  # DEBUG __first => D#111
+  # DEBUG D#112 => {CLOBBER}
+  # DEBUG __last => D#112
+  # DEBUG __result => NULL
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG D#114 => {CLOBBER}
+  # DEBUG __first => D#114
+  # DEBUG D#115 => {CLOBBER}
+  # DEBUG __last => D#115
+  # DEBUG __first => NULL
+  # DEBUG __last => NULL
+  # DEBUG __result => NULL
+  # DEBUG __new_finish => _86 + D#144
+  # DEBUG D#120 => &this_4(D)->D.90158
+  # DEBUG this => D#120
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => NULL
+  # DEBUG D#28 => _37
+  # DEBUG D#29 => _38
+  # DEBUG D#30 => D#124
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __first => D#28
+  # DEBUG __last => D#29
+  # DEBUG D.112073 => D#30
+  # DEBUG D#27 => D#29
+  # DEBUG D#26 => D#28
+  # DEBUG D#24 => D#26
+  # DEBUG D#25 => D#27
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG __first => D#24
+  # DEBUG __last => D#25
+  # DEBUG D#23 => D#25
+  # DEBUG D#22 => D#24
+  # DEBUG D#20 => D#22
+  # DEBUG D#21 => D#23
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG D.111115 => D#20
+  # DEBUG D.111114 => D#21
+  # DEBUG D#123 => this_4(D)->D.90158._M_impl._M_end_of_storage
+  # DEBUG D#122 => D#123 - _37
+  # DEBUG D#121 => D#122 /[ex] 2
+  # DEBUG D#42 => D#126
+  # DEBUG D#43 => (long unsigned int) D#121
+  # DEBUG __p => _37
+  # DEBUG INLINE_ENTRY _M_deallocate
+  # DEBUG this => D#42
+  # DEBUG __n => D#43
+  # DEBUG D#41 => D#43
+  # DEBUG D#40 => D#42
+  if (_37 != 0B)
+    goto <bb 8>; [38.06%]
+  else
+    goto <bb 12>; [61.94%]
+
+  <bb 12> [local count: 1073007505]:
+  _79 = VIEW_CONVERT_EXPR<long unsigned int>(_63);
+  _59 = VIEW_CONVERT_EXPR<long unsigned int>(iftmp.0_36);
+  _66 = {_59, _79};
+  vect_cst__70 = _66;
+  # DEBUG __p => NULL
+  vectp.74_80 = &this_4(D)->D.90158._M_impl._M_start;
+  MEM[(short unsigned int * *)vectp.74_80] = vect_cst__70;
+  this_4(D)->D.90158._M_impl._M_end_of_storage = prephitmp_81;
+  return;
+
+  <bb 13> [local count: 65403297]:
+  _67 = __len_64 * 2;
+
+  <bb 14> [local count: 761746931]:
+  # prephitmp_45 = PHI <18446744073709551614(3), _67(13), 18446744073709551614(4)>
+  # DEBUG D#78 => &D#79->_M_impl
+  # DEBUG D#77 => D#78
+  # DEBUG __n => NULL
+  # DEBUG INLINE_ENTRY allocate
+  # DEBUG __a => D#77
+  # DEBUG D#76 => D#77
+  # DEBUG D#74 => D#76
+  # DEBUG D#75 => 0B
+  # DEBUG __n => NULL
+  # DEBUG INLINE_ENTRY allocate
+  # DEBUG this => D#74
+  # DEBUG D.112522 => D#75
+  # DEBUG D#73 => D#74
+  # DEBUG D#72 => D#73
+  # DEBUG INLINE_ENTRY NULL
+  # DEBUG this => D#72
+  # DEBUG D#78 => &D#79->_M_impl
+  # DEBUG D#77 => D#78
+  # DEBUG __n => NULL
+  # DEBUG __a => D#77
+  # DEBUG D#76 => D#77
+  # DEBUG D#74 => D#76
+  # DEBUG D#75 => 0B
+  # DEBUG __n => NULL
+  # DEBUG this => D#74
+  # DEBUG D.112522 => D#75
+  # DEBUG D#73 => D#74
+  # DEBUG D#72 => D#73
+  # DEBUG this => D#72
+  _35 = operator new (prephitmp_45);
+  # DEBUG __n => NULL
+  # DEBUG __n => NULL
+  _84 = _35 + prephitmp_45;
+  goto <bb 6>; [100.00%]
+
+}
+
+

@@ -1,0 +1,907 @@
+27 ssa "unused VAR_DECLs removed" "std::max<long unsigned int>" 1
+27 ssa "unused VAR_DECLs removed" "std::_Head_base<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >, false>::_M_head" 1
+27 ssa "unused VAR_DECLs removed" "std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head" 1
+27 ssa "unused VAR_DECLs removed" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+27 ssa "unused VAR_DECLs removed" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+27 ssa "unused VAR_DECLs removed" "std::_Head_base<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >, false>::_M_head" 1
+27 ssa "unused VAR_DECLs removed" "std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head" 1
+27 ssa "unused VAR_DECLs removed" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+27 ssa "unused VAR_DECLs removed" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+27 ssa "unused VAR_DECLs removed" "main" 1
+27 ssa "unused VAR_DECLs removed" "std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::operator[]" 1
+27 ssa "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_get_Tp_allocator" 1
+27 ssa "unused VAR_DECLs removed" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position::position" 1
+27 ssa "unused VAR_DECLs removed" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::size" 1
+27 ssa "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::new_allocator" 1
+27 ssa "unused VAR_DECLs removed" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator*" 1
+27 ssa "unused VAR_DECLs removed" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::__normal_iterator" 1
+27 ssa "unused VAR_DECLs removed" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::back_insert_iterator" 1
+27 ssa "unused VAR_DECLs removed" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator*" 1
+27 ssa "unused VAR_DECLs removed" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator*" 1
+27 ssa "unused VAR_DECLs removed" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+27 ssa "unused VAR_DECLs removed" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::base" 1
+27 ssa "unused VAR_DECLs removed" "__gnu_cxx::operator!=<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+27 ssa "unused VAR_DECLs removed" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 1
+27 ssa "unused VAR_DECLs removed" "std::_Destroy_aux<true>::__destroy<short unsigned int*>" 1
+27 ssa "unused VAR_DECLs removed" "__gnu_cxx::operator!=<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+27 ssa "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::deallocate" 1
+27 ssa "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::new_allocator" 1
+27 ssa "unused VAR_DECLs removed" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position::idx" 1
+27 ssa "unused VAR_DECLs removed" "SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::get<0>" 1
+27 ssa "unused VAR_DECLs removed" "SOA::impl::FieldBase<vertex_t, f_vertex>::AccessorBase<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, 0, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::_get" 1
+27 ssa "unused VAR_DECLs removed" "f_vertex::accessors<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, SOA::Typelist::typelist<f_vertex>, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::vertex" 1
+27 ssa "unused VAR_DECLs removed" "foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>::operator()<s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >" 1
+27 ssa "unused VAR_DECLs removed" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 1
+27 ssa "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::construct<short unsigned int, const short unsigned int&>" 3
+27 ssa "unused VAR_DECLs removed" "std::allocator_traits<std::allocator<short unsigned int> >::construct<short unsigned int, const short unsigned int&>" 3
+27 ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::size" 1
+27 ssa "unused VAR_DECLs removed" "std::move_iterator<short unsigned int*>::move_iterator" 1
+27 ssa "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::allocate" 1
+27 ssa "unused VAR_DECLs removed" "std::allocator_traits<std::allocator<short unsigned int> >::allocate" 5
+27 ssa "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_allocate" 2
+27 ssa "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_create_storage" 3
+27 ssa "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_base" 1
+27 ssa "unused VAR_DECLs removed" "std::__fill_n_a<short unsigned int*, long unsigned int, short unsigned int>" 1
+27 ssa "unused VAR_DECLs removed" "std::fill_n<short unsigned int*, long unsigned int, short unsigned int>" 1
+27 ssa "unused VAR_DECLs removed" "std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int>" 1
+27 ssa "unused VAR_DECLs removed" "std::__uninitialized_default_n<short unsigned int*, long unsigned int>" 2
+27 ssa "unused VAR_DECLs removed" "std::__uninitialized_default_n_a<short unsigned int*, long unsigned int, short unsigned int>" 2
+27 ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_default_initialize" 2
+27 ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 1
+27 ssa "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_get_Tp_allocator" 1
+27 ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::max_size" 1
+27 ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len" 1
+27 ssa "unused VAR_DECLs removed" "std::move_iterator<short unsigned int*>::base" 3
+27 ssa "unused VAR_DECLs removed" "std::__miter_base<short unsigned int*>" 1
+27 ssa "unused VAR_DECLs removed" "std::__miter_base<short unsigned int*>" 1
+27 ssa "unused VAR_DECLs removed" "std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<short unsigned int>" 1
+27 ssa "unused VAR_DECLs removed" "std::__copy_move_a<true, short unsigned int*, short unsigned int*>" 1
+27 ssa "unused VAR_DECLs removed" "std::__copy_move_a2<true, short unsigned int*, short unsigned int*>" 1
+27 ssa "unused VAR_DECLs removed" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 2
+27 ssa "unused VAR_DECLs removed" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 4
+27 ssa "unused VAR_DECLs removed" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 2
+27 ssa "unused VAR_DECLs removed" "std::__uninitialized_copy_a<std::move_iterator<short unsigned int*>, short unsigned int*, short unsigned int>" 2
+27 ssa "unused VAR_DECLs removed" "std::__uninitialized_move_if_noexcept_a<short unsigned int*, short unsigned int*, std::allocator<short unsigned int> >" 2
+27 ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 2
+27 ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 4
+27 ssa "unused VAR_DECLs removed" "std::copy_if<__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >, SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)> >" 1
+27 ssa "unused VAR_DECLs removed" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 3
+39 ccp "Copies propagated" "operator new" 1
+39 ccp "Statements deleted" "operator new" 1
+49 eipa_sra "Symbol to SSA rewrite" "_ZnwmPv.isra.0" 1
+49 eipa_sra "Unused parameters deleted" "_ZnwmPv.isra.0" 1
+56 release_ssa "unused VAR_DECLs removed" "_ZnwmPv.isra.0" 1
+39 ccp "Copies propagated" "std::max<long unsigned int>" 2
+39 ccp "Statements deleted" "std::max<long unsigned int>" 2
+44 fre "SCC iterations == 2" "std::max<long unsigned int>" 1
+56 release_ssa "SSA names released" "std::max<long unsigned int>" 2
+56 release_ssa "SSA name holes removed" "std::max<long unsigned int>" 2
+39 ccp "Copies propagated" "std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head" 1
+39 ccp "Statements deleted" "std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head" 2
+56 release_ssa "unused VAR_DECLs removed" "std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head" 1
+56 release_ssa "SSA names released" "std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head" 3
+56 release_ssa "SSA name holes removed" "std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head" 3
+36 einline "unused VAR_DECLs removed" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+36 einline "Symbol to SSA rewrite" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+39 ccp "Copies propagated" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+39 ccp "Statements deleted" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 2
+56 release_ssa "unused VAR_DECLs removed" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+56 release_ssa "SSA names released" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 2
+56 release_ssa "SSA name holes removed" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 2
+36 einline "unused VAR_DECLs removed" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+36 einline "Symbol to SSA rewrite" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+39 ccp "Copies propagated" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+39 ccp "Statements deleted" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 2
+56 release_ssa "unused VAR_DECLs removed" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+56 release_ssa "SSA names released" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 3
+56 release_ssa "SSA name holes removed" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 3
+36 einline "unused VAR_DECLs removed" "std::_Head_base<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >, false>::_M_head" 1
+36 einline "Symbol to SSA rewrite" "std::_Head_base<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >, false>::_M_head" 1
+39 ccp "Copies propagated" "std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head" 1
+39 ccp "Statements deleted" "std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head" 2
+56 release_ssa "unused VAR_DECLs removed" "std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head" 1
+56 release_ssa "SSA names released" "std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head" 3
+56 release_ssa "SSA name holes removed" "std::_Tuple_impl<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >::_M_head" 3
+36 einline "unused VAR_DECLs removed" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+36 einline "Symbol to SSA rewrite" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+39 ccp "Copies propagated" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+39 ccp "Statements deleted" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 2
+56 release_ssa "unused VAR_DECLs removed" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+56 release_ssa "SSA names released" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 2
+56 release_ssa "SSA name holes removed" "std::__get_helper<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 2
+36 einline "unused VAR_DECLs removed" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+36 einline "Symbol to SSA rewrite" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+39 ccp "Copies propagated" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+39 ccp "Statements deleted" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 2
+56 release_ssa "unused VAR_DECLs removed" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 1
+56 release_ssa "SSA names released" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 3
+56 release_ssa "SSA name holes removed" "std::get<0, std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >" 3
+36 einline "unused VAR_DECLs removed" "main" 1
+36 einline "Symbol to SSA rewrite" "main" 1
+39 ccp "Statements deleted" "main" 1
+39 ccp "Constants propagated" "main" 1
+56 release_ssa "SSA names released" "main" 1
+56 release_ssa "SSA name holes removed" "main" 1
+49 eipa_sra "Aggregate parameter components created" "std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::_ZNSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEEixEm.isra.1" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::_ZNSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEEixEm.isra.1" 1
+49 eipa_sra "Aggregate parameters broken up" "std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::_ZNSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEEixEm.isra.1" 1
+56 release_ssa "unused VAR_DECLs removed" "std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::_ZNSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEEixEm.isra.1" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_get_Tp_allocator" 1
+39 ccp "Copies propagated" "SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::ObjectProxy" 4
+39 ccp "Statements deleted" "SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::ObjectProxy" 2
+48 cddce "Statements deleted" "SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::ObjectProxy" 1
+56 release_ssa "SSA names released" "SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::ObjectProxy" 5
+56 release_ssa "SSA name holes removed" "SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::ObjectProxy" 5
+36 einline "unused VAR_DECLs removed" "SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::PrintableNullSkin" 3
+36 einline "Symbol to SSA rewrite" "SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::PrintableNullSkin" 2
+39 ccp "Copies propagated" "SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::PrintableNullSkin" 6
+39 ccp "Statements deleted" "SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::PrintableNullSkin" 2
+48 cddce "Statements deleted" "SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::PrintableNullSkin" 1
+56 release_ssa "SSA names released" "SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::PrintableNullSkin" 5
+56 release_ssa "SSA name holes removed" "SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::PrintableNullSkin" 5
+36 einline "unused VAR_DECLs removed" "SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>::SkinBase" 3
+36 einline "Symbol to SSA rewrite" "SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>::SkinBase" 2
+39 ccp "Copies propagated" "SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>::SkinBase" 8
+39 ccp "Statements deleted" "SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>::SkinBase" 2
+48 cddce "Statements deleted" "SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>::SkinBase" 1
+56 release_ssa "SSA names released" "SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>::SkinBase" 5
+56 release_ssa "SSA name holes removed" "SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>::SkinBase" 5
+36 einline "unused VAR_DECLs removed" "s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::s_decayvertex" 3
+36 einline "Symbol to SSA rewrite" "s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::s_decayvertex" 2
+39 ccp "Copies propagated" "s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::s_decayvertex" 10
+39 ccp "Statements deleted" "s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::s_decayvertex" 2
+48 cddce "Statements deleted" "s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::s_decayvertex" 1
+56 release_ssa "SSA names released" "s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::s_decayvertex" 5
+56 release_ssa "SSA name holes removed" "s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >::s_decayvertex" 5
+36 einline "unused VAR_DECLs removed" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[]" 3
+36 einline "Symbol to SSA rewrite" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[]" 2
+42 esra "Totally-scalarized aggregates" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[]" 1
+42 esra "Scalarized aggregates" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[]" 1
+42 esra "Modified expressions" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[]" 2
+42 esra "Separate LHS and RHS handling" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[]" 2
+42 esra "Subtree copy stmts" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[]" 2
+42 esra "Deleted stmts" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[]" 1
+42 esra "Scalar replacements created" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[]" 2
+56 release_ssa "unused VAR_DECLs removed" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[]" 3
+56 release_ssa "SSA names released" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[]" 9
+56 release_ssa "SSA name holes removed" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::operator[]" 9
+36 einline "unused VAR_DECLs removed" "std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::size" 3
+36 einline "Symbol to SSA rewrite" "std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::size" 1
+42 esra "Symbol to SSA rewrite" "std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::size" 1
+49 eipa_sra "Aggregate parameter components created" "std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::_ZNKSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEE4sizeEv.isra.2" 2
+49 eipa_sra "Symbol to SSA rewrite" "std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::_ZNKSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEE4sizeEv.isra.2" 1
+49 eipa_sra "Aggregate parameters broken up" "std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::_ZNKSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEE4sizeEv.isra.2" 1
+56 release_ssa "unused VAR_DECLs removed" "std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> >::_ZNKSt6vectorI8vertex_tN3SOA16AlignedAllocatorIS0_Lm64EEEE4sizeEv.isra.2" 2
+39 ccp "Copies propagated" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::size" 7
+39 ccp "Statements deleted" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::size" 6
+49 eipa_sra "Symbol to SSA rewrite" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::size" 1
+56 release_ssa "unused VAR_DECLs removed" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::size" 2
+56 release_ssa "SSA names released" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::size" 8
+56 release_ssa "SSA name holes removed" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::size" 8
+36 einline "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::new_allocator" 3
+36 einline "Symbol to SSA rewrite" "__gnu_cxx::new_allocator<short unsigned int>::new_allocator" 1
+56 release_ssa "SSA names released" "std::allocator<short unsigned int>::allocator" 1
+56 release_ssa "SSA name holes removed" "std::allocator<short unsigned int>::allocator" 1
+36 einline "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::~new_allocator" 1
+56 release_ssa "SSA names released" "std::allocator<short unsigned int>::~allocator" 1
+56 release_ssa "SSA name holes removed" "std::allocator<short unsigned int>::~allocator" 1
+36 einline "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::~_Vector_impl" 1
+56 release_ssa "SSA names released" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::~_Vector_impl" 1
+56 release_ssa "SSA name holes removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::~_Vector_impl" 1
+36 einline "unused VAR_DECLs removed" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::__normal_iterator" 1
+42 esra "Totally-scalarized aggregates" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 1
+42 esra "Scalarized aggregates" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 1
+42 esra "Modified expressions" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 2
+42 esra "Separate LHS and RHS handling" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 2
+42 esra "Scalar replacements created" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 1
+56 release_ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 2
+56 release_ssa "SSA names released" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 5
+56 release_ssa "SSA name holes removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 5
+36 einline "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 2
+36 einline "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 1
+42 esra "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 1
+42 esra "Totally-scalarized aggregates" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 1
+42 esra "Scalarized aggregates" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 1
+42 esra "Modified expressions" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 2
+42 esra "Separate LHS and RHS handling" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 2
+42 esra "Scalar replacements created" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 1
+56 release_ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 2
+56 release_ssa "SSA names released" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 5
+56 release_ssa "SSA name holes removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 5
+36 einline "unused VAR_DECLs removed" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 2
+36 einline "Symbol to SSA rewrite" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+39 ccp "Copies propagated" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+39 ccp "Statements deleted" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+42 esra "Symbol to SSA rewrite" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+56 release_ssa "SSA names released" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+56 release_ssa "SSA name holes removed" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+49 eipa_sra "Aggregate parameter components created" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::_ZNK9__gnu_cxx17__normal_iteratorIPtSt6vectorItSaItEEEdeEv.isra.3" 1
+49 eipa_sra "Symbol to SSA rewrite" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::_ZNK9__gnu_cxx17__normal_iteratorIPtSt6vectorItSaItEEEdeEv.isra.3" 1
+49 eipa_sra "Aggregate parameters broken up" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::_ZNK9__gnu_cxx17__normal_iteratorIPtSt6vectorItSaItEEEdeEv.isra.3" 1
+56 release_ssa "unused VAR_DECLs removed" "__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::_ZNK9__gnu_cxx17__normal_iteratorIPtSt6vectorItSaItEEEdeEv.isra.3" 1
+49 eipa_sra "Symbol to SSA rewrite" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::__normal_iterator" 1
+39 ccp "Copies propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 1
+39 ccp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 2
+42 esra "Totally-scalarized aggregates" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 1
+42 esra "Scalarized aggregates" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 1
+42 esra "Modified expressions" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 2
+42 esra "Separate LHS and RHS handling" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 2
+42 esra "Scalar replacements created" "std::vector<short unsigned int, std::allocator<short unsigned int> >::end" 1
+49 eipa_sra "Aggregate parameter components created" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE3endEv.isra.4" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE3endEv.isra.4" 1
+49 eipa_sra "Aggregate parameters broken up" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE3endEv.isra.4" 1
+56 release_ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE3endEv.isra.4" 4
+36 einline "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 2
+36 einline "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 2
+39 ccp "Copies propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 1
+39 ccp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 2
+42 esra "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 1
+42 esra "Totally-scalarized aggregates" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 1
+42 esra "Scalarized aggregates" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 1
+42 esra "Modified expressions" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 2
+42 esra "Separate LHS and RHS handling" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 2
+42 esra "Scalar replacements created" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::begin" 1
+49 eipa_sra "Aggregate parameter components created" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE5beginEv.isra.5" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE5beginEv.isra.5" 1
+49 eipa_sra "Aggregate parameters broken up" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE5beginEv.isra.5" 1
+56 release_ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE5beginEv.isra.5" 4
+36 einline "unused VAR_DECLs removed" "std::__addressof<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 2
+36 einline "Symbol to SSA rewrite" "std::__addressof<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 2
+39 ccp "Copies propagated" "std::__addressof<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+39 ccp "Statements deleted" "std::__addressof<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+42 esra "Symbol to SSA rewrite" "std::__addressof<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::__addressof<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+56 release_ssa "SSA names released" "std::__addressof<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+56 release_ssa "SSA name holes removed" "std::__addressof<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+39 ccp "Copies propagated" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::back_insert_iterator" 1
+39 ccp "Statements deleted" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::back_insert_iterator" 2
+56 release_ssa "unused VAR_DECLs removed" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::back_insert_iterator" 1
+56 release_ssa "SSA names released" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::back_insert_iterator" 2
+56 release_ssa "SSA name holes removed" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::back_insert_iterator" 2
+36 einline "unused VAR_DECLs removed" "std::back_inserter<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+36 einline "Symbol to SSA rewrite" "std::back_inserter<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+42 esra "Totally-scalarized aggregates" "std::back_inserter<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+42 esra "Scalarized aggregates" "std::back_inserter<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+42 esra "Modified expressions" "std::back_inserter<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 2
+42 esra "Separate LHS and RHS handling" "std::back_inserter<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 2
+42 esra "Scalar replacements created" "std::back_inserter<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+56 release_ssa "unused VAR_DECLs removed" "std::back_inserter<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 2
+56 release_ssa "SSA names released" "std::back_inserter<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 5
+56 release_ssa "SSA name holes removed" "std::back_inserter<std::vector<short unsigned int, std::allocator<short unsigned int> > >" 5
+36 einline "unused VAR_DECLs removed" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 2
+36 einline "Symbol to SSA rewrite" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+39 ccp "Copies propagated" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+39 ccp "Statements deleted" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+42 esra "Symbol to SSA rewrite" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+56 release_ssa "SSA names released" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+56 release_ssa "SSA name holes removed" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+49 eipa_sra "Aggregate parameter components created" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::_ZNK9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEdeEv.isra.6" 1
+49 eipa_sra "Symbol to SSA rewrite" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::_ZNK9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEdeEv.isra.6" 1
+49 eipa_sra "Aggregate parameters broken up" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::_ZNK9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEdeEv.isra.6" 1
+56 release_ssa "unused VAR_DECLs removed" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::_ZNK9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEdeEv.isra.6" 1
+39 ccp "Copies propagated" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator*" 1
+39 ccp "Statements deleted" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator*" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator*" 1
+56 release_ssa "SSA names released" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator*" 1
+56 release_ssa "SSA name holes removed" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator*" 1
+39 ccp "Copies propagated" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+39 ccp "Statements deleted" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+56 release_ssa "SSA names released" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+56 release_ssa "SSA name holes removed" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator++" 1
+39 ccp "Copies propagated" "__gnu_cxx::operator!=<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 2
+39 ccp "Statements deleted" "__gnu_cxx::operator!=<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 4
+56 release_ssa "unused VAR_DECLs removed" "__gnu_cxx::operator!=<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 2
+56 release_ssa "SSA names released" "__gnu_cxx::operator!=<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 6
+56 release_ssa "SSA name holes removed" "__gnu_cxx::operator!=<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 6
+36 einline "unused VAR_DECLs removed" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 2
+36 einline "Symbol to SSA rewrite" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 1
+39 ccp "Copies propagated" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 2
+39 ccp "Statements deleted" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 6
+42 esra "Scalarized aggregates" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 1
+42 esra "Modified expressions" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 4
+42 esra "Separate LHS and RHS handling" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 4
+42 esra "Subtree copy stmts" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 1
+42 esra "Scalar replacements created" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 1
+44 fre "SCC iterations == 3" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 3
+56 release_ssa "unused VAR_DECLs removed" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 3
+56 release_ssa "SSA names released" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 10
+56 release_ssa "SSA name holes removed" "std::iota<__gnu_cxx::__normal_iterator<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, int>" 10
+36 einline "unused VAR_DECLs removed" "std::_Destroy_aux<true>::__destroy<short unsigned int*>" 4
+36 einline "Symbol to SSA rewrite" "std::_Destroy_aux<true>::__destroy<short unsigned int*>" 1
+42 esra "Symbol to SSA rewrite" "std::_Destroy_aux<true>::__destroy<short unsigned int*>" 1
+48 cddce "Statements deleted" "std::_Destroy_aux<true>::__destroy<short unsigned int*>" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::_Destroy_aux<true>::_ZNSt12_Destroy_auxILb1EE9__destroyIPtEEvT_S3_.isra.7" 1
+49 eipa_sra "Unused parameters deleted" "std::_Destroy_aux<true>::_ZNSt12_Destroy_auxILb1EE9__destroyIPtEEvT_S3_.isra.7" 2
+56 release_ssa "unused VAR_DECLs removed" "std::_Destroy_aux<true>::_ZNSt12_Destroy_auxILb1EE9__destroyIPtEEvT_S3_.isra.7" 2
+49 eipa_sra "Symbol to SSA rewrite" "std::_ZSt8_DestroyIPtEvT_S1_.isra.8" 1
+49 eipa_sra "Unused parameters deleted" "std::_ZSt8_DestroyIPtEvT_S1_.isra.8" 2
+56 release_ssa "unused VAR_DECLs removed" "std::_ZSt8_DestroyIPtEvT_S1_.isra.8" 2
+49 eipa_sra "Symbol to SSA rewrite" "std::_ZSt8_DestroyIPttEvT_S1_RSaIT0_E.isra.9" 1
+49 eipa_sra "Unused parameters deleted" "std::_ZSt8_DestroyIPttEvT_S1_RSaIT0_E.isra.9" 3
+56 release_ssa "unused VAR_DECLs removed" "std::_ZSt8_DestroyIPttEvT_S1_RSaIT0_E.isra.9" 3
+56 release_ssa "SSA names released" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::_Vector_impl" 1
+56 release_ssa "SSA name holes removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::_Vector_impl" 1
+36 einline "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_base" 1
+48 cddce "Statements deleted" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_base" 1
+56 release_ssa "SSA names released" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_base" 3
+56 release_ssa "SSA name holes removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_base" 3
+36 einline "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 1
+36 einline "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 1
+48 cddce "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 1
+56 release_ssa "SSA names released" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 3
+56 release_ssa "SSA name holes removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 3
+36 einline "unused VAR_DECLs removed" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::base" 1
+36 einline "Symbol to SSA rewrite" "__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >::base" 1
+39 ccp "Copies propagated" "__gnu_cxx::operator!=<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 2
+39 ccp "Statements deleted" "__gnu_cxx::operator!=<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 4
+56 release_ssa "unused VAR_DECLs removed" "__gnu_cxx::operator!=<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 2
+56 release_ssa "SSA names released" "__gnu_cxx::operator!=<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 6
+56 release_ssa "SSA name holes removed" "__gnu_cxx::operator!=<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 6
+36 einline "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::deallocate" 2
+36 einline "Symbol to SSA rewrite" "__gnu_cxx::new_allocator<short unsigned int>::deallocate" 1
+49 eipa_sra "Symbol to SSA rewrite" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE10deallocateEPtm.isra.10" 1
+49 eipa_sra "Unused parameters deleted" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE10deallocateEPtm.isra.10" 2
+56 release_ssa "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE10deallocateEPtm.isra.10" 2
+49 eipa_sra "Symbol to SSA rewrite" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE10deallocateERS0_Ptm.isra.11" 1
+49 eipa_sra "Unused parameters deleted" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE10deallocateERS0_Ptm.isra.11" 2
+56 release_ssa "unused VAR_DECLs removed" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE10deallocateERS0_Ptm.isra.11" 2
+36 einline "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_deallocate" 1
+36 einline "Symbol to SSA rewrite" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_deallocate" 1
+44 fre "SCC iterations == 2" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_deallocate" 1
+48 cddce "Statements deleted" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_deallocate" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE13_M_deallocateEPtm.isra.12" 1
+49 eipa_sra "Unused parameters deleted" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE13_M_deallocateEPtm.isra.12" 2
+56 release_ssa "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE13_M_deallocateEPtm.isra.12" 2
+36 einline "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::~_Vector_base" 1
+36 einline "Symbol to SSA rewrite" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::~_Vector_base" 1
+44 fre "SCC iterations == 2" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::~_Vector_base" 1
+44 fre "Eliminated" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::~_Vector_base" 1
+48 cddce "Statements deleted" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::~_Vector_base" 4
+56 release_ssa "SSA names released" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::~_Vector_base" 9
+56 release_ssa "SSA name holes removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::~_Vector_base" 9
+36 einline "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::~vector" 2
+36 einline "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::~vector" 1
+39 ccp "Copies propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::~vector" 1
+39 ccp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::~vector" 2
+44 fre "SCC iterations == 2" "std::vector<short unsigned int, std::allocator<short unsigned int> >::~vector" 1
+44 fre "Eliminated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::~vector" 1
+48 cddce "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::~vector" 3
+56 release_ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::~vector" 1
+56 release_ssa "SSA names released" "std::vector<short unsigned int, std::allocator<short unsigned int> >::~vector" 9
+56 release_ssa "SSA name holes removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::~vector" 9
+36 einline "unused VAR_DECLs removed" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::~SelectionView" 2
+36 einline "Symbol to SSA rewrite" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::~SelectionView" 1
+44 fre "SCC iterations == 2" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::~SelectionView" 1
+48 cddce "Statements deleted" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::~SelectionView" 1
+56 release_ssa "SSA names released" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::~SelectionView" 3
+56 release_ssa "SSA name holes removed" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::~SelectionView" 3
+36 einline "unused VAR_DECLs removed" "std::forward<const short unsigned int&>" 1
+36 einline "Symbol to SSA rewrite" "std::forward<const short unsigned int&>" 1
+39 ccp "Copies propagated" "std::forward<const short unsigned int&>" 1
+39 ccp "Statements deleted" "std::forward<const short unsigned int&>" 1
+56 release_ssa "SSA names released" "std::forward<const short unsigned int&>" 1
+56 release_ssa "SSA name holes removed" "std::forward<const short unsigned int&>" 1
+56 release_ssa "SSA names released" "std::allocator<short unsigned int>::allocator" 1
+56 release_ssa "SSA name holes removed" "std::allocator<short unsigned int>::allocator" 1
+36 einline "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::_Vector_impl" 2
+56 release_ssa "SSA names released" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::_Vector_impl" 1
+56 release_ssa "SSA name holes removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_impl::_Vector_impl" 1
+36 einline "unused VAR_DECLs removed" "SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position::stor" 2
+39 ccp "Copies propagated" "SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::get<0>" 6
+39 ccp "Statements deleted" "SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::get<0>" 9
+56 release_ssa "unused VAR_DECLs removed" "SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::get<0>" 4
+56 release_ssa "SSA names released" "SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::get<0>" 14
+56 release_ssa "SSA name holes removed" "SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position>::get<0>" 14
+36 einline "unused VAR_DECLs removed" "SOA::impl::FieldBase<vertex_t, f_vertex>::AccessorBase<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, 0, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::_get" 5
+36 einline "Symbol to SSA rewrite" "SOA::impl::FieldBase<vertex_t, f_vertex>::AccessorBase<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, 0, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::_get" 1
+39 ccp "Copies propagated" "SOA::impl::FieldBase<vertex_t, f_vertex>::AccessorBase<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, 0, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::_get" 1
+39 ccp "Statements deleted" "SOA::impl::FieldBase<vertex_t, f_vertex>::AccessorBase<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, 0, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::_get" 2
+56 release_ssa "unused VAR_DECLs removed" "SOA::impl::FieldBase<vertex_t, f_vertex>::AccessorBase<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, 0, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::_get" 1
+56 release_ssa "SSA names released" "SOA::impl::FieldBase<vertex_t, f_vertex>::AccessorBase<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, 0, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::_get" 3
+56 release_ssa "SSA name holes removed" "SOA::impl::FieldBase<vertex_t, f_vertex>::AccessorBase<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, 0, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::_get" 3
+36 einline "unused VAR_DECLs removed" "f_vertex::accessors<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, SOA::Typelist::typelist<f_vertex>, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::vertex" 1
+36 einline "Symbol to SSA rewrite" "f_vertex::accessors<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, SOA::Typelist::typelist<f_vertex>, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::vertex" 1
+39 ccp "Copies propagated" "f_vertex::accessors<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, SOA::Typelist::typelist<f_vertex>, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::vertex" 1
+39 ccp "Statements deleted" "f_vertex::accessors<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, SOA::Typelist::typelist<f_vertex>, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::vertex" 2
+56 release_ssa "unused VAR_DECLs removed" "f_vertex::accessors<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, SOA::Typelist::typelist<f_vertex>, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::vertex" 1
+56 release_ssa "SSA names released" "f_vertex::accessors<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, SOA::Typelist::typelist<f_vertex>, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::vertex" 2
+56 release_ssa "SSA name holes removed" "f_vertex::accessors<SOA::impl::SkinBase<SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> >, f_vertex>, SOA::Typelist::typelist<f_vertex>, SOA::PrintableNullSkin<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >::vertex" 2
+36 einline "unused VAR_DECLs removed" "foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>::operator()<s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >" 1
+36 einline "Symbol to SSA rewrite" "foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>::operator()<s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >" 1
+39 ccp "Copies propagated" "foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>::operator()<s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >" 1
+39 ccp "Statements deleted" "foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>::operator()<s_decayvertex<SOA::ObjectProxy<SOA::_View<std::tuple<std::vector<vertex_t, SOA::AlignedAllocator<vertex_t, 64> > >, s_decayvertex, f_vertex>::position> > >" 2
+49 eipa_sra "Symbol to SSA rewrite" "foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>::_ZZ3fooRKN3SOA9ContainerISt6vector13s_decayvertexJEEEENKUlT_E_clIS2_INS_11ObjectProxyINS_5_ViewISt5tupleIJS1_I8vertex_tNS_16AlignedAllocatorISC_Lm64EEEEEES2_J8f_vertexEE8positionEEEEEEbS6_.isra.13" 1
+49 eipa_sra "Unused parameters deleted" "foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>::_ZZ3fooRKN3SOA9ContainerISt6vector13s_decayvertexJEEEENKUlT_E_clIS2_INS_11ObjectProxyINS_5_ViewISt5tupleIJS1_I8vertex_tNS_16AlignedAllocatorISC_Lm64EEEEEES2_J8f_vertexEE8positionEEEEEEbS6_.isra.13" 1
+56 release_ssa "unused VAR_DECLs removed" "foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>::_ZZ3fooRKN3SOA9ContainerISt6vector13s_decayvertexJEEEENKUlT_E_clIS2_INS_11ObjectProxyINS_5_ViewISt5tupleIJS1_I8vertex_tNS_16AlignedAllocatorISC_Lm64EEEEEES2_J8f_vertexEE8positionEEEEEEbS6_.isra.13" 2
+36 einline "unused VAR_DECLs removed" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 1
+36 einline "Symbol to SSA rewrite" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 1
+39 ccp "Copies propagated" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 1
+39 ccp "Statements deleted" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 2
+42 esra "Totally-scalarized aggregates" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 2
+42 esra "Scalarized aggregates" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 3
+42 esra "Modified expressions" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 4
+42 esra "Subreplacement stmts" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 4
+42 esra "Separate LHS and RHS handling" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 4
+42 esra "Deleted stmts" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 2
+42 esra "Scalar replacements created" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 6
+48 cddce "Statements deleted" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 2
+56 release_ssa "unused VAR_DECLs removed" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 10
+56 release_ssa "SSA names released" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 16
+56 release_ssa "SSA name holes removed" "SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)>::operator()<short unsigned int>" 16
+36 einline "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::construct<short unsigned int, const short unsigned int&>" 2
+36 einline "Symbol to SSA rewrite" "__gnu_cxx::new_allocator<short unsigned int>::construct<short unsigned int, const short unsigned int&>" 1
+39 ccp "Copies propagated" "__gnu_cxx::new_allocator<short unsigned int>::construct<short unsigned int, const short unsigned int&>" 3
+39 ccp "Statements deleted" "__gnu_cxx::new_allocator<short unsigned int>::construct<short unsigned int, const short unsigned int&>" 5
+42 esra "Symbol to SSA rewrite" "__gnu_cxx::new_allocator<short unsigned int>::construct<short unsigned int, const short unsigned int&>" 1
+49 eipa_sra "Scalar parameters converted to by-value" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE9constructItJRKtEEEvPT_DpOT0_.isra.14" 1
+49 eipa_sra "Symbol to SSA rewrite" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE9constructItJRKtEEEvPT_DpOT0_.isra.14" 1
+49 eipa_sra "Unused parameters deleted" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE9constructItJRKtEEEvPT_DpOT0_.isra.14" 1
+56 release_ssa "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE9constructItJRKtEEEvPT_DpOT0_.isra.14" 4
+36 einline "unused VAR_DECLs removed" "std::allocator_traits<std::allocator<short unsigned int> >::construct<short unsigned int, const short unsigned int&>" 2
+36 einline "Symbol to SSA rewrite" "std::allocator_traits<std::allocator<short unsigned int> >::construct<short unsigned int, const short unsigned int&>" 1
+39 ccp "Copies propagated" "std::allocator_traits<std::allocator<short unsigned int> >::construct<short unsigned int, const short unsigned int&>" 3
+39 ccp "Statements deleted" "std::allocator_traits<std::allocator<short unsigned int> >::construct<short unsigned int, const short unsigned int&>" 3
+49 eipa_sra "Symbol to SSA rewrite" "std::allocator_traits<std::allocator<short unsigned int> >::construct<short unsigned int, const short unsigned int&>" 1
+49 eipa_sra "Scalar parameters converted to by-value" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE9constructItJRKtEEEvRS0_PT_DpOT0_.isra.15" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE9constructItJRKtEEEvRS0_PT_DpOT0_.isra.15" 1
+49 eipa_sra "Unused parameters deleted" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE9constructItJRKtEEEvRS0_PT_DpOT0_.isra.15" 1
+56 release_ssa "unused VAR_DECLs removed" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE9constructItJRKtEEEvRS0_PT_DpOT0_.isra.15" 3
+36 einline "unused VAR_DECLs removed" "__gnu_cxx::operator-<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 3
+36 einline "Symbol to SSA rewrite" "__gnu_cxx::operator-<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+39 ccp "Copies propagated" "__gnu_cxx::operator-<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 2
+39 ccp "Statements deleted" "__gnu_cxx::operator-<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 4
+49 eipa_sra "Symbol to SSA rewrite" "__gnu_cxx::operator-<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 1
+56 release_ssa "unused VAR_DECLs removed" "__gnu_cxx::operator-<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 2
+56 release_ssa "SSA names released" "__gnu_cxx::operator-<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 6
+56 release_ssa "SSA name holes removed" "__gnu_cxx::operator-<short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >" 6
+36 einline "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::size" 2
+36 einline "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::size" 1
+49 eipa_sra "Aggregate parameter components created" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE4sizeEv.isra.16" 2
+49 eipa_sra "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE4sizeEv.isra.16" 1
+49 eipa_sra "Aggregate parameters broken up" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE4sizeEv.isra.16" 1
+56 release_ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE4sizeEv.isra.16" 2
+49 eipa_sra "Symbol to SSA rewrite" "std::move_iterator<short unsigned int*>::move_iterator" 1
+42 esra "Totally-scalarized aggregates" "std::__make_move_if_noexcept_iterator<short unsigned int>" 1
+42 esra "Scalarized aggregates" "std::__make_move_if_noexcept_iterator<short unsigned int>" 1
+42 esra "Modified expressions" "std::__make_move_if_noexcept_iterator<short unsigned int>" 2
+42 esra "Separate LHS and RHS handling" "std::__make_move_if_noexcept_iterator<short unsigned int>" 2
+42 esra "Scalar replacements created" "std::__make_move_if_noexcept_iterator<short unsigned int>" 1
+56 release_ssa "unused VAR_DECLs removed" "std::__make_move_if_noexcept_iterator<short unsigned int>" 2
+56 release_ssa "SSA names released" "std::__make_move_if_noexcept_iterator<short unsigned int>" 5
+56 release_ssa "SSA name holes removed" "std::__make_move_if_noexcept_iterator<short unsigned int>" 5
+36 einline "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::destroy<short unsigned int>" 2
+36 einline "Symbol to SSA rewrite" "__gnu_cxx::new_allocator<short unsigned int>::destroy<short unsigned int>" 1
+42 esra "Symbol to SSA rewrite" "__gnu_cxx::new_allocator<short unsigned int>::destroy<short unsigned int>" 1
+48 cddce "Statements deleted" "__gnu_cxx::new_allocator<short unsigned int>::destroy<short unsigned int>" 1
+49 eipa_sra "Symbol to SSA rewrite" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE7destroyItEEvPT_.isra.17" 1
+49 eipa_sra "Unused parameters deleted" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE7destroyItEEvPT_.isra.17" 2
+56 release_ssa "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE7destroyItEEvPT_.isra.17" 2
+56 release_ssa "SSA names released" "std::allocator_traits<std::allocator<short unsigned int> >::destroy<short unsigned int>" 1
+56 release_ssa "SSA name holes removed" "std::allocator_traits<std::allocator<short unsigned int> >::destroy<short unsigned int>" 1
+39 ccp "Statements deleted" "__gnu_cxx::new_allocator<short unsigned int>::max_size" 1
+39 ccp "Constants propagated" "__gnu_cxx::new_allocator<short unsigned int>::max_size" 1
+49 eipa_sra "Symbol to SSA rewrite" "__gnu_cxx::new_allocator<short unsigned int>::_ZNK9__gnu_cxx13new_allocatorItE8max_sizeEv.isra.18" 1
+49 eipa_sra "Unused parameters deleted" "__gnu_cxx::new_allocator<short unsigned int>::_ZNK9__gnu_cxx13new_allocatorItE8max_sizeEv.isra.18" 1
+56 release_ssa "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::_ZNK9__gnu_cxx13new_allocatorItE8max_sizeEv.isra.18" 1
+39 ccp "Copies propagated" "__gnu_cxx::new_allocator<short unsigned int>::allocate" 1
+39 ccp "Statements deleted" "__gnu_cxx::new_allocator<short unsigned int>::allocate" 3
+39 ccp "Constants propagated" "__gnu_cxx::new_allocator<short unsigned int>::allocate" 1
+49 eipa_sra "Symbol to SSA rewrite" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE8allocateEmPKv.isra.19" 1
+49 eipa_sra "Unused parameters deleted" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE8allocateEmPKv.isra.19" 2
+56 release_ssa "unused VAR_DECLs removed" "__gnu_cxx::new_allocator<short unsigned int>::_ZN9__gnu_cxx13new_allocatorItE8allocateEmPKv.isra.19" 3
+36 einline "Symbol to SSA rewrite" "std::allocator_traits<std::allocator<short unsigned int> >::allocate" 1
+39 ccp "Copies propagated" "std::allocator_traits<std::allocator<short unsigned int> >::allocate" 1
+39 ccp "Statements deleted" "std::allocator_traits<std::allocator<short unsigned int> >::allocate" 3
+49 eipa_sra "Symbol to SSA rewrite" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE8allocateERS0_m.isra.20" 1
+49 eipa_sra "Unused parameters deleted" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE8allocateERS0_m.isra.20" 1
+56 release_ssa "unused VAR_DECLs removed" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE8allocateERS0_m.isra.20" 2
+36 einline "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_allocate" 1
+36 einline "Symbol to SSA rewrite" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_allocate" 1
+39 ccp "Copies propagated" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_allocate" 2
+39 ccp "Statements deleted" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_allocate" 5
+39 ccp "Constants propagated" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_allocate" 1
+44 fre "SCC iterations == 2" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_allocate" 2
+48 cddce "Statements deleted" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_allocate" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE11_M_allocateEm.isra.21" 1
+49 eipa_sra "Unused parameters deleted" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE11_M_allocateEm.isra.21" 1
+56 release_ssa "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_ZNSt12_Vector_baseItSaItEE11_M_allocateEm.isra.21" 2
+36 einline "unused VAR_DECLs removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_create_storage" 1
+36 einline "Symbol to SSA rewrite" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_create_storage" 1
+39 ccp "Copies propagated" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_create_storage" 1
+39 ccp "Statements deleted" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_create_storage" 1
+44 fre "Eliminated" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_create_storage" 2
+56 release_ssa "SSA names released" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_create_storage" 3
+56 release_ssa "SSA name holes removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_create_storage" 3
+48 cddce "Statements deleted" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_base" 1
+56 release_ssa "SSA names released" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_base" 7
+56 release_ssa "SSA name holes removed" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_Vector_base" 7
+36 einline "unused VAR_DECLs removed" "std::__niter_base<short unsigned int*>" 5
+36 einline "Symbol to SSA rewrite" "std::__niter_base<short unsigned int*>" 1
+39 ccp "Copies propagated" "std::__niter_base<short unsigned int*>" 1
+39 ccp "Statements deleted" "std::__niter_base<short unsigned int*>" 1
+56 release_ssa "SSA names released" "std::__niter_base<short unsigned int*>" 1
+56 release_ssa "SSA name holes removed" "std::__niter_base<short unsigned int*>" 1
+39 ccp "Copies propagated" "std::__fill_n_a<short unsigned int*, long unsigned int, short unsigned int>" 3
+39 ccp "Statements deleted" "std::__fill_n_a<short unsigned int*, long unsigned int, short unsigned int>" 2
+44 fre "SCC iterations == 3" "std::__fill_n_a<short unsigned int*, long unsigned int, short unsigned int>" 3
+45 evrp "Incremental SSA update" "std::__fill_n_a<short unsigned int*, long unsigned int, short unsigned int>" 1
+49 eipa_sra "Scalar parameters converted to by-value" "std::_ZSt10__fill_n_aIPtmtEN9__gnu_cxx11__enable_ifIXsrSt11__is_scalarIT1_E7__valueET_E6__typeES6_T0_RKS4_.isra.22" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::_ZSt10__fill_n_aIPtmtEN9__gnu_cxx11__enable_ifIXsrSt11__is_scalarIT1_E7__valueET_E6__typeES6_T0_RKS4_.isra.22" 1
+56 release_ssa "unused VAR_DECLs removed" "std::_ZSt10__fill_n_aIPtmtEN9__gnu_cxx11__enable_ifIXsrSt11__is_scalarIT1_E7__valueET_E6__typeES6_T0_RKS4_.isra.22" 1
+39 ccp "Copies propagated" "std::fill_n<short unsigned int*, long unsigned int, short unsigned int>" 5
+39 ccp "Statements deleted" "std::fill_n<short unsigned int*, long unsigned int, short unsigned int>" 6
+44 fre "SCC iterations == 3" "std::fill_n<short unsigned int*, long unsigned int, short unsigned int>" 3
+45 evrp "Incremental SSA update" "std::fill_n<short unsigned int*, long unsigned int, short unsigned int>" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::fill_n<short unsigned int*, long unsigned int, short unsigned int>" 1
+49 eipa_sra "Scalar parameters converted to by-value" "std::_ZSt6fill_nIPtmtET_S1_T0_RKT1_.isra.23" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::_ZSt6fill_nIPtmtET_S1_T0_RKT1_.isra.23" 1
+56 release_ssa "unused VAR_DECLs removed" "std::_ZSt6fill_nIPtmtET_S1_T0_RKT1_.isra.23" 4
+36 einline "unused VAR_DECLs removed" "std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int>" 3
+36 einline "Symbol to SSA rewrite" "std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int>" 1
+39 ccp "Copies propagated" "std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int>" 1
+39 ccp "Statements deleted" "std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int>" 7
+39 ccp "Constants propagated" "std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int>" 2
+44 fre "SCC iterations == 3" "std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int>" 3
+45 evrp "Incremental SSA update" "std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int>" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int>" 1
+56 release_ssa "unused VAR_DECLs removed" "std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int>" 2
+56 release_ssa "SSA names released" "std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int>" 10
+56 release_ssa "SSA name holes removed" "std::__uninitialized_default_n_1<true>::__uninit_default_n<short unsigned int*, long unsigned int>" 10
+36 einline "unused VAR_DECLs removed" "std::__uninitialized_default_n<short unsigned int*, long unsigned int>" 3
+36 einline "Symbol to SSA rewrite" "std::__uninitialized_default_n<short unsigned int*, long unsigned int>" 2
+39 ccp "Copies propagated" "std::__uninitialized_default_n<short unsigned int*, long unsigned int>" 1
+39 ccp "Statements deleted" "std::__uninitialized_default_n<short unsigned int*, long unsigned int>" 5
+39 ccp "Constants propagated" "std::__uninitialized_default_n<short unsigned int*, long unsigned int>" 1
+44 fre "SCC iterations == 3" "std::__uninitialized_default_n<short unsigned int*, long unsigned int>" 3
+45 evrp "Incremental SSA update" "std::__uninitialized_default_n<short unsigned int*, long unsigned int>" 1
+48 cddce "Statements deleted" "std::__uninitialized_default_n<short unsigned int*, long unsigned int>" 1
+56 release_ssa "unused VAR_DECLs removed" "std::__uninitialized_default_n<short unsigned int*, long unsigned int>" 2
+56 release_ssa "SSA names released" "std::__uninitialized_default_n<short unsigned int*, long unsigned int>" 5
+56 release_ssa "SSA name holes removed" "std::__uninitialized_default_n<short unsigned int*, long unsigned int>" 5
+36 einline "unused VAR_DECLs removed" "std::__uninitialized_default_n_a<short unsigned int*, long unsigned int, short unsigned int>" 2
+36 einline "Symbol to SSA rewrite" "std::__uninitialized_default_n_a<short unsigned int*, long unsigned int, short unsigned int>" 1
+39 ccp "Copies propagated" "std::__uninitialized_default_n_a<short unsigned int*, long unsigned int, short unsigned int>" 1
+39 ccp "Statements deleted" "std::__uninitialized_default_n_a<short unsigned int*, long unsigned int, short unsigned int>" 4
+44 fre "SCC iterations == 3" "std::__uninitialized_default_n_a<short unsigned int*, long unsigned int, short unsigned int>" 3
+45 evrp "Incremental SSA update" "std::__uninitialized_default_n_a<short unsigned int*, long unsigned int, short unsigned int>" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::_ZSt27__uninitialized_default_n_aIPtmtET_S1_T0_RSaIT1_E.isra.24" 1
+49 eipa_sra "Unused parameters deleted" "std::_ZSt27__uninitialized_default_n_aIPtmtET_S1_T0_RSaIT1_E.isra.24" 1
+56 release_ssa "unused VAR_DECLs removed" "std::_ZSt27__uninitialized_default_n_aIPtmtET_S1_T0_RSaIT1_E.isra.24" 2
+36 einline "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_default_initialize" 2
+36 einline "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_default_initialize" 1
+39 ccp "Copies propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_default_initialize" 2
+39 ccp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_default_initialize" 6
+44 fre "SCC iterations == 3" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_default_initialize" 3
+45 evrp "Incremental SSA update" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_default_initialize" 1
+48 cddce "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_default_initialize" 1
+49 eipa_sra "Aggregate parameter components created" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNSt6vectorItSaItEE21_M_default_initializeEm.isra.25" 2
+49 eipa_sra "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNSt6vectorItSaItEE21_M_default_initializeEm.isra.25" 1
+49 eipa_sra "Aggregate parameters broken up" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNSt6vectorItSaItEE21_M_default_initializeEm.isra.25" 1
+56 release_ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNSt6vectorItSaItEE21_M_default_initializeEm.isra.25" 4
+36 einline "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 3
+36 einline "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 1
+39 ccp "Copies propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 3
+39 ccp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 2
+44 fre "SCC iterations == 3" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 3
+44 fre "Eliminated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 1
+45 evrp "Incremental SSA update" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 1
+48 cddce "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 1
+56 release_ssa "SSA names released" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 7
+56 release_ssa "SSA name holes removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::vector" 7
+36 einline "unused VAR_DECLs removed" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 6
+36 einline "Symbol to SSA rewrite" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 1
+39 ccp "Copies propagated" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 1
+39 ccp "Statements deleted" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 2
+42 esra "Totally-scalarized aggregates" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 4
+42 esra "Scalarized aggregates" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 6
+42 esra "Modified expressions" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 12
+42 esra "Separate LHS and RHS handling" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 8
+42 esra "Scalar replacements created" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 6
+44 fre "SCC iterations == 3" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 3
+44 fre "Eliminated" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 1
+56 release_ssa "unused VAR_DECLs removed" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 13
+56 release_ssa "SSA names released" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 20
+56 release_ssa "SSA name holes removed" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView" 20
+36 einline "unused VAR_DECLs removed" "std::allocator_traits<std::allocator<short unsigned int> >::max_size" 6
+36 einline "Symbol to SSA rewrite" "std::allocator_traits<std::allocator<short unsigned int> >::max_size" 1
+39 ccp "Statements deleted" "std::allocator_traits<std::allocator<short unsigned int> >::max_size" 2
+39 ccp "Constants propagated" "std::allocator_traits<std::allocator<short unsigned int> >::max_size" 1
+42 esra "Symbol to SSA rewrite" "std::allocator_traits<std::allocator<short unsigned int> >::max_size" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE8max_sizeERKS0_.isra.26" 1
+49 eipa_sra "Unused parameters deleted" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE8max_sizeERKS0_.isra.26" 1
+56 release_ssa "unused VAR_DECLs removed" "std::allocator_traits<std::allocator<short unsigned int> >::_ZNSt16allocator_traitsISaItEE8max_sizeERKS0_.isra.26" 2
+36 einline "Symbol to SSA rewrite" "std::_Vector_base<short unsigned int, std::allocator<short unsigned int> >::_M_get_Tp_allocator" 1
+39 ccp "Copies propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::max_size" 1
+39 ccp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::max_size" 4
+39 ccp "Constants propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::max_size" 1
+48 cddce "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::max_size" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE8max_sizeEv.isra.27" 1
+49 eipa_sra "Unused parameters deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE8max_sizeEv.isra.27" 1
+56 release_ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_ZNKSt6vectorItSaItEE8max_sizeEv.isra.27" 3
+36 einline "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len" 1
+36 einline "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len" 1
+39 ccp "Copies propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len" 15
+39 ccp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len" 25
+39 ccp "Constants propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len" 3
+44 fre "SCC iterations == 2" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len" 4
+44 fre "Eliminated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len" 17
+48 cddce "PHI nodes deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len" 1
+56 release_ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len" 8
+56 release_ssa "SSA names released" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len" 47
+56 release_ssa "SSA name holes removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_check_len" 47
+36 einline "unused VAR_DECLs removed" "std::move_iterator<short unsigned int*>::base" 10
+36 einline "Symbol to SSA rewrite" "std::move_iterator<short unsigned int*>::base" 2
+49 eipa_sra "Aggregate parameter components created" "std::move_iterator<short unsigned int*>::_ZNKSt13move_iteratorIPtE4baseEv.isra.28" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::move_iterator<short unsigned int*>::_ZNKSt13move_iteratorIPtE4baseEv.isra.28" 1
+49 eipa_sra "Aggregate parameters broken up" "std::move_iterator<short unsigned int*>::_ZNKSt13move_iteratorIPtE4baseEv.isra.28" 1
+56 release_ssa "unused VAR_DECLs removed" "std::move_iterator<short unsigned int*>::_ZNKSt13move_iteratorIPtE4baseEv.isra.28" 1
+39 ccp "Copies propagated" "std::__miter_base<short unsigned int*>" 1
+39 ccp "Statements deleted" "std::__miter_base<short unsigned int*>" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::__miter_base<short unsigned int*>" 1
+56 release_ssa "SSA names released" "std::__miter_base<short unsigned int*>" 1
+56 release_ssa "SSA name holes removed" "std::__miter_base<short unsigned int*>" 1
+39 ccp "Copies propagated" "std::__miter_base<short unsigned int*>" 2
+39 ccp "Statements deleted" "std::__miter_base<short unsigned int*>" 5
+56 release_ssa "unused VAR_DECLs removed" "std::__miter_base<short unsigned int*>" 2
+56 release_ssa "SSA names released" "std::__miter_base<short unsigned int*>" 5
+56 release_ssa "SSA name holes removed" "std::__miter_base<short unsigned int*>" 5
+36 einline "unused VAR_DECLs removed" "std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<short unsigned int>" 2
+36 einline "Symbol to SSA rewrite" "std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<short unsigned int>" 1
+44 fre "SCC iterations == 2" "std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<short unsigned int>" 1
+48 cddce "Statements deleted" "std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<short unsigned int>" 3
+56 release_ssa "unused VAR_DECLs removed" "std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<short unsigned int>" 1
+56 release_ssa "SSA names released" "std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<short unsigned int>" 3
+56 release_ssa "SSA name holes removed" "std::__copy_move<true, true, std::random_access_iterator_tag>::__copy_m<short unsigned int>" 3
+39 ccp "Copies propagated" "std::__copy_move_a<true, short unsigned int*, short unsigned int*>" 1
+39 ccp "Statements deleted" "std::__copy_move_a<true, short unsigned int*, short unsigned int*>" 3
+39 ccp "Constants propagated" "std::__copy_move_a<true, short unsigned int*, short unsigned int*>" 1
+44 fre "SCC iterations == 2" "std::__copy_move_a<true, short unsigned int*, short unsigned int*>" 1
+56 release_ssa "unused VAR_DECLs removed" "std::__copy_move_a<true, short unsigned int*, short unsigned int*>" 2
+56 release_ssa "SSA names released" "std::__copy_move_a<true, short unsigned int*, short unsigned int*>" 4
+56 release_ssa "SSA name holes removed" "std::__copy_move_a<true, short unsigned int*, short unsigned int*>" 4
+36 einline "unused VAR_DECLs removed" "std::__copy_move_a2<true, short unsigned int*, short unsigned int*>" 3
+36 einline "Symbol to SSA rewrite" "std::__copy_move_a2<true, short unsigned int*, short unsigned int*>" 1
+39 ccp "Copies propagated" "std::__copy_move_a2<true, short unsigned int*, short unsigned int*>" 14
+39 ccp "Statements deleted" "std::__copy_move_a2<true, short unsigned int*, short unsigned int*>" 9
+44 fre "SCC iterations == 2" "std::__copy_move_a2<true, short unsigned int*, short unsigned int*>" 1
+56 release_ssa "unused VAR_DECLs removed" "std::__copy_move_a2<true, short unsigned int*, short unsigned int*>" 4
+56 release_ssa "SSA names released" "std::__copy_move_a2<true, short unsigned int*, short unsigned int*>" 10
+56 release_ssa "SSA name holes removed" "std::__copy_move_a2<true, short unsigned int*, short unsigned int*>" 10
+36 einline "unused VAR_DECLs removed" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 6
+36 einline "Symbol to SSA rewrite" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 1
+39 ccp "Copies propagated" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 14
+39 ccp "Statements deleted" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 9
+42 esra "Scalarized aggregates" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 2
+42 esra "Modified expressions" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 4
+42 esra "Separate LHS and RHS handling" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 4
+42 esra "Scalar replacements created" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 2
+44 fre "SCC iterations == 2" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 1
+56 release_ssa "unused VAR_DECLs removed" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 5
+56 release_ssa "SSA names released" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 12
+56 release_ssa "SSA name holes removed" "std::copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 12
+36 einline "unused VAR_DECLs removed" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 3
+36 einline "Symbol to SSA rewrite" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 1
+39 ccp "Copies propagated" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 1
+39 ccp "Statements deleted" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 3
+42 esra "Symbol to SSA rewrite" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 1
+42 esra "Scalarized aggregates" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 2
+42 esra "Modified expressions" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 4
+42 esra "Separate LHS and RHS handling" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 4
+42 esra "Scalar replacements created" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 2
+44 fre "SCC iterations == 2" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 1
+56 release_ssa "unused VAR_DECLs removed" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 5
+56 release_ssa "SSA names released" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 6
+56 release_ssa "SSA name holes removed" "std::__uninitialized_copy<true>::__uninit_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 6
+36 einline "unused VAR_DECLs removed" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 1
+36 einline "Symbol to SSA rewrite" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 1
+39 ccp "Copies propagated" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 1
+39 ccp "Statements deleted" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 4
+39 ccp "Constants propagated" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 1
+42 esra "Symbol to SSA rewrite" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 1
+42 esra "Scalarized aggregates" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 2
+42 esra "Modified expressions" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 4
+42 esra "Separate LHS and RHS handling" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 4
+42 esra "Scalar replacements created" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 2
+44 fre "SCC iterations == 2" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 1
+48 cddce "Statements deleted" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 2
+56 release_ssa "unused VAR_DECLs removed" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 6
+56 release_ssa "SSA names released" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 7
+56 release_ssa "SSA name holes removed" "std::uninitialized_copy<std::move_iterator<short unsigned int*>, short unsigned int*>" 7
+36 einline "unused VAR_DECLs removed" "std::__uninitialized_copy_a<std::move_iterator<short unsigned int*>, short unsigned int*, short unsigned int>" 1
+36 einline "Symbol to SSA rewrite" "std::__uninitialized_copy_a<std::move_iterator<short unsigned int*>, short unsigned int*, short unsigned int>" 1
+39 ccp "Copies propagated" "std::__uninitialized_copy_a<std::move_iterator<short unsigned int*>, short unsigned int*, short unsigned int>" 1
+39 ccp "Statements deleted" "std::__uninitialized_copy_a<std::move_iterator<short unsigned int*>, short unsigned int*, short unsigned int>" 3
+42 esra "Symbol to SSA rewrite" "std::__uninitialized_copy_a<std::move_iterator<short unsigned int*>, short unsigned int*, short unsigned int>" 1
+42 esra "Scalarized aggregates" "std::__uninitialized_copy_a<std::move_iterator<short unsigned int*>, short unsigned int*, short unsigned int>" 2
+42 esra "Modified expressions" "std::__uninitialized_copy_a<std::move_iterator<short unsigned int*>, short unsigned int*, short unsigned int>" 4
+42 esra "Separate LHS and RHS handling" "std::__uninitialized_copy_a<std::move_iterator<short unsigned int*>, short unsigned int*, short unsigned int>" 4
+42 esra "Scalar replacements created" "std::__uninitialized_copy_a<std::move_iterator<short unsigned int*>, short unsigned int*, short unsigned int>" 2
+44 fre "SCC iterations == 2" "std::__uninitialized_copy_a<std::move_iterator<short unsigned int*>, short unsigned int*, short unsigned int>" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::_ZSt22__uninitialized_copy_aISt13move_iteratorIPtES1_tET0_T_S4_S3_RSaIT1_E.isra.29" 1
+49 eipa_sra "Unused parameters deleted" "std::_ZSt22__uninitialized_copy_aISt13move_iteratorIPtES1_tET0_T_S4_S3_RSaIT1_E.isra.29" 1
+56 release_ssa "unused VAR_DECLs removed" "std::_ZSt22__uninitialized_copy_aISt13move_iteratorIPtES1_tET0_T_S4_S3_RSaIT1_E.isra.29" 6
+36 einline "unused VAR_DECLs removed" "std::__uninitialized_move_if_noexcept_a<short unsigned int*, short unsigned int*, std::allocator<short unsigned int> >" 1
+36 einline "Symbol to SSA rewrite" "std::__uninitialized_move_if_noexcept_a<short unsigned int*, short unsigned int*, std::allocator<short unsigned int> >" 1
+39 ccp "Copies propagated" "std::__uninitialized_move_if_noexcept_a<short unsigned int*, short unsigned int*, std::allocator<short unsigned int> >" 1
+39 ccp "Statements deleted" "std::__uninitialized_move_if_noexcept_a<short unsigned int*, short unsigned int*, std::allocator<short unsigned int> >" 3
+42 esra "Symbol to SSA rewrite" "std::__uninitialized_move_if_noexcept_a<short unsigned int*, short unsigned int*, std::allocator<short unsigned int> >" 1
+42 esra "Totally-scalarized aggregates" "std::__uninitialized_move_if_noexcept_a<short unsigned int*, short unsigned int*, std::allocator<short unsigned int> >" 4
+42 esra "Scalarized aggregates" "std::__uninitialized_move_if_noexcept_a<short unsigned int*, short unsigned int*, std::allocator<short unsigned int> >" 6
+42 esra "Modified expressions" "std::__uninitialized_move_if_noexcept_a<short unsigned int*, short unsigned int*, std::allocator<short unsigned int> >" 12
+42 esra "Separate LHS and RHS handling" "std::__uninitialized_move_if_noexcept_a<short unsigned int*, short unsigned int*, std::allocator<short unsigned int> >" 8
+42 esra "Scalar replacements created" "std::__uninitialized_move_if_noexcept_a<short unsigned int*, short unsigned int*, std::allocator<short unsigned int> >" 6
+44 fre "SCC iterations == 2" "std::__uninitialized_move_if_noexcept_a<short unsigned int*, short unsigned int*, std::allocator<short unsigned int> >" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::_ZSt34__uninitialized_move_if_noexcept_aIPtS0_SaItEET0_T_S3_S2_RT1_.isra.30" 1
+49 eipa_sra "Unused parameters deleted" "std::_ZSt34__uninitialized_move_if_noexcept_aIPtS0_SaItEET0_T_S3_S2_RT1_.isra.30" 1
+56 release_ssa "unused VAR_DECLs removed" "std::_ZSt34__uninitialized_move_if_noexcept_aIPtS0_SaItEET0_T_S3_S2_RT1_.isra.30" 16
+36 einline "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 3
+36 einline "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+39 ccp "Copies propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 30
+39 ccp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 27
+39 ccp "Constants propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 3
+42 esra "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+42 esra "Totally-scalarized aggregates" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 2
+42 esra "Scalarized aggregates" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 4
+42 esra "Modified expressions" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 9
+42 esra "Separate LHS and RHS handling" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 7
+42 esra "Subtree copy stmts" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+42 esra "Scalar replacements created" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 4
+44 fre "SCC iterations == 2" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 3
+44 fre "Eliminated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 8
+48 cddce "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 9
+56 release_ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 18
+56 release_ssa "SSA names released" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 59
+56 release_ssa "SSA name holes removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 59
+36 einline "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 18
+36 einline "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 1
+39 ccp "Copies propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 1
+39 ccp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 1
+42 esra "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 1
+42 esra "Totally-scalarized aggregates" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 1
+42 esra "Scalarized aggregates" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 1
+42 esra "Modified expressions" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 2
+42 esra "Separate LHS and RHS handling" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 2
+42 esra "Scalar replacements created" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 1
+44 fre "SCC iterations == 2" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 1
+44 fre "Eliminated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 3
+48 cddce "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 1
+56 release_ssa "unused VAR_DECLs removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 2
+56 release_ssa "SSA names released" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 8
+56 release_ssa "SSA name holes removed" "std::vector<short unsigned int, std::allocator<short unsigned int> >::push_back" 8
+36 einline "unused VAR_DECLs removed" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator=" 3
+36 einline "Symbol to SSA rewrite" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator=" 1
+39 ccp "Copies propagated" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator=" 1
+39 ccp "Statements deleted" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator=" 1
+42 esra "Symbol to SSA rewrite" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator=" 1
+56 release_ssa "SSA names released" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator=" 1
+56 release_ssa "SSA name holes removed" "std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >::operator=" 1
+39 ccp "Copies propagated" "std::copy_if<__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >, SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)> >" 7
+39 ccp "Statements deleted" "std::copy_if<__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >, SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)> >" 17
+39 ccp "Constants propagated" "std::copy_if<__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >, SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)> >" 2
+42 esra "Scalarized aggregates" "std::copy_if<__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >, SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)> >" 1
+42 esra "Modified expressions" "std::copy_if<__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >, SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)> >" 5
+42 esra "Separate LHS and RHS handling" "std::copy_if<__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >, SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)> >" 5
+42 esra "Subtree copy stmts" "std::copy_if<__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >, SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)> >" 1
+42 esra "Scalar replacements created" "std::copy_if<__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >, SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)> >" 1
+44 fre "SCC iterations == 3" "std::copy_if<__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >, SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)> >" 2
+48 cddce "Statements deleted" "std::copy_if<__gnu_cxx::__normal_iterator<const short unsigned int*, std::vector<short unsigned int, std::allocator<short unsigned int> > >, std::back_insert_iterator<std::vector<short unsigned int, std::allocator<short unsigned int> > >, SelectionView<CONTAINER, IndexSize>::SelectionView(const SelectionView<CONTAINER, IndexSize>&, Predicate_t&&) [with Predicate_t = foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)>; CONTAINER = const SOA::Container<std::vector, s_decayvertex>&; IndexSize = short unsigned int]::<lambda(auto:1)> >" 1
+49 eipa_sra "Aggregate parameter components created" "std::_ZSt7copy_ifIN9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEESt20back_insert_iteratorIS6_EZN13SelectionViewIRKN3SOA9ContainerIS4_13s_decayvertexJEEEtEC4IZ3fooSG_EUlT_E_EERKSH_OSJ_EUlSJ_E_ET0_SJ_SJ_SP_T1_.isra.31" 1
+49 eipa_sra "Symbol to SSA rewrite" "std::_ZSt7copy_ifIN9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEESt20back_insert_iteratorIS6_EZN13SelectionViewIRKN3SOA9ContainerIS4_13s_decayvertexJEEEtEC4IZ3fooSG_EUlT_E_EERKSH_OSJ_EUlSJ_E_ET0_SJ_SJ_SP_T1_.isra.31" 1
+49 eipa_sra "Aggregate parameters broken up" "std::_ZSt7copy_ifIN9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEESt20back_insert_iteratorIS6_EZN13SelectionViewIRKN3SOA9ContainerIS4_13s_decayvertexJEEEtEC4IZ3fooSG_EUlT_E_EERKSH_OSJ_EUlSJ_E_ET0_SJ_SJ_SP_T1_.isra.31" 1
+56 release_ssa "unused VAR_DECLs removed" "std::_ZSt7copy_ifIN9__gnu_cxx17__normal_iteratorIPKtSt6vectorItSaItEEEESt20back_insert_iteratorIS6_EZN13SelectionViewIRKN3SOA9ContainerIS4_13s_decayvertexJEEEtEC4IZ3fooSG_EUlT_E_EERKSH_OSJ_EUlSJ_E_ET0_SJ_SJ_SP_T1_.isra.31" 9
+36 einline "unused VAR_DECLs removed" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 10
+36 einline "Symbol to SSA rewrite" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 1
+39 ccp "Copies propagated" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 2
+39 ccp "Statements deleted" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 2
+42 esra "Symbol to SSA rewrite" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 1
+42 esra "Totally-scalarized aggregates" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 3
+42 esra "Scalarized aggregates" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 4
+42 esra "Modified expressions" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 8
+42 esra "Separate LHS and RHS handling" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 8
+42 esra "Scalar replacements created" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 5
+44 fre "SCC iterations == 2" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 1
+44 fre "Eliminated" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 2
+48 cddce "Statements deleted" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 1
+49 eipa_sra "Symbol to SSA rewrite" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::SelectionView<foo(const SOA::Container<std::vector, s_decayvertex>&)::<lambda(auto:2)> >" 1
+49 eipa_sra "Symbol to SSA rewrite" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::_ZN13SelectionViewIRKN3SOA9ContainerISt6vector13s_decayvertexJEEEtEC2IZ3fooS6_EUlT_E_EERKS7_OS9_.isra.32" 1
+49 eipa_sra "Unused parameters deleted" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::_ZN13SelectionViewIRKN3SOA9ContainerISt6vector13s_decayvertexJEEEtEC2IZ3fooS6_EUlT_E_EERKS7_OS9_.isra.32" 1
+56 release_ssa "unused VAR_DECLs removed" "SelectionView<const SOA::Container<std::vector, s_decayvertex>&>::_ZN13SelectionViewIRKN3SOA9ContainerISt6vector13s_decayvertexJEEEtEC2IZ3fooS6_EUlT_E_EERKS7_OS9_.isra.32" 9
+36 einline "unused VAR_DECLs removed" "foo" 5
+36 einline "Symbol to SSA rewrite" "foo" 1
+42 esra "Symbol to SSA rewrite" "foo" 1
+44 fre "SCC iterations == 2" "foo" 4
+56 release_ssa "SSA names released" "foo" 10
+56 release_ssa "SSA name holes removed" "foo" 10
+92 materialize-all-clones "Symbol to SSA rewrite" "(nofn)" 1
+141 pre "compute_antic iterations == 2" "main" 1
+141 pre "insert iterations == 1" "main" 1
+100 ccp "Copies propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 24
+100 ccp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 4
+109 fre "SCC iterations == 2" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 8
+109 fre "Eliminated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 5
+111 thread "Jumps threaded" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 2
+112 vrp "Incremental SSA update" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+112 vrp "Statements folded" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 2
+112 vrp "Constants propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 7
+112 vrp "Jumps threaded" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 4
+112 vrp "Number of ASSERT_EXPR expressions inserted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 17
+112 vrp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 2
+114 dce "PHI nodes deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 2
+114 dce "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 2
+118 copyprop "Copies propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 5
+118 copyprop "Constants propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+118 copyprop "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 3
+125 sra "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+127 dom "Constants propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 4
+127 dom "Jumps threaded" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 2
+132 dce "PHI nodes deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 2
+132 dce "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 3
+135 ccp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+141 pre "compute_antic iterations == 2" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+141 pre "HOIST inserted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 8
+141 pre "Insertions" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 13
+141 pre "New PHIs" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 4
+141 pre "Symbol to SSA rewrite" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+141 pre "SCC iterations == 2" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 17
+141 pre "insert iterations == 3" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+141 pre "Eliminated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 30
+146 dce "PHI nodes deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 2
+187 thread "Jumps threaded" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+188 dom "Copies propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 4
+188 dom "Constants propagated" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 2
+191 vrp "Incremental SSA update" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+191 vrp "Number of ASSERT_EXPR expressions inserted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 12
+191 vrp "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+195 cddce "Statements deleted" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 1
+272 combine "two-insn combine" "std::vector<short unsigned int, std::allocator<short unsigned int> >::_M_realloc_insert<const short unsigned int&>" 2
+86 inline "unused VAR_DECLs removed" "foo" 3
+86 inline "Symbol to SSA rewrite" "foo" 1
+100 ccp "Copies propagated" "foo" 7
+100 ccp "Statements deleted" "foo" 7
+100 ccp "Constants propagated" "foo" 24
+104 phiprop "Symbol to SSA rewrite" "foo" 1
+109 fre "SCC iterations == 2" "foo" 6
+109 fre "SCC iterations == 3" "foo" 8
+109 fre "Eliminated" "foo" 11
+111 thread "Incremental SSA update" "foo" 1
+112 vrp "Incremental SSA update" "foo" 1
+112 vrp "Incremental SSA update" "foo" 2
+112 vrp "Number of ASSERT_EXPR expressions inserted" "foo" 17
+114 dce "Statements deleted" "foo" 20
+118 copyprop "Copies propagated" "foo" 3
+118 copyprop "Statements deleted" "foo" 1
+123 ch "Incremental SSA update" "foo" 1
+127 dom "Incremental SSA update" "foo" 1
+127 dom "Jumps threaded" "foo" 5
+141 pre "compute_antic iterations == 3" "foo" 1
+141 pre "Insertions" "foo" 4
+141 pre "New PHIs" "foo" 2
+141 pre "Symbol to SSA rewrite" "foo" 1
+141 pre "SCC iterations == 2" "foo" 7
+141 pre "SCC iterations == 3" "foo" 8
+141 pre "insert iterations == 2" "foo" 1
+141 pre "Eliminated" "foo" 2
+149 loopinit "Incremental SSA update" "foo" 1
+156 ldist "Symbol to SSA rewrite" "foo" 1
+168 vect "Vectorized loops" "foo" 1
+169 dce "PHI nodes deleted" "foo" 3
+169 dce "Statements deleted" "foo" 3
+171 cunroll "Incremental SSA update" "foo" 1
+187 thread "Incremental SSA update" "foo" 1
+187 thread "Jumps threaded" "foo" 1
+188 dom "Copies propagated" "foo" 98
+188 dom "Constants propagated" "foo" 2
+188 dom "Redundant expressions eliminated" "foo" 12
+190 thread "Jumps threaded" "foo" 1
+191 vrp "Incremental SSA update" "foo" 1
+191 vrp "Statements folded" "foo" 2
+191 vrp "Constants propagated" "foo" 5
+191 vrp "Jumps threaded" "foo" 3
+191 vrp "Number of ASSERT_EXPR expressions inserted" "foo" 71
+191 vrp "Statements deleted" "foo" 2
+195 cddce "Statements deleted" "foo" 22
+202 dce "Statements deleted" "foo" 3
+239 optimized "unused VAR_DECLs removed" "foo" 9
+272 combine "two-insn combine" "foo" 3
