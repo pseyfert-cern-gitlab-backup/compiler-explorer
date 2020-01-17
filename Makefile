@@ -16,9 +16,12 @@ NPM:=npm-not-found
 .node-bin: etc/scripts/find-node
 	@etc/scripts/find-node .node-bin
 
+echo-date:
+	@echo "starting(?) build at $(shell date)"
+
 # All targets that need node must depend on this to ensure the NODE variable
 # is appropriately set, and that PATH is updated.
-node-installed: .node-bin
+node-installed: .node-bin echo-date
 	@$(eval NODE:=$(shell cat .node-bin))
 	@$(eval NPM:=$(shell dirname $(shell cat .node-bin))/npm)
 	@$(eval PATH=$(shell dirname $(realpath $(NODE))):${PATH})

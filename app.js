@@ -314,6 +314,7 @@ aws.initConfig(awsProps)
             }
             logger.info(`  Listening on http://${defArgs.hostname || 'localhost'}:${_port}/`);
             logger.info(`  Startup duration: ${new Date() - startTime}ms`);
+            logger.info(`  Startup finished at: ${new Date()}`);
             logger.info("=======================================");
             server.listen(_port, defArgs.hostname);
         }
